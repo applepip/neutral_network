@@ -1,4 +1,4 @@
-from Cluster import Cluster
+from decision_tree.Cluster import Cluster
 import operator
 
 class DTree():
