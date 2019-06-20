@@ -1,7 +1,7 @@
-from xigua.DTree import *
+from neutral_network.decision_tree.DTree import *
 import csv
 import numpy as np
-import xigua.Tree_plot as Tree_plot
+import neutral_network.decision_tree.Tree_plot as Tree_plot
 
 def load_data(filename):
     ''' 加载文本文件中的数据.

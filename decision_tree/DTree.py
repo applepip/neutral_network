@@ -1,4 +1,4 @@
-from decision_tree.Cluster import Cluster
+from neutral_network.decision_tree.Cluster import Cluster
 import operator
 
 class DTree():
