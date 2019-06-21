@@ -2,11 +2,17 @@
 
 import tensorflow as tf
 
-const1 = tf.constant([2,2])
-const2 = tf.constant([4,4])
+const1 = tf.constant([[2,2]])
+const2 = tf.constant([[4],[4]])
 
 multiple = tf.matmul(const1, const2)
 
 sess = tf.Session()
 
 sess.run(multiple)
+
+sess.close()
+
+with tf.Session() as sess:
+  result = sess.run(multiple)
+  print(result)
