@@ -14,4 +14,10 @@ print("- 验证集大小:\t{}".format(len(data.validation.labels)))
 # argmax会根据axis取值的不同返回每行或者每列最大值的索引, labels是one-hot编码，取出后就是完整的数字标签了
 data.test.cls = np.argmax(data.test.labels, axis=1)
 
+from plot_img_content import *
+
+image = data.test.images[0]
+
+plot_img_content(image.reshape(28,28))
+
 

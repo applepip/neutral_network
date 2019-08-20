@@ -4,12 +4,12 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2' # 只显示 warning 和 Error
 import time
 from datetime import timedelta
 
-from tensorflow_lenet.model import *
-from tensorflow_lenet.data_input import *
+from model import *
+from data_input import *
 
-from tensorflow_lenet.tools import *
-from tensorflow_lenet.plot_conv_weights import *
-from tensorflow_lenet.plot_conv_layer import *
+from tools import *
+from plot_conv_weights import *
+from plot_conv_layer import *
 
 # tensorboard 位置
 path = "log/"

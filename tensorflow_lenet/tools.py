@@ -2,8 +2,8 @@
 import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix
 
-from tensorflow_lenet.data_input import *
-from tensorflow_lenet.input_img_parameter import *
+from data_input import *
+from input_img_parameter import *
 
 
 def plot_example_errors(cls_pred, correct):

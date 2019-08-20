@@ -1,5 +1,5 @@
-from tensorflow_lenet.cnn import *
-from tensorflow_lenet.input_img_parameter import *
+from cnn import *
+from input_img_parameter import *
 
 #  ---卷积核设置---begin
 # 第一个卷积核的大小 5*5
