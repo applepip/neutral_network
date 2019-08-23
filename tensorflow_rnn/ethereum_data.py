@@ -1,9 +1,7 @@
-import pandas as pd
+from plot_coin_chart import *
 
-from plot_bitcoin_chart import *
+eth_market_info = pd.read_csv('data/ethereum.csv')
 
-bitcoin_market_info = pd.read_csv('data/bitcoin.csv')
-
-print(bitcoin_market_info.head())
-plot_bitcoin_chart(bitcoin_market_info)
+print(eth_market_info.head())
+plot_coin_chart(eth_market_info, 'eth')
 
