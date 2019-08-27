@@ -17,3 +17,13 @@
 ![rnn-pic](imgs_md/rnn.png)
 
 在不同的时间点，RNN的输入都与将之前的时间状态有关，tn时刻网络的输出结果是该时刻的输入和所有历史共同作用的结果，这就达到了**对时间序列建模**的目的。
+
+接下来我们将通过RNN实现一个小游戏来深入了解RNN的原理，*Roll Game*是这个小游戏的名字，该游戏通过训练一个RNN网络来对一组二进制数据进行预测。
+
+### 数据集介绍
+
+*Roll Game*所使用的数据集很简单，包含X,Y两个二进制序列。X是按照一定长度生成一个随机的二进制序列，其中0,1出现的概率都是50%，Y是X的二进制序列沿X轴的正方形移动roll_steps后生成的二进制序列，Y是X的标签。
+
+我们分别用了7个过程来讲解RNN网络，包括:
+
+> * [自定义rnn_cell的基础RNN实现](https://github.com/applepip/neutral_network/tree/master/trensorflow_rnn/tensorflow_rnn_roll_game)
