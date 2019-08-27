@@ -7,8 +7,6 @@ batch_vertical_size = 5
 
 state_size = 15
 
-init_states = tf.placeholder(tf.float32, [batch_vertical_size, state_size])
-
 # RNN这种网络能记忆输入数据信息，在若干时间步后将其回传，现在设截断反传长度为3。
 truncated_backprop_length = 15
 
