@@ -54,7 +54,3 @@ def rnn_softmax(states_ouputs):
     return total_loss, train_step, predictions_series
 
 
-# 建立模型
-states_ouputs, current_states = rnn_cell()
-total_loss, train_step, predictions_series = rnn_softmax(states_ouputs)
-
