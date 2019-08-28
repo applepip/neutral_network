@@ -14,6 +14,8 @@ from plot_conv_layer import *
 # tensorboard 位置
 path = "log/"
 
+saver = tf.train.Saver()
+
 with tf.Session() as session:
     session.run(tf.global_variables_initializer())
 
@@ -107,6 +109,8 @@ with tf.Session() as session:
     optimize(num_iterations=9000) # We performed 1000 iterations above.
     print_test_accuracy(show_example_errors=True,
                         show_confusion_matrix=True)
+
+    saver.save(session, 'checkpoint_dir/my_model')
 
     image = data.test.images[0]
     plot_image(image)
