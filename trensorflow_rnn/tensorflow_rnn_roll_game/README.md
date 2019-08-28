@@ -71,11 +71,11 @@ RNN的特点是能结合数据点之间的特定顺序和幅值大小等多个�
 
 根据前面文章的描述，我们开始一步步的代码实现，我们将代码按照算法工程进行结构化搭建，工程结构如下图所示：
 
-![rnn-program](../imgs_md/rnn_program.png)
+![rnn-program](../imgs_md/rnn_program.PNG)
 
 RNN网络构建如下图所示：
 
-![rnn-cells](../imgs_md/rnn_cells.png)
+![rnn-cells](../imgs_md/rnn_cells.PNG)
 
 ## 结果展示
 
