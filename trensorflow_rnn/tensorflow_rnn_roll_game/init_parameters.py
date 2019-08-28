@@ -16,7 +16,7 @@ num_classes = 2
 learning_rate = 0.2
 
 # 训练递归次数
-num_epochs = 100
+num_epochs = 3
 
 # 回滚次数
 roll_steps = 3

@@ -3,10 +3,14 @@ from model_rnn import *
 
 from plot_training_batches_results import *
 
+path = "logs/"
+
 def train_network(total_loss, train_step, current_states, predictions_series):
     with tf.Session() as sess:
         sess.run(tf.global_variables_initializer())
         training_losses = []
+
+        writer = tf.summary.FileWriter(path, sess.graph)
 
         for epoch_idx in range(num_epochs):
             x, y = gen_echo_data(total_series_length, batch_vertical_size, roll_steps)
