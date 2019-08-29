@@ -5,7 +5,6 @@ from sklearn.metrics import confusion_matrix
 from data_input import *
 from input_img_parameter import *
 
-
 def plot_example_errors(cls_pred, correct):
     incorrect = (correct == False)
     images = data.test.images[incorrect]

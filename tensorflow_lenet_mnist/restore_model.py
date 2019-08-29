@@ -7,7 +7,7 @@ from tools import *
 with tf.Session() as sess:
     sess.run(tf.global_variables_initializer())
     saver = tf.train.Saver()
-    ckpt = tf.train.get_checkpoint_state('checkpoint_dir')
+    ckpt = tf.train.get_checkpoint_state('checkpoint_dir_1w')
     if ckpt and ckpt.model_checkpoint_path:
         saver.restore(sess, ckpt.model_checkpoint_path)
     else:
@@ -20,6 +20,4 @@ with tf.Session() as sess:
 
     predictions = [sess.run(y_pred_cls, feed_dict={x: [flatten_img]}) for flatten_img in flatten_imgs]
 
-    print(predictions)
-
-    plot_result_prediction(imgs, y_correct, predictions)
+    plot_images(imgs, y_correct, predictions)

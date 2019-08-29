@@ -64,25 +64,17 @@ print(layer_fc1)
 
 layer_fc2 = new_fc_layer(inputs=layer_fc1,
                              num_inputs=fc1_size,
-                             num_outputs=fc2_size,
+                             num_outputs=num_img_classes,
                              use_relu=False)
 
 print(layer_fc2)
 
-layer_outputs = new_fc_layer(inputs=layer_fc2,
-                             num_inputs=fc2_size,
-                             num_outputs=num_img_classes,
-                             use_relu=False)
-
-print(layer_outputs)
-
-
 
 # 用softmax计算预测值
-y_pred = tf.nn.softmax(layer_outputs)
+y_pred = tf.nn.softmax(layer_fc2)
 y_pred_cls = tf.argmax(y_pred, axis=1)
 
-cross_entropy = tf.nn.softmax_cross_entropy_with_logits_v2(logits=layer_outputs,
+cross_entropy = tf.nn.softmax_cross_entropy_with_logits_v2(logits=layer_fc2,
                                                            labels=y_true)
 
 cost = tf.reduce_mean(cross_entropy)

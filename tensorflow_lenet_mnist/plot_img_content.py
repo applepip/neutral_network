@@ -8,7 +8,8 @@ def plot_img_content(data):
     width, height = data.shape
 
     imshow_data = np.random.rand(width, height)
-    ax.imshow(imshow_data, cmap=plt.cm.Pastel1, interpolation='nearest')
+    map = ax.imshow(imshow_data, cmap=plt.cm.Pastel1, interpolation='nearest')
+    cb = plt.colorbar(mappable=map, cax=None, ax=None, shrink=0.5)
 
     for x in range(0, height):
         for y in range(0, width):

@@ -110,7 +110,7 @@ with tf.Session() as session:
     print_test_accuracy(show_example_errors=True,
                         show_confusion_matrix=True)
 
-    saver.save(session, 'checkpoint_dir/my_model')
+    saver.save(session, 'checkpoint_dir_10000/my_model')
 
     image = data.test.images[0]
     plot_image(image)
