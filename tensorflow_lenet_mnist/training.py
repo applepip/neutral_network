@@ -20,8 +20,9 @@ path = "log/"
 accuracy_list = []
 lose_list = []
 
-
+# with tf.device('/gpu:0'):
 with tf.Session() as session:
+    # sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
     session.run(tf.global_variables_initializer())
 
     train_batch_size = 64

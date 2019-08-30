@@ -6,7 +6,9 @@ from plot_training_batches_results import *
 path = "logs/"
 
 def train_network(total_loss, train_step, current_states, predictions_series):
+    # with tf.device('/gpu:0'):
     with tf.Session() as sess:
+        # sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
         sess.run(tf.global_variables_initializer())
         training_losses = []
 
