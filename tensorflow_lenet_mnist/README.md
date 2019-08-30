@@ -1,5 +1,9 @@
 # 用TensorFlow构建一个LeNet5
 
+------
+
+##### 作者：Leon
+
 卷积神经网络是目前深度学习技术领域中非常具有代表性的神经网络之一，在图像分析和处理领域取得了众多突破性的进展，相较于传统的图像处理算法的优点之一在于避免了对图像复杂的前期预处理过程，卷积神经网络可以直接输入原始图像进行一系列工作，至今己经广泛应用于各类图像相关的应用中，下图展示了卷积神经网络的发展历史：
 
 ![his-cnn](imgs/his_cnn.png)
@@ -124,9 +128,27 @@ Layer-out层也是全连接层，由10个欧几里得径向基函数核(Euclidea
 
 在该项目中我们使用不同训练次数训练后生成两个模型，分别是100次训练模型（model_1h）和10000次训练模型（model_1w），然后对他们的卷积层特征图（feature map）和权值（weights）进行对比和显示，最后对不同模型来预测结果进行对比。
 
+#####  保存训练模型代码实现
+
+```python
+    saver = tf.train.Saver()
+    saver.save(session, 'checkpoint_dir/my_model')
+```
+
 通过TensorFlow_board展示的模型如下图所示：
 
 ![lenet-tb](imgs/lenet_tb.png)
+
+#####  使用训练模型预测的代码实现
+
+```python
+    saver = tf.train.Saver()
+    ckpt = tf.train.get_checkpoint_state('checkpoint_dir')
+    if ckpt and ckpt.model_checkpoint_path:
+        saver.restore(sess, ckpt.model_checkpoint_path)
+    else:
+        raise FileNotFoundError("未保存任何模型")
+```
 
 ## 结果展示
 
@@ -156,11 +178,15 @@ Layer-out层也是全连接层，由10个欧几里得径向基函数核(Euclidea
 
 ![c2_fm_vs](imgs/c2_fm_vs.png)
 
-####  不同次数训练后的误差图对比
+#### 训练的精度和损失变化情况
+
+![acc_loss_vs](imgs/acc_loss_vs.png)
+
+#### 不同次数训练后的误差图对比
 
 ![error_vs](imgs/error_vs.png)
 
-####  不同次数训练后的预测结果对比
+#### 不同次数训练后的预测结果对比
 
 ![correct_vs](imgs/correct_vs.png)
 

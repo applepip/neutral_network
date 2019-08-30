@@ -5,6 +5,22 @@ from sklearn.metrics import confusion_matrix
 from data_input import *
 from input_img_parameter import *
 
+from matplotlib.font_manager import FontProperties
+font_set = FontProperties(fname=r"c:\windows\fonts\simsun.ttc", size=12)
+
+def plot_accuracy_res(epoch_idx, accuracy_list):
+    title = "训练" + str(epoch_idx) + "次精度情况"
+    plt.title(title, fontproperties=font_set)
+    plt.plot(accuracy_list)
+    plt.show()
+
+def plot_lost_res(epoch_idx, lose_list):
+    title = "训练" + str(epoch_idx) + "次损失情况"
+    plt.title(title, fontproperties=font_set)
+    plt.plot(lose_list)
+    plt.show()
+
+
 def plot_example_errors(cls_pred, correct):
     incorrect = (correct == False)
     images = data.test.images[incorrect]

@@ -14,7 +14,12 @@ from plot_conv_layer import *
 # tensorboard 位置
 path = "log/"
 
-saver = tf.train.Saver()
+# saver = tf.train.Saver()
+
+
+accuracy_list = []
+lose_list = []
+
 
 with tf.Session() as session:
     session.run(tf.global_variables_initializer())
@@ -39,8 +44,15 @@ with tf.Session() as session:
 
             session.run(optimizer, feed_dict=feed_dict_train)
 
+            acc = session.run(accuracy, feed_dict=feed_dict_train)
+            _total_loss = session.run(cost, feed_dict=feed_dict_train)
+
+            accuracy_list.append(acc)
+            lose_list.append(_total_loss)
+
             if i % 100 == 0:
-                acc = session.run(accuracy, feed_dict=feed_dict_train)
+                # acc = session.run(accuracy, feed_dict=feed_dict_train)
+                # _total_loss = session.run(cost, feed_dict=feed_dict_train)
                 msg = "Optimization Iteration: {0:>6}, Training Accuracy: {1:>6.1%}"
                 print(msg.format(i + 1, acc))
 
@@ -110,7 +122,10 @@ with tf.Session() as session:
     print_test_accuracy(show_example_errors=True,
                         show_confusion_matrix=True)
 
-    saver.save(session, 'checkpoint_dir_10000/my_model')
+    # saver.save(session, 'checkpoint_dir_10000/my_model')
+
+    plot_accuracy_res(10000, accuracy_list)
+    plot_lost_res(10000, lose_list)
 
     image = data.test.images[0]
     plot_image(image)
