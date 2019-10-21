@@ -74,10 +74,10 @@ $$ x^{t+1} = x^t -\alpha f'(x^t) $$
 
 ####反向传播的四个方程式：
 
-> BP1. &#160;&#160;&#160;&#160;  $\delta^L =  \nabla_aC ⊙ \sigma'(z^L)$ 
-> BP2. &#160;&#160;&#160;&#160;  $\delta^l =  (w^{l+1})^T\delta^{l+1} ⊙ \sigma'(z^l)$  
-> BP3. &#160;&#160;&#160;&#160;  $\partial C/ \partial b_j^l =  \delta_j^l$
-> BP4. &#160;&#160;&#160;&#160;  $\partial C/ \partial w_{jk}^l =  a_k^{l-1}\delta_j^l$
+> 1. &#160;&#160;&#160;&#160;  $\delta^L =  \nabla_aC ⊙ \sigma'(z^L)$ 
+> 2. &#160;&#160;&#160;&#160;  $\delta^l =  (w^{l+1})^T\delta^{l+1} ⊙ \sigma'(z^l)$  
+> 3. &#160;&#160;&#160;&#160;  $\partial C/ \partial b_j^l =  \delta_j^l$
+> 4. &#160;&#160;&#160;&#160;  $\partial C/ \partial w_{jk}^l =  a_k^{l-1}\delta_j^l$
 
 这里我们定义一个中间量，$\delta_j^l$, 即$l^{th}$层第$j^{th}$个神经元上的误差。$z^l$是$l^{th}$层第$j^{th}$个神经元上的带权输入。$\delta_j^l$的大小决定了代价函数对$l^{th}$层第$j^{th}$个神经元的依赖程度，不太依赖$\delta_j^l$就会小，反之变大。
 
