@@ -12,7 +12,6 @@ sess = tf.Session(config = config)
 import keras.backend.tensorflow_backend as KTF
 KTF.set_session(tf.Session(config=tf.ConfigProto(device_count={'gpu': 1})))
 
-
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
@@ -26,10 +25,11 @@ INIT_PARAMS = [[5, 4],
 x = np.linspace(-1, 1, 200, dtype=np.float32)
 
 y_fun = lambda a, b: np.sin(b * np.cos(a*x))
+# 真实模型的tensorflow版预测模型
 tf_y_fun = lambda a, b: tf.sin(b * tf.cos(a * x))
 
 noise = np.random.randn(200) / 10
-y = y_fun(*REAL_PARAMS ) + noise
+y = y_fun(*REAL_PARAMS) + noise
 
 a, b = [tf.Variable(initial_value=p, dtype=tf.float32) for p in INIT_PARAMS]
 
@@ -51,6 +51,9 @@ with tf.Session() as sess:
 print('a=', a_, 'b=', b_)
 plt.figure(1)
 plt.scatter(x, y, c='b')  # plot data
+plt.xlabel('x')
+#设置Y轴标签
+plt.ylabel('y')
 # 3D cost figure
 fig = plt.figure(2);
 ax = Axes3D(fig)

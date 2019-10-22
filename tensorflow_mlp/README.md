@@ -1,5 +1,5 @@
 # 深度神经网络的传播方法
-
+leon
 ------
 
 CNN网络作为神经网络的一种网络，现在已经广泛应用于语音分析和图像识别领域。该文将通过对CNN网络的传播方式的介绍，学习CNN网络实现的算法原理。对于进一步了解CNN网络的转播方式我们首先需要了解DNN网络的传播方式。在此我们以MLP为基础，先介绍DNN网络的传播方式。
@@ -99,3 +99,59 @@ $$ x^{t+1} = x^t -\alpha f'(x^t) $$
 >> *  输出误差$\delta^{x,L} =  \nabla_aC ⊙ \sigma'(z^{x,L})$
 >> *  反向传播误差：对每个$l = L-1,L-2, ...,2$, 计算$\delta^{x,l} =  ((w^{l+1})^T\delta^{x,l+1}) ⊙ \sigma'(z^{x,l})$
 > 3. 梯度下降：对每个$l = L-1,L-2, ...,2$, 根据$w^l \rightarrow w^l - \eta/m\sum_x\delta^{x,l}(a^{x,l-1})^T$ 和$b^l \rightarrow b^l - \eta/m\sum_x\delta^{x,l}$更新权重和偏执
+
+#### python程序演示
+
+该程序使用tensorflow构建一个多层感知器模型，通过学习真实模型来实现代价函数的得梯度下降。
+
+真实模型：
+```python
+y_fun = lambda a, b: np.sin(b * np.cos(a*x))
+# 真实模型的tensorflow版预测模型
+tf_y_fun = lambda a, b: tf.sin(b * tf.cos(a * x))
+```
+
+模型的超参数：
+```python
+LERAN_RATE = 0.1
+REAL_PARAMS  = [1.2, 2.5]  #真实参数
+INIT_PARAMS = [5, 1]       #初始参数
+```
+
+噪音：
+```python
+noise = np.random.randn(200) / 10
+y = y_fun(*REAL_PARAMS) + noise
+```
+
+x和函噪音y分布：
+![fb](imgs/fb.png)
+
+梯度下降：
+```python
+pred = tf_y_fun(a, b)
+mse = tf.reduce_mean(tf.square(y - pred))
+train_op = tf.train.GradientDescentOptimizer(LERAN_RATE).minimize(mse)
+```
+
+迭代学习：
+```python
+with tf.Session() as sess:
+    sess.run(tf.global_variables_initializer())
+    for t in range(10000):
+        a_, b_, mse_ = sess.run([a, b, mse])
+        a_list.append(a_);
+        b_list.append(b_);
+        cost_list.append(mse_)  # record parameter changes
+        result, _ = sess.run([pred, train_op])  # training
+```
+
+效果：
+![gd](imgs/gd.png)
+
+## 小结
+反向传播和梯度下降是深度学习的基础，理解和掌握这两个知识点将对神经网络的构建起到关键的支撑作用。后面我们将继续介绍CNN网络的传播方法，谢谢大家。
+
+如果大家感兴趣请关注「核桃瓣」微信公众号
+
+![leon](imgs/leon.png)
