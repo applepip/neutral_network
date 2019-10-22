@@ -2,7 +2,7 @@
 leon
 ------
 
-深度神经网络（Deep Neural Networks， 以下简称DNN）是深度学习的基础，而要理解DNN，首先我们要理解DNN模型,在此我们以MLP为基础，先介绍DNN网络的传播方式。
+深度神经网络（Deep Neural Networks， 以下简称DNN）是深度学习的基础，而要理解DNN模型，我们需要理解DNN的传播方式，在此我们以MLP为基础，先介绍DNN网络的传播方式。
 
 感知器「Perceptron」是一种最简单形式的前馈神经网络，是一种二元线性分类器，1957年由康奈尔航空实验室（Cornell Aeronautical Laboratory）的Frank Rosenblatt发明。如果把感知器看做一个厨房，把权重看成不同的食材，那么整个感知器可以看成根据不同食材生成不同菜品的厨房，也就是说厨房根据食材的多少决定了菜的品相。在数学上感知器是一个基本的数学模型，随着权重和阀值的变化，可以得到不同的决策模型。一个感知器模型如下：
 
@@ -102,7 +102,7 @@ $$ x^{t+1} = x^t -\alpha f'(x^t) $$
 
 #### python程序演示
 
-该程序使用tensorflow构建一个多层感知器模型，通过学习真实模型来实现代价函数的得梯度下降。
+该程序使用tensorflow构建一个多层感知器模型，通过学习真实模型来实现代价函数的梯度下降。
 
 真实模型：
 ```python
@@ -124,7 +124,8 @@ noise = np.random.randn(200) / 10
 y = y_fun(*REAL_PARAMS) + noise
 ```
 
-x和函噪音y分布：
+函数x和函噪音y分布：
+
 ![fb](imgs/fb.png)
 
 梯度下降：
@@ -146,7 +147,7 @@ with tf.Session() as sess:
         result, _ = sess.run([pred, train_op])  # training
 ```
 
-效果：
+迭代效果：
 ![gd](imgs/gd.png)
 
 ## 小结
