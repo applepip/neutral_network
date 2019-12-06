@@ -1,0 +1,1664 @@
+imgs_test/0005829bfcf77ca3.jpg,626,396,716,533,Mobile phone
+imgs_test/000858e87c40654a.jpg,261,198,442,735,Person
+imgs_test/000f9ebbd5fc3745.jpg,195,38,910,657,Mobile phone
+imgs_test/00160895ce715368.jpg,889,559,941,591,Car
+imgs_test/00160895ce715368.jpg,931,551,968,586,Car
+imgs_test/00160895ce715368.jpg,968,554,1006,580,Car
+imgs_test/0017dc80125936cd.jpg,0,312,27,410,Person
+imgs_test/0017dc80125936cd.jpg,10,308,57,408,Person
+imgs_test/0017dc80125936cd.jpg,51,311,85,356,Person
+imgs_test/0017dc80125936cd.jpg,267,310,316,376,Person
+imgs_test/0017dc80125936cd.jpg,302,317,344,381,Person
+imgs_test/0017dc80125936cd.jpg,405,320,485,375,Person
+imgs_test/0017dc80125936cd.jpg,537,313,558,374,Person
+imgs_test/0017dc80125936cd.jpg,557,313,574,377,Person
+imgs_test/0017dc80125936cd.jpg,587,397,645,430,Person
+imgs_test/0017dc80125936cd.jpg,588,312,615,371,Person
+imgs_test/0017dc80125936cd.jpg,617,312,638,367,Person
+imgs_test/0017dc80125936cd.jpg,640,320,676,370,Person
+imgs_test/0017dc80125936cd.jpg,671,308,696,367,Person
+imgs_test/0017dc80125936cd.jpg,698,308,721,366,Person
+imgs_test/0017dc80125936cd.jpg,827,408,911,588,Person
+imgs_test/0017dc80125936cd.jpg,871,313,881,334,Person
+imgs_test/0017dc80125936cd.jpg,880,416,954,604,Person
+imgs_test/0017dc80125936cd.jpg,885,315,894,333,Person
+imgs_test/0017dc80125936cd.jpg,903,360,958,408,Person
+imgs_test/0017dc80125936cd.jpg,904,316,914,334,Person
+imgs_test/0017dc80125936cd.jpg,981,423,1023,607,Person
+imgs_test/0017dc80125936cd.jpg,373,363,898,563,Car
+imgs_test/0017dc80125936cd.jpg,843,321,932,366,Car
+imgs_test/002691b3032ae06c.jpg,0,0,688,1022,Car
+imgs_test/0043dbedaa3b4d82.jpg,23,345,282,576,Mobile phone
+imgs_test/006b6f515a8ba718.jpg,312,388,776,756,Person
+imgs_test/0071dcd09fb19cfb.jpg,380,43,732,681,Mobile phone
+imgs_test/0072089fc56ab904.jpg,747,407,812,463,Car
+imgs_test/0072089fc56ab904.jpg,892,417,906,427,Car
+imgs_test/0080f819eacba1fe.jpg,184,331,487,775,Mobile phone
+imgs_test/01131ee36cce4358.jpg,429,403,595,500,Car
+imgs_test/01131ee36cce4358.jpg,722,407,759,442,Car
+imgs_test/01131ee36cce4358.jpg,755,408,784,431,Car
+imgs_test/01131ee36cce4358.jpg,782,407,814,417,Car
+imgs_test/01131ee36cce4358.jpg,784,411,811,440,Car
+imgs_test/01131ee36cce4358.jpg,828,391,844,401,Car
+imgs_test/012b6e4c1e4fdd1e.jpg,295,387,369,477,Person
+imgs_test/012b6e4c1e4fdd1e.jpg,328,421,376,478,Person
+imgs_test/012b6e4c1e4fdd1e.jpg,444,438,478,553,Person
+imgs_test/012b6e4c1e4fdd1e.jpg,448,410,510,490,Person
+imgs_test/012b6e4c1e4fdd1e.jpg,501,371,552,548,Person
+imgs_test/015ebc1e8b5bbb82.jpg,90,0,556,947,Mobile phone
+imgs_test/017440d97c517337.jpg,224,59,1022,681,Mobile phone
+imgs_test/019e34019dc342f6.jpg,334,113,606,658,Mobile phone
+imgs_test/019e9f1455726321.jpg,153,580,311,860,Mobile phone
+imgs_test/01a750e2c859d478.jpg,287,721,616,1023,Mobile phone
+imgs_test/01acdd42667fc0a6.jpg,101,154,632,950,Person
+imgs_test/01ed9f00b2d3265e.jpg,349,414,1015,901,Mobile phone
+imgs_test/023c2b2018681ae0.jpg,56,262,130,489,Person
+imgs_test/023c2b2018681ae0.jpg,170,309,188,362,Person
+imgs_test/023c2b2018681ae0.jpg,209,314,225,358,Person
+imgs_test/023c2b2018681ae0.jpg,242,304,268,363,Person
+imgs_test/023c2b2018681ae0.jpg,281,278,1022,658,Person
+imgs_test/0255c5bbd833e241.jpg,0,86,1020,657,Mobile phone
+imgs_test/0326b1ef4529097c.jpg,324,64,662,672,Mobile phone
+imgs_test/0326b1ef4529097c.jpg,864,469,1022,678,Mobile phone
+imgs_test/0326b1ef4529097c.jpg,870,187,1022,381,Mobile phone
+imgs_test/038718f762829b1a.jpg,0,690,30,767,Car
+imgs_test/038718f762829b1a.jpg,826,625,993,757,Car
+imgs_test/03e2d3336c54aa45.jpg,87,234,583,690,Person
+imgs_test/03e2d3336c54aa45.jpg,430,257,504,286,Person
+imgs_test/040a6a9bfeb307ca.jpg,0,798,497,1023,Car
+imgs_test/042f5fb9fad0d98f.jpg,56,72,578,981,Mobile phone
+imgs_test/04a09397d1bc7459.jpg,291,115,530,599,Mobile phone
+imgs_test/04a09397d1bc7459.jpg,545,60,823,608,Mobile phone
+imgs_test/04a8a9b075fbb0dd.jpg,404,425,787,651,Car
+imgs_test/04a8a9b075fbb0dd.jpg,43,429,93,473,Car
+imgs_test/04a8a9b075fbb0dd.jpg,86,431,151,495,Car
+imgs_test/04a8a9b075fbb0dd.jpg,130,425,189,488,Car
+imgs_test/04a8a9b075fbb0dd.jpg,669,423,826,471,Car
+imgs_test/04a8a9b075fbb0dd.jpg,788,414,851,467,Car
+imgs_test/04a8a9b075fbb0dd.jpg,867,404,1012,481,Car
+imgs_test/04bb2ce5401f9adc.jpg,388,392,447,550,Person
+imgs_test/04bb2ce5401f9adc.jpg,681,372,828,601,Person
+imgs_test/04bb2ce5401f9adc.jpg,520,433,587,455,Car
+imgs_test/04bb2ce5401f9adc.jpg,842,380,1023,620,Car
+imgs_test/04c084511ddf74f5.jpg,91,909,320,1018,Car
+imgs_test/04c084511ddf74f5.jpg,0,917,172,1022,Car
+imgs_test/04c084511ddf74f5.jpg,515,878,682,1023,Car
+imgs_test/04e77fb4aa82fb3b.jpg,820,394,873,529,Person
+imgs_test/04e77fb4aa82fb3b.jpg,223,368,242,438,Person
+imgs_test/04e77fb4aa82fb3b.jpg,242,368,266,444,Person
+imgs_test/04e77fb4aa82fb3b.jpg,261,366,307,453,Person
+imgs_test/04e77fb4aa82fb3b.jpg,392,380,421,461,Person
+imgs_test/04e77fb4aa82fb3b.jpg,492,378,522,480,Person
+imgs_test/04e77fb4aa82fb3b.jpg,513,374,526,463,Person
+imgs_test/04e77fb4aa82fb3b.jpg,599,388,648,508,Person
+imgs_test/04e77fb4aa82fb3b.jpg,677,385,719,508,Person
+imgs_test/04e77fb4aa82fb3b.jpg,741,383,787,508,Person
+imgs_test/04e77fb4aa82fb3b.jpg,779,380,807,482,Person
+imgs_test/04ead6f5b179cd58.jpg,182,360,302,727,Person
+imgs_test/0505bde3b793ff4a.jpg,163,122,820,654,Car
+imgs_test/0505bde3b793ff4a.jpg,725,197,821,306,Car
+imgs_test/0505bde3b793ff4a.jpg,787,207,944,298,Car
+imgs_test/050d370a10bf5433.jpg,0,509,106,803,Car
+imgs_test/050d370a10bf5433.jpg,542,530,767,745,Car
+imgs_test/0548b1e27f2a3bcd.jpg,283,44,751,668,Person
+imgs_test/0548b1e27f2a3bcd.jpg,145,284,464,755,Person
+imgs_test/05530d4ead661257.jpg,455,140,534,296,Person
+imgs_test/05530d4ead661257.jpg,621,155,688,277,Person
+imgs_test/05530d4ead661257.jpg,643,512,652,556,Person
+imgs_test/05821bb53b1fba03.jpg,80,80,1024,683,Car
+imgs_test/05821bb53b1fba03.jpg,0,0,240,682,Person
+imgs_test/05821bb53b1fba03.jpg,667,492,713,602,Person
+imgs_test/05821bb53b1fba03.jpg,827,508,872,640,Person
+imgs_test/05821bb53b1fba03.jpg,883,503,938,637,Person
+imgs_test/05bccc1559d41f53.jpg,257,711,274,761,Person
+imgs_test/05bccc1559d41f53.jpg,277,703,296,762,Person
+imgs_test/074ff87a359f3dfe.jpg,16,508,328,601,Car
+imgs_test/074ff87a359f3dfe.jpg,689,485,940,562,Car
+imgs_test/07b6a08b4f48ff23.jpg,126,182,348,653,Mobile phone
+imgs_test/07b6a08b4f48ff23.jpg,423,115,692,650,Mobile phone
+imgs_test/07b6a08b4f48ff23.jpg,748,225,954,650,Mobile phone
+imgs_test/07fafb921e2672a2.jpg,0,213,643,1023,Mobile phone
+imgs_test/07fafc929ec879e6.jpg,542,586,594,670,Person
+imgs_test/07fafc929ec879e6.jpg,406,480,440,563,Person
+imgs_test/07fafc929ec879e6.jpg,439,481,477,563,Person
+imgs_test/07fafc929ec879e6.jpg,613,493,641,576,Person
+imgs_test/07fafc929ec879e6.jpg,778,549,837,605,Person
+imgs_test/07fafc929ec879e6.jpg,787,508,1023,682,Person
+imgs_test/07fafc929ec879e6.jpg,835,563,893,682,Person
+imgs_test/07fafc929ec879e6.jpg,888,522,973,682,Person
+imgs_test/07fafc929ec879e6.jpg,897,604,986,682,Person
+imgs_test/07fafc929ec879e6.jpg,969,506,1023,682,Person
+imgs_test/0866177989e49d6b.jpg,257,198,447,573,Mobile phone
+imgs_test/08d9e9913d3657b7.jpg,317,201,508,557,Mobile phone
+imgs_test/0910fd97c3ea67af.jpg,273,169,608,359,Mobile phone
+imgs_test/0910fd97c3ea67af.jpg,0,0,769,611,Person
+imgs_test/09f1bb3b70622d63.jpg,0,1,940,677,Car
+imgs_test/0a526c9daf2eee1c.jpg,336,24,560,288,Person
+imgs_test/0a526c9daf2eee1c.jpg,0,0,176,266,Person
+imgs_test/0a526c9daf2eee1c.jpg,158,57,375,246,Person
+imgs_test/0a526c9daf2eee1c.jpg,531,26,844,358,Person
+imgs_test/0a526c9daf2eee1c.jpg,716,0,891,237,Person
+imgs_test/0a82c025303de441.jpg,10,14,176,303,Mobile phone
+imgs_test/0a82c025303de441.jpg,77,371,129,486,Person
+imgs_test/0a82c025303de441.jpg,201,30,235,73,Person
+imgs_test/0a82c025303de441.jpg,201,207,240,250,Person
+imgs_test/0a82c025303de441.jpg,203,92,233,137,Person
+imgs_test/0a82c025303de441.jpg,244,26,274,166,Person
+imgs_test/0a82c025303de441.jpg,256,628,289,675,Person
+imgs_test/0a82c025303de441.jpg,264,205,303,244,Person
+imgs_test/0a82c025303de441.jpg,295,484,328,523,Person
+imgs_test/0a82c025303de441.jpg,301,36,344,168,Person
+imgs_test/0a82c025303de441.jpg,332,281,363,336,Person
+imgs_test/0a82c025303de441.jpg,338,205,375,250,Person
+imgs_test/0a82c025303de441.jpg,352,254,383,334,Person
+imgs_test/0a82c025303de441.jpg,361,480,398,523,Person
+imgs_test/0a82c025303de441.jpg,404,205,617,457,Person
+imgs_test/0a82c025303de441.jpg,408,149,455,203,Person
+imgs_test/0a82c025303de441.jpg,426,480,455,521,Person
+imgs_test/0a82c025303de441.jpg,562,98,625,137,Person
+imgs_test/0a82c025303de441.jpg,562,30,629,73,Person
+imgs_test/0a82c025303de441.jpg,564,166,621,201,Person
+imgs_test/0a82c025303de441.jpg,642,556,681,611,Person
+imgs_test/0a82c025303de441.jpg,658,525,693,615,Person
+imgs_test/0a82c025303de441.jpg,712,289,753,385,Person
+imgs_test/0a82c025303de441.jpg,722,542,767,636,Person
+imgs_test/0a82c025303de441.jpg,785,289,829,381,Person
+imgs_test/0a82c025303de441.jpg,841,488,886,544,Person
+imgs_test/0a82c025303de441.jpg,841,554,886,615,Person
+imgs_test/0a82c025303de441.jpg,845,628,888,675,Person
+imgs_test/0a82c025303de441.jpg,880,361,913,410,Person
+imgs_test/0a82c025303de441.jpg,888,552,921,615,Person
+imgs_test/0a82c025303de441.jpg,888,310,927,349,Person
+imgs_test/0a82c025303de441.jpg,888,250,933,293,Person
+imgs_test/0a82c025303de441.jpg,896,369,943,408,Person
+imgs_test/0a82c025303de441.jpg,909,30,966,112,Person
+imgs_test/0a82c025303de441.jpg,911,630,948,679,Person
+imgs_test/0a82c025303de441.jpg,913,527,943,617,Person
+imgs_test/0a82c025303de441.jpg,915,127,972,211,Person
+imgs_test/0a82c025303de441.jpg,948,367,978,404,Person
+imgs_test/0a82c025303de441.jpg,948,310,985,357,Person
+imgs_test/0a82c025303de441.jpg,948,252,1001,293,Person
+imgs_test/0a82c025303de441.jpg,958,628,991,671,Person
+imgs_test/0b7d05b86123b420.jpg,0,457,149,851,Car
+imgs_test/0b7d05b86123b420.jpg,383,524,671,599,Car
+imgs_test/0b7d05b86123b420.jpg,509,540,683,620,Car
+imgs_test/0c3961caf639f464.jpg,16,0,205,70,Mobile phone
+imgs_test/0c3961caf639f464.jpg,262,84,771,679,Mobile phone
+imgs_test/0c99d2622e821827.jpg,113,26,444,682,Mobile phone
+imgs_test/0c99d2622e821827.jpg,575,60,908,680,Mobile phone
+imgs_test/0ce2be6b3f8e1e16.jpg,0,181,103,442,Person
+imgs_test/0ce2be6b3f8e1e16.jpg,133,228,172,355,Person
+imgs_test/0ce2be6b3f8e1e16.jpg,302,221,357,328,Person
+imgs_test/0ce2be6b3f8e1e16.jpg,356,198,435,369,Person
+imgs_test/0ce2be6b3f8e1e16.jpg,423,220,456,299,Person
+imgs_test/0ce2be6b3f8e1e16.jpg,436,216,506,359,Person
+imgs_test/0ce2be6b3f8e1e16.jpg,501,229,530,299,Person
+imgs_test/0ce2be6b3f8e1e16.jpg,516,236,560,296,Person
+imgs_test/0ce2be6b3f8e1e16.jpg,526,225,661,514,Person
+imgs_test/0ce2be6b3f8e1e16.jpg,668,219,723,422,Person
+imgs_test/0ce2be6b3f8e1e16.jpg,715,193,832,459,Person
+imgs_test/0ce2be6b3f8e1e16.jpg,731,343,992,625,Person
+imgs_test/0ce2be6b3f8e1e16.jpg,895,194,1023,497,Person
+imgs_test/0d85175a8977a735.jpg,457,238,643,431,Mobile phone
+imgs_test/0e5b07d16a2bf1e7.jpg,209,133,759,707,Mobile phone
+imgs_test/1166df7c4b89a02d.jpg,292,473,523,576,Car
+imgs_test/120bfb39d1b43292.jpg,0,242,314,727,Person
+imgs_test/12b62b6bb202ddef.jpg,106,247,938,768,Car
+imgs_test/12b62b6bb202ddef.jpg,0,396,55,655,Person
+imgs_test/12b62b6bb202ddef.jpg,23,570,129,766,Person
+imgs_test/12b62b6bb202ddef.jpg,88,656,188,766,Person
+imgs_test/12b62b6bb202ddef.jpg,167,417,268,512,Person
+imgs_test/12d09e154d949478.jpg,25,23,239,593,Person
+imgs_test/12d09e154d949478.jpg,615,684,694,806,Person
+imgs_test/131180f09b7d4506.jpg,408,324,1022,682,Car
+imgs_test/134de7c7f08c51d7.jpg,168,346,263,658,Person
+imgs_test/134de7c7f08c51d7.jpg,271,383,351,653,Person
+imgs_test/134de7c7f08c51d7.jpg,439,229,592,756,Person
+imgs_test/140d1789b4648622.jpg,83,148,1022,502,Car
+imgs_test/14761b66da8390dd.jpg,0,233,333,443,Car
+imgs_test/14761b66da8390dd.jpg,0,11,1023,767,Car
+imgs_test/148dc2b9b7452883.jpg,588,0,832,419,Person
+imgs_test/1521c7b6b43af430.jpg,403,248,762,426,Car
+imgs_test/1521c7b6b43af430.jpg,0,232,344,398,Car
+imgs_test/1521c7b6b43af430.jpg,331,293,405,370,Car
+imgs_test/1521c7b6b43af430.jpg,762,259,1023,412,Car
+imgs_test/15316db5f346f407.jpg,30,74,573,984,Person
+imgs_test/167ba5795e694b8e.jpg,139,237,539,858,Person
+imgs_test/174ff9518465149b.jpg,83,26,835,277,Car
+imgs_test/174ff9518465149b.jpg,135,193,1006,499,Car
+imgs_test/17bec72ec527f6ad.jpg,0,655,86,767,Car
+imgs_test/17bec72ec527f6ad.jpg,21,620,147,702,Car
+imgs_test/17bec72ec527f6ad.jpg,628,652,775,762,Car
+imgs_test/17fcdd6f288857ca.jpg,4,1,1022,766,Mobile phone
+imgs_test/18d9044f0fbd031d.jpg,216,186,913,617,Mobile phone
+imgs_test/191ac0665abd7d76.jpg,323,549,437,813,Person
+imgs_test/191ac0665abd7d76.jpg,85,561,179,787,Person
+imgs_test/191ac0665abd7d76.jpg,401,560,469,804,Person
+imgs_test/195e8accaa6f021a.jpg,776,77,886,277,Person
+imgs_test/195e8accaa6f021a.jpg,138,682,176,767,Person
+imgs_test/195e8accaa6f021a.jpg,170,670,206,767,Person
+imgs_test/195e8accaa6f021a.jpg,202,44,286,154,Person
+imgs_test/195e8accaa6f021a.jpg,204,632,282,767,Person
+imgs_test/195e8accaa6f021a.jpg,265,495,282,520,Person
+imgs_test/195e8accaa6f021a.jpg,306,561,323,624,Person
+imgs_test/195e8accaa6f021a.jpg,323,556,344,626,Person
+imgs_test/195e8accaa6f021a.jpg,325,472,339,510,Person
+imgs_test/195e8accaa6f021a.jpg,346,552,380,626,Person
+imgs_test/195e8accaa6f021a.jpg,372,474,389,514,Person
+imgs_test/195e8accaa6f021a.jpg,389,439,401,476,Person
+imgs_test/195e8accaa6f021a.jpg,392,415,409,441,Person
+imgs_test/195e8accaa6f021a.jpg,392,631,433,686,Person
+imgs_test/195e8accaa6f021a.jpg,423,220,467,260,Person
+imgs_test/195e8accaa6f021a.jpg,434,638,461,691,Person
+imgs_test/195e8accaa6f021a.jpg,434,621,465,664,Person
+imgs_test/195e8accaa6f021a.jpg,445,373,458,403,Person
+imgs_test/195e8accaa6f021a.jpg,481,613,501,673,Person
+imgs_test/195e8accaa6f021a.jpg,486,542,499,568,Person
+imgs_test/195e8accaa6f021a.jpg,499,601,714,767,Person
+imgs_test/195e8accaa6f021a.jpg,520,178,594,244,Person
+imgs_test/195e8accaa6f021a.jpg,684,282,723,351,Person
+imgs_test/19cdd8773cd3c914.jpg,44,278,128,457,Mobile phone
+imgs_test/19cdd8773cd3c914.jpg,379,82,425,181,Mobile phone
+imgs_test/19cdd8773cd3c914.jpg,621,360,693,489,Mobile phone
+imgs_test/1a3b01783d396e4e.jpg,439,158,725,313,Mobile phone
+imgs_test/1ab4f1305d0ea276.jpg,39,32,678,576,Mobile phone
+imgs_test/1ab4f1305d0ea276.jpg,351,233,457,467,Person
+imgs_test/1ab4f1305d0ea276.jpg,608,32,947,375,Person
+imgs_test/1ab4f1305d0ea276.jpg,542,0,1023,575,Mobile phone
+imgs_test/1b89b7741c4bf77a.jpg,0,130,191,177,Car
+imgs_test/1b89b7741c4bf77a.jpg,0,124,929,678,Car
+imgs_test/1bbb00773ad7e932.jpg,65,30,724,1022,Person
+imgs_test/1be25e61ca5311ae.jpg,933,172,1023,299,Car
+imgs_test/1c0eccced820ea68.jpg,111,21,587,753,Mobile phone
+imgs_test/1c0eccced820ea68.jpg,551,69,935,704,Mobile phone
+imgs_test/1d4a17efd448f881.jpg,476,363,593,572,Mobile phone
+imgs_test/1dbd7e0f75113aef.jpg,78,137,935,472,Mobile phone
+imgs_test/1e290ad96c1549f8.jpg,58,203,421,675,Person
+imgs_test/211baf37482d3a07.jpg,126,18,577,1005,Mobile phone
+imgs_test/2290c0b04eee52da.jpg,206,130,786,572,Mobile phone
+imgs_test/2434fb4267ba4770.jpg,0,579,81,682,Car
+imgs_test/2434fb4267ba4770.jpg,32,561,138,681,Car
+imgs_test/2434fb4267ba4770.jpg,132,579,183,649,Car
+imgs_test/2434fb4267ba4770.jpg,153,573,201,637,Car
+imgs_test/24c6c76efae3db72.jpg,0,361,104,767,Person
+imgs_test/24c6c76efae3db72.jpg,243,369,394,767,Person
+imgs_test/24c6c76efae3db72.jpg,572,324,672,767,Person
+imgs_test/24c6c76efae3db72.jpg,629,323,746,767,Person
+imgs_test/24d284b9c7a013aa.jpg,261,55,748,645,Mobile phone
+imgs_test/25cec8348604df5c.jpg,51,14,860,528,Car
+imgs_test/25cec8348604df5c.jpg,0,12,334,271,Car
+imgs_test/25cec8348604df5c.jpg,298,42,384,76,Car
+imgs_test/25cec8348604df5c.jpg,320,9,568,129,Car
+imgs_test/25cec8348604df5c.jpg,818,0,1023,213,Car
+imgs_test/25cec8348604df5c.jpg,902,161,1023,575,Car
+imgs_test/2641b60f7de51cf2.jpg,660,571,713,646,Car
+imgs_test/2641b60f7de51cf2.jpg,884,539,1022,775,Car
+imgs_test/265ee37a2dd549b0.jpg,36,0,693,995,Person
+imgs_test/26bd6a3ce0e883ad.jpg,122,337,195,497,Person
+imgs_test/26bd6a3ce0e883ad.jpg,258,337,316,450,Person
+imgs_test/26bd6a3ce0e883ad.jpg,287,335,305,352,Person
+imgs_test/26bd6a3ce0e883ad.jpg,294,353,335,425,Person
+imgs_test/26bd6a3ce0e883ad.jpg,446,342,526,487,Person
+imgs_test/26bd6a3ce0e883ad.jpg,764,273,846,504,Person
+imgs_test/26bd6a3ce0e883ad.jpg,878,320,995,492,Person
+imgs_test/26c25a8f0bf49756.jpg,0,776,192,963,Car
+imgs_test/26e24a62fbced51b.jpg,394,52,938,355,Mobile phone
+imgs_test/27336f512520563a.jpg,112,38,490,842,Person
+imgs_test/27a47d41f4faf3df.jpg,124,377,465,547,Mobile phone
+imgs_test/2835a0120f540be3.jpg,0,249,1023,549,Person
+imgs_test/2835a0120f540be3.jpg,623,295,801,499,Person
+imgs_test/28b6e7594ec11a56.jpg,16,111,995,646,Car
+imgs_test/28b6e7594ec11a56.jpg,922,198,1014,302,Car
+imgs_test/295740c26b3171e5.jpg,229,179,430,532,Person
+imgs_test/295740c26b3171e5.jpg,419,279,486,410,Person
+imgs_test/295740c26b3171e5.jpg,615,245,741,483,Person
+imgs_test/297037d3f8ea16ef.jpg,364,339,475,528,Mobile phone
+imgs_test/297412b64ff28a1f.jpg,563,574,848,673,Car
+imgs_test/297412b64ff28a1f.jpg,384,560,568,625,Car
+imgs_test/2a405a31aa63b95c.jpg,0,481,300,636,Car
+imgs_test/2a405a31aa63b95c.jpg,156,489,231,522,Car
+imgs_test/2a405a31aa63b95c.jpg,186,369,325,432,Car
+imgs_test/2a405a31aa63b95c.jpg,200,485,444,586,Car
+imgs_test/2a405a31aa63b95c.jpg,391,492,504,547,Car
+imgs_test/2a405a31aa63b95c.jpg,449,444,558,491,Car
+imgs_test/2a405a31aa63b95c.jpg,568,478,682,564,Car
+imgs_test/2a405a31aa63b95c.jpg,691,447,1022,583,Car
+imgs_test/2a73c6b9e1edf994.jpg,427,140,881,668,Person
+imgs_test/2adef7cfad541774.jpg,406,478,965,609,Car
+imgs_test/2adef7cfad541774.jpg,0,495,419,613,Car
+imgs_test/2af6fae7569b30d3.jpg,211,235,819,545,Mobile phone
+imgs_test/2bee9b3fb726d09a.jpg,80,345,150,500,Person
+imgs_test/2bee9b3fb726d09a.jpg,74,295,958,734,Person
+imgs_test/2bee9b3fb726d09a.jpg,929,151,1023,448,Person
+imgs_test/2cbca2ccb0d812e8.jpg,463,130,785,608,Mobile phone
+imgs_test/2cbca2ccb0d812e8.jpg,270,183,511,660,Mobile phone
+imgs_test/2cfc0954f6af7e5a.jpg,281,456,590,794,Mobile phone
+imgs_test/2d501b957559803b.jpg,505,41,732,179,Mobile phone
+imgs_test/2d501b957559803b.jpg,352,377,641,478,Car
+imgs_test/2d501b957559803b.jpg,630,300,1022,475,Car
+imgs_test/2d9c851b9f5b5b94.jpg,0,289,124,382,Car
+imgs_test/2d9c851b9f5b5b94.jpg,187,294,494,387,Car
+imgs_test/2d9c851b9f5b5b94.jpg,549,259,865,376,Car
+imgs_test/2d9c851b9f5b5b94.jpg,867,296,1023,365,Car
+imgs_test/2dd5283213b74abe.jpg,6,196,932,876,Mobile phone
+imgs_test/2e330834aff8a4de.jpg,0,91,763,1017,Person
+imgs_test/2e5755bd6fe04a36.jpg,115,99,552,760,Mobile phone
+imgs_test/2e5755bd6fe04a36.jpg,416,69,940,485,Car
+imgs_test/2f039259ca9b8df5.jpg,122,328,524,531,Car
+imgs_test/2f9fab178beb0e42.jpg,56,423,726,620,Car
+imgs_test/305823bd2e757196.jpg,0,0,1023,767,Person
+imgs_test/308c3fa6d39420c8.jpg,91,3,265,498,Person
+imgs_test/308c3fa6d39420c8.jpg,411,343,596,574,Person
+imgs_test/308c3fa6d39420c8.jpg,547,0,798,574,Person
+imgs_test/308e4fbec0d2f953.jpg,87,355,119,377,Car
+imgs_test/308e4fbec0d2f953.jpg,149,361,202,378,Car
+imgs_test/308e4fbec0d2f953.jpg,308,330,370,389,Car
+imgs_test/308e4fbec0d2f953.jpg,376,319,463,397,Car
+imgs_test/308e4fbec0d2f953.jpg,490,341,546,369,Car
+imgs_test/308e4fbec0d2f953.jpg,576,350,603,376,Car
+imgs_test/308e4fbec0d2f953.jpg,642,324,741,391,Car
+imgs_test/30a78348504980c9.jpg,408,346,578,622,Mobile phone
+imgs_test/31b6d6c573f8a734.jpg,145,201,783,397,Car
+imgs_test/328a31bf68a57e26.jpg,213,312,353,380,Car
+imgs_test/328a31bf68a57e26.jpg,310,292,528,385,Car
+imgs_test/328a31bf68a57e26.jpg,564,295,654,375,Car
+imgs_test/3334fdbbf4960ae1.jpg,159,58,1023,693,Car
+imgs_test/33707bd7a85052a6.jpg,311,308,367,504,Person
+imgs_test/33707bd7a85052a6.jpg,826,341,932,421,Car
+imgs_test/33707bd7a85052a6.jpg,372,317,449,509,Person
+imgs_test/33707bd7a85052a6.jpg,482,314,538,459,Person
+imgs_test/33707bd7a85052a6.jpg,530,316,750,506,Person
+imgs_test/33707bd7a85052a6.jpg,786,338,806,405,Person
+imgs_test/33707bd7a85052a6.jpg,804,326,820,406,Person
+imgs_test/33707bd7a85052a6.jpg,950,354,974,393,Car
+imgs_test/337817395d49c461.jpg,0,0,572,583,Person
+imgs_test/337817395d49c461.jpg,872,537,1023,767,Person
+imgs_test/33b031042308c4d7.jpg,558,238,779,411,Car
+imgs_test/33b031042308c4d7.jpg,570,255,1023,620,Car
+imgs_test/33b031042308c4d7.jpg,832,230,1018,289,Car
+imgs_test/33c8df0af1a7bfce.jpg,0,35,440,329,Car
+imgs_test/33c8df0af1a7bfce.jpg,41,44,961,633,Car
+imgs_test/33c8df0af1a7bfce.jpg,110,111,531,263,Car
+imgs_test/33dfcbd1bf3ed39a.jpg,230,407,574,693,Car
+imgs_test/3417ad0fd8d8e0db.jpg,0,0,985,615,Person
+imgs_test/348834d8ba0f09a4.jpg,162,54,372,444,Mobile phone
+imgs_test/348834d8ba0f09a4.jpg,322,103,527,503,Mobile phone
+imgs_test/348834d8ba0f09a4.jpg,572,210,796,634,Mobile phone
+imgs_test/348834d8ba0f09a4.jpg,718,117,938,523,Mobile phone
+imgs_test/34d5722788fe69c2.jpg,35,228,950,624,Car
+imgs_test/34d5722788fe69c2.jpg,657,269,1023,587,Car
+imgs_test/350816273dfbe8f9.jpg,0,525,59,578,Person
+imgs_test/350816273dfbe8f9.jpg,0,206,275,554,Person
+imgs_test/350816273dfbe8f9.jpg,209,62,282,290,Person
+imgs_test/350816273dfbe8f9.jpg,346,195,645,528,Person
+imgs_test/350816273dfbe8f9.jpg,599,127,662,184,Person
+imgs_test/350816273dfbe8f9.jpg,606,63,684,185,Person
+imgs_test/350816273dfbe8f9.jpg,634,136,734,274,Person
+imgs_test/350816273dfbe8f9.jpg,697,60,755,170,Person
+imgs_test/350816273dfbe8f9.jpg,728,127,808,258,Person
+imgs_test/350816273dfbe8f9.jpg,737,140,752,173,Person
+imgs_test/350816273dfbe8f9.jpg,757,222,1017,539,Person
+imgs_test/350816273dfbe8f9.jpg,801,48,894,176,Person
+imgs_test/350816273dfbe8f9.jpg,846,25,1023,345,Person
+imgs_test/35aeda8ec61ee8e3.jpg,0,0,1023,682,Person
+imgs_test/35f2722ca1176784.jpg,36,64,518,275,Person
+imgs_test/35fff001be8d5394.jpg,154,87,495,971,Person
+imgs_test/365f58d9aa1b6b79.jpg,51,42,387,668,Person
+imgs_test/36c954aba21d4b66.jpg,810,306,924,664,Person
+imgs_test/3704b9c7e9629d46.jpg,38,0,655,1024,Mobile phone
+imgs_test/371d34a9f8608a16.jpg,814,351,973,753,Person
+imgs_test/37e6c1384d81f94e.jpg,0,455,390,808,Car
+imgs_test/3835f75a66e844c0.jpg,588,268,928,527,Mobile phone
+imgs_test/3835f75a66e844c0.jpg,248,338,302,466,Mobile phone
+imgs_test/3835f75a66e844c0.jpg,271,342,297,395,Mobile phone
+imgs_test/3835f75a66e844c0.jpg,321,347,331,386,Mobile phone
+imgs_test/3835f75a66e844c0.jpg,442,321,576,542,Mobile phone
+imgs_test/3843864acceaa9f0.jpg,199,61,762,883,Person
+imgs_test/3add909e3e67ab35.jpg,33,532,961,848,Car
+imgs_test/3b488d6fc704167f.jpg,523,392,676,755,Person
+imgs_test/3be9d865af4a8cac.jpg,310,118,673,761,Mobile phone
+imgs_test/3d2d0a00084fea82.jpg,123,686,207,941,Person
+imgs_test/3d2d0a00084fea82.jpg,190,660,282,916,Person
+imgs_test/3dcb805d744cbe7e.jpg,100,129,846,1022,Person
+imgs_test/3dcb805d744cbe7e.jpg,720,358,819,526,Mobile phone
+imgs_test/3e55efeddb936c77.jpg,115,76,835,879,Person
+imgs_test/3e55efeddb936c77.jpg,818,179,898,419,Person
+imgs_test/3ea28c414e9b6ec9.jpg,463,0,1023,547,Car
+imgs_test/3f946dddb69abb56.jpg,657,294,897,682,Mobile phone
+imgs_test/40218a424c23adf3.jpg,0,521,1022,766,Car
+imgs_test/40218a424c23adf3.jpg,345,302,446,316,Car
+imgs_test/40218a424c23adf3.jpg,452,219,652,414,Car
+imgs_test/40218a424c23adf3.jpg,675,294,782,366,Car
+imgs_test/40218a424c23adf3.jpg,777,299,1022,356,Car
+imgs_test/411634bdebf11676.jpg,0,180,576,522,Mobile phone
+imgs_test/411634bdebf11676.jpg,292,121,940,463,Mobile phone
+imgs_test/411634bdebf11676.jpg,638,117,1022,412,Mobile phone
+imgs_test/42409aa10299e86b.jpg,284,362,778,535,Mobile phone
+imgs_test/42409aa10299e86b.jpg,318,294,828,497,Mobile phone
+imgs_test/42409aa10299e86b.jpg,361,230,852,453,Mobile phone
+imgs_test/42409aa10299e86b.jpg,418,141,908,410,Mobile phone
+imgs_test/434c4f54eaa347f0.jpg,721,580,838,732,Person
+imgs_test/44bc3bf957f71da2.jpg,430,0,972,624,Mobile phone
+imgs_test/44d91c966d195828.jpg,158,237,909,502,Car
+imgs_test/44e0c9fc1e3180da.jpg,168,63,723,917,Person
+imgs_test/46fa0b25b1f0f9e1.jpg,456,713,766,846,Car
+imgs_test/46ffe06fd042d94e.jpg,111,120,677,665,Person
+imgs_test/47f9d9abe6d49b53.jpg,0,0,1023,682,Car
+imgs_test/491f33ccdd3d3606.jpg,0,66,550,1024,Mobile phone
+imgs_test/495b5c588f9cb566.jpg,721,355,849,522,Mobile phone
+imgs_test/495b5c588f9cb566.jpg,823,355,920,519,Mobile phone
+imgs_test/49dfcc371d6e2812.jpg,153,32,229,123,Person
+imgs_test/49dfcc371d6e2812.jpg,261,277,308,337,Person
+imgs_test/49dfcc371d6e2812.jpg,329,241,499,297,Person
+imgs_test/49dfcc371d6e2812.jpg,213,55,222,64,Car
+imgs_test/49dfcc371d6e2812.jpg,223,71,267,116,Car
+imgs_test/49dfcc371d6e2812.jpg,242,51,258,60,Car
+imgs_test/49dfcc371d6e2812.jpg,255,44,268,55,Car
+imgs_test/49dfcc371d6e2812.jpg,261,73,284,106,Car
+imgs_test/4a5079d7cd028361.jpg,195,328,894,550,Car
+imgs_test/4a5079d7cd028361.jpg,0,344,156,515,Car
+imgs_test/4a5079d7cd028361.jpg,956,442,1023,552,Car
+imgs_test/4a8ae51aa3fc8bca.jpg,207,476,423,614,Person
+imgs_test/4bf2599e9852d953.jpg,190,281,861,590,Car
+imgs_test/4cefe96086c3bc54.jpg,172,52,393,497,Mobile phone
+imgs_test/4cefe96086c3bc54.jpg,538,114,687,467,Mobile phone
+imgs_test/4cefe96086c3bc54.jpg,684,131,794,450,Mobile phone
+imgs_test/4d0a090f5609295d.jpg,163,83,851,712,Mobile phone
+imgs_test/4d31d34fb44bfbb4.jpg,154,34,471,659,Mobile phone
+imgs_test/4d641d4e7d7e8516.jpg,295,311,386,531,Person
+imgs_test/4d641d4e7d7e8516.jpg,426,288,550,474,Person
+imgs_test/4e5d42000e7497a0.jpg,253,341,406,612,Mobile phone
+imgs_test/4e8261966044dbf1.jpg,697,327,911,418,Car
+imgs_test/4f3dd53bcb1d1ac0.jpg,356,55,870,631,Mobile phone
+imgs_test/526b754f6f7c10c5.jpg,0,104,1023,509,Car
+imgs_test/526b754f6f7c10c5.jpg,709,105,1023,304,Car
+imgs_test/52b7a180ce4713ce.jpg,179,526,597,737,Mobile phone
+imgs_test/52b7a180ce4713ce.jpg,408,590,498,738,Person
+imgs_test/52b7a180ce4713ce.jpg,0,66,605,332,Mobile phone
+imgs_test/52b7a180ce4713ce.jpg,113,401,685,470,Mobile phone
+imgs_test/52cbf6eacbc024ad.jpg,202,101,973,635,Mobile phone
+imgs_test/53294be91344e17b.jpg,210,334,748,618,Car
+imgs_test/53a04187cc0602ca.jpg,671,253,830,714,Person
+imgs_test/53a04187cc0602ca.jpg,197,222,421,583,Person
+imgs_test/543a58cdd3cde407.jpg,132,171,182,226,Person
+imgs_test/543a58cdd3cde407.jpg,474,378,485,419,Person
+imgs_test/543a58cdd3cde407.jpg,492,378,508,413,Person
+imgs_test/543a58cdd3cde407.jpg,504,376,517,413,Person
+imgs_test/543a58cdd3cde407.jpg,532,376,541,417,Person
+imgs_test/543a58cdd3cde407.jpg,666,158,768,426,Person
+imgs_test/543a58cdd3cde407.jpg,826,178,866,235,Person
+imgs_test/543a58cdd3cde407.jpg,874,191,901,242,Person
+imgs_test/543a58cdd3cde407.jpg,901,224,931,253,Person
+imgs_test/543a58cdd3cde407.jpg,940,230,961,270,Person
+imgs_test/5443e19c50fbbdc8.jpg,645,524,830,622,Mobile phone
+imgs_test/554fdc3d15cfddd8.jpg,65,0,904,767,Mobile phone
+imgs_test/55c1645b7c2eaeb2.jpg,65,0,1023,705,Car
+imgs_test/55c395c6b8635ca9.jpg,788,609,1022,747,Car
+imgs_test/560b2caa52d928db.jpg,0,518,232,611,Car
+imgs_test/560b2caa52d928db.jpg,15,455,71,474,Car
+imgs_test/560b2caa52d928db.jpg,315,529,604,636,Car
+imgs_test/560b2caa52d928db.jpg,539,446,592,482,Car
+imgs_test/560b2caa52d928db.jpg,609,452,657,487,Car
+imgs_test/560b2caa52d928db.jpg,675,455,729,490,Car
+imgs_test/565c33bd6003aa34.jpg,293,42,720,595,Mobile phone
+imgs_test/571c73891600861d.jpg,58,29,261,561,Mobile phone
+imgs_test/571c73891600861d.jpg,4,655,69,682,Person
+imgs_test/571c73891600861d.jpg,169,646,247,682,Person
+imgs_test/571c73891600861d.jpg,339,661,439,682,Person
+imgs_test/571c73891600861d.jpg,440,659,505,682,Person
+imgs_test/571c73891600861d.jpg,668,622,745,682,Person
+imgs_test/571c73891600861d.jpg,819,266,983,682,Person
+imgs_test/579a474ce6832832.jpg,163,320,860,584,Car
+imgs_test/57abef83ea33416d.jpg,197,284,871,719,Mobile phone
+imgs_test/57b8464cb126b103.jpg,738,74,894,578,Person
+imgs_test/57b8464cb126b103.jpg,0,0,1023,220,Person
+imgs_test/57b8464cb126b103.jpg,502,20,726,655,Person
+imgs_test/57b8464cb126b103.jpg,637,85,747,484,Person
+imgs_test/57b8464cb126b103.jpg,936,134,1023,583,Person
+imgs_test/58409f82754881a7.jpg,416,0,839,575,Person
+imgs_test/58482619dd6e966a.jpg,132,295,641,614,Car
+imgs_test/5878c874faa5a8d3.jpg,157,47,660,1017,Person
+imgs_test/5878c874faa5a8d3.jpg,658,264,767,990,Person
+imgs_test/59748ac97d38c830.jpg,339,163,744,671,Mobile phone
+imgs_test/59a41d63c9ebaf95.jpg,0,125,398,459,Car
+imgs_test/59a41d63c9ebaf95.jpg,83,105,629,404,Car
+imgs_test/59a41d63c9ebaf95.jpg,131,44,892,429,Car
+imgs_test/5a03cf93f73f9099.jpg,0,0,426,958,Person
+imgs_test/5a03cf93f73f9099.jpg,310,0,1023,953,Person
+imgs_test/5a99f4ae9d3419b5.jpg,273,486,472,637,Mobile phone
+imgs_test/5a99f4ae9d3419b5.jpg,320,243,439,305,Mobile phone
+imgs_test/5ace31336a5dcda8.jpg,322,0,835,538,Person
+imgs_test/5af6f7c8d9450461.jpg,0,344,1023,682,Car
+imgs_test/5af6f7c8d9450461.jpg,72,246,961,486,Car
+imgs_test/5af6f7c8d9450461.jpg,188,219,704,333,Car
+imgs_test/5af6f7c8d9450461.jpg,207,199,473,251,Car
+imgs_test/5af6f7c8d9450461.jpg,217,204,528,281,Car
+imgs_test/5af6f7c8d9450461.jpg,222,219,586,283,Car
+imgs_test/5b59c4d6c3aeadb4.jpg,15,6,683,1022,Person
+imgs_test/5b59c4d6c3aeadb4.jpg,39,540,206,657,Mobile phone
+imgs_test/5ca1709e8c3aef75.jpg,35,260,136,291,Car
+imgs_test/5ca1709e8c3aef75.jpg,150,252,231,283,Car
+imgs_test/5ca1709e8c3aef75.jpg,240,252,307,279,Car
+imgs_test/5ca1709e8c3aef75.jpg,247,231,810,461,Car
+imgs_test/5d640c138848644b.jpg,271,51,460,507,Person
+imgs_test/5d640c138848644b.jpg,457,160,835,647,Person
+imgs_test/5d6d1c8d34db57f8.jpg,358,401,1019,756,Car
+imgs_test/5d6d1c8d34db57f8.jpg,0,0,1023,767,Car
+imgs_test/5d6d1c8d34db57f8.jpg,0,0,1023,767,Car
+imgs_test/5e35ed123d2d54f7.jpg,811,190,919,375,Mobile phone
+imgs_test/5e35ed123d2d54f7.jpg,393,166,446,264,Mobile phone
+imgs_test/5e4516d948f4591e.jpg,0,0,713,1020,Mobile phone
+imgs_test/5e5f552d6057ef96.jpg,11,437,23,466,Person
+imgs_test/5e5f552d6057ef96.jpg,15,420,32,462,Person
+imgs_test/5e5f552d6057ef96.jpg,29,412,106,567,Person
+imgs_test/5e5f552d6057ef96.jpg,79,432,112,495,Person
+imgs_test/5e5f552d6057ef96.jpg,92,427,106,438,Person
+imgs_test/5e5f552d6057ef96.jpg,130,409,170,454,Person
+imgs_test/5e5f552d6057ef96.jpg,175,399,236,475,Person
+imgs_test/5e5f552d6057ef96.jpg,240,421,256,458,Person
+imgs_test/5e5f552d6057ef96.jpg,255,413,275,427,Person
+imgs_test/5e5f552d6057ef96.jpg,272,425,295,466,Person
+imgs_test/5e5f552d6057ef96.jpg,291,419,335,535,Person
+imgs_test/5e5f552d6057ef96.jpg,364,432,435,594,Person
+imgs_test/5e5f552d6057ef96.jpg,762,421,816,483,Person
+imgs_test/5e5f552d6057ef96.jpg,836,509,902,621,Person
+imgs_test/5f226444c78e0197.jpg,149,304,344,395,Car
+imgs_test/5fb0c063e7197724.jpg,218,768,362,881,Mobile phone
+imgs_test/5fcd762b2d82fcd7.jpg,291,42,631,525,Person
+imgs_test/5fcd762b2d82fcd7.jpg,0,13,181,187,Car
+imgs_test/6017ef77115d7575.jpg,32,161,464,575,Mobile phone
+imgs_test/6017ef77115d7575.jpg,315,139,711,455,Mobile phone
+imgs_test/6017ef77115d7575.jpg,548,145,848,371,Mobile phone
+imgs_test/6017ef77115d7575.jpg,679,131,985,331,Mobile phone
+imgs_test/605f004e291411f3.jpg,459,302,716,743,Mobile phone
+imgs_test/605f004e291411f3.jpg,373,326,487,689,Mobile phone
+imgs_test/60a87f7744d8b5ba.jpg,474,427,501,461,Car
+imgs_test/60a87f7744d8b5ba.jpg,778,408,1023,502,Car
+imgs_test/60a87f7744d8b5ba.jpg,996,424,1023,448,Car
+imgs_test/60f63fa037927cff.jpg,1,338,193,633,Person
+imgs_test/60f63fa037927cff.jpg,119,258,154,308,Person
+imgs_test/60f63fa037927cff.jpg,213,304,430,621,Person
+imgs_test/60f63fa037927cff.jpg,336,222,377,270,Person
+imgs_test/60f63fa037927cff.jpg,401,207,456,288,Person
+imgs_test/60f63fa037927cff.jpg,424,209,661,680,Person
+imgs_test/60f63fa037927cff.jpg,608,168,878,680,Person
+imgs_test/60f63fa037927cff.jpg,867,222,927,358,Person
+imgs_test/61a08361843afdb5.jpg,0,187,495,293,Person
+imgs_test/61a08361843afdb5.jpg,6,251,222,293,Person
+imgs_test/61a08361843afdb5.jpg,162,212,199,253,Person
+imgs_test/61a08361843afdb5.jpg,197,209,238,271,Person
+imgs_test/61a08361843afdb5.jpg,213,193,238,225,Person
+imgs_test/61a08361843afdb5.jpg,246,187,495,278,Person
+imgs_test/61a08361843afdb5.jpg,495,182,839,284,Person
+imgs_test/61a08361843afdb5.jpg,793,250,1023,292,Person
+imgs_test/62127df8c2925b50.jpg,453,215,699,636,Mobile phone
+imgs_test/62127df8c2925b50.jpg,0,26,296,659,Person
+imgs_test/62127df8c2925b50.jpg,430,0,1023,703,Person
+imgs_test/62127df8c2925b50.jpg,656,317,960,703,Mobile phone
+imgs_test/6294fffd609a6876.jpg,553,327,1023,647,Car
+imgs_test/62d5b13aea8adb58.jpg,483,515,510,584,Person
+imgs_test/62d5b13aea8adb58.jpg,559,508,594,568,Person
+imgs_test/62f50d75b29af968.jpg,180,440,569,766,Mobile phone
+imgs_test/62f50d75b29af968.jpg,0,188,70,243,Car
+imgs_test/62f50d75b29af968.jpg,284,198,326,244,Car
+imgs_test/62f50d75b29af968.jpg,688,209,769,246,Car
+imgs_test/62f50d75b29af968.jpg,900,222,960,264,Car
+imgs_test/633b948aae6f763f.jpg,443,260,526,482,Person
+imgs_test/633b948aae6f763f.jpg,0,307,52,480,Person
+imgs_test/633b948aae6f763f.jpg,53,324,103,482,Person
+imgs_test/633b948aae6f763f.jpg,150,323,218,478,Person
+imgs_test/633b948aae6f763f.jpg,274,299,336,473,Person
+imgs_test/633b948aae6f763f.jpg,647,275,700,456,Person
+imgs_test/633b948aae6f763f.jpg,711,287,771,450,Person
+imgs_test/633b948aae6f763f.jpg,787,261,866,454,Person
+imgs_test/633b948aae6f763f.jpg,893,270,988,448,Person
+imgs_test/6392705303c69469.jpg,433,246,721,673,Person
+imgs_test/6392705303c69469.jpg,213,177,453,672,Person
+imgs_test/64425d25de944d90.jpg,535,667,656,760,Car
+imgs_test/64425d25de944d90.jpg,441,540,552,641,Car
+imgs_test/644ae4a368af12db.jpg,307,26,832,751,Mobile phone
+imgs_test/644ae4a368af12db.jpg,99,103,457,670,Mobile phone
+imgs_test/6466e648a781b8da.jpg,830,491,1020,654,Car
+imgs_test/6466e648a781b8da.jpg,1,471,87,543,Car
+imgs_test/6466e648a781b8da.jpg,809,484,838,503,Car
+imgs_test/6466e648a781b8da.jpg,820,478,867,505,Car
+imgs_test/6495c7f282f4cf93.jpg,259,161,388,303,Person
+imgs_test/6495c7f282f4cf93.jpg,85,199,208,455,Person
+imgs_test/6495c7f282f4cf93.jpg,104,270,388,560,Person
+imgs_test/6495c7f282f4cf93.jpg,170,291,357,737,Person
+imgs_test/6495c7f282f4cf93.jpg,174,153,254,308,Person
+imgs_test/6495c7f282f4cf93.jpg,253,478,551,766,Person
+imgs_test/6495c7f282f4cf93.jpg,449,145,624,418,Person
+imgs_test/6495c7f282f4cf93.jpg,718,279,890,622,Person
+imgs_test/64f3eca789ddda24.jpg,458,884,588,1000,Mobile phone
+imgs_test/65029a4d44eafabd.jpg,350,41,708,654,Mobile phone
+imgs_test/655bbf9bc425706f.jpg,277,159,585,918,Person
+imgs_test/657c2a811d76516f.jpg,127,0,1023,680,Person
+imgs_test/657c2a811d76516f.jpg,153,534,1023,680,Person
+imgs_test/657c2a811d76516f.jpg,169,563,757,638,Person
+imgs_test/657c2a811d76516f.jpg,244,450,353,515,Person
+imgs_test/657c2a811d76516f.jpg,270,39,473,152,Person
+imgs_test/657c2a811d76516f.jpg,277,0,438,84,Person
+imgs_test/664e0d3a15ca30e5.jpg,10,92,329,659,Mobile phone
+imgs_test/6719d01f3844fa74.jpg,35,72,311,729,Person
+imgs_test/67246cf660f88aa2.jpg,287,255,718,375,Car
+imgs_test/673a42217f3b6b9e.jpg,915,85,1011,468,Person
+imgs_test/673a42217f3b6b9e.jpg,1,96,103,355,Person
+imgs_test/673a42217f3b6b9e.jpg,112,81,183,360,Person
+imgs_test/673a42217f3b6b9e.jpg,159,85,254,384,Person
+imgs_test/673a42217f3b6b9e.jpg,228,79,273,149,Person
+imgs_test/673a42217f3b6b9e.jpg,234,83,325,388,Person
+imgs_test/673a42217f3b6b9e.jpg,284,98,372,394,Person
+imgs_test/673a42217f3b6b9e.jpg,361,96,449,394,Person
+imgs_test/673a42217f3b6b9e.jpg,475,73,560,409,Person
+imgs_test/673a42217f3b6b9e.jpg,551,109,628,409,Person
+imgs_test/673a42217f3b6b9e.jpg,642,103,731,419,Person
+imgs_test/673a42217f3b6b9e.jpg,728,112,833,431,Person
+imgs_test/673a42217f3b6b9e.jpg,824,106,918,444,Person
+imgs_test/67734d8213f10911.jpg,0,62,1023,767,Car
+imgs_test/67f65d9ff4e5d2c1.jpg,563,671,632,742,Mobile phone
+imgs_test/689f0de3fb653342.jpg,138,100,535,840,Person
+imgs_test/68cc5bf5d59610e2.jpg,259,216,465,821,Person
+imgs_test/68ef2cc13a8a6bc0.jpg,391,112,609,467,Person
+imgs_test/69535b7f860873de.jpg,123,44,392,207,Car
+imgs_test/69535b7f860873de.jpg,387,7,764,380,Car
+imgs_test/69722b2df0c487f1.jpg,69,844,185,964,Person
+imgs_test/69722b2df0c487f1.jpg,81,305,315,597,Person
+imgs_test/69722b2df0c487f1.jpg,207,849,336,964,Person
+imgs_test/69722b2df0c487f1.jpg,346,846,467,964,Person
+imgs_test/69722b2df0c487f1.jpg,352,360,576,659,Person
+imgs_test/69722b2df0c487f1.jpg,496,860,601,959,Person
+imgs_test/69ad529f6536c773.jpg,126,64,950,458,Car
+imgs_test/69ad529f6536c773.jpg,131,90,438,127,Car
+imgs_test/69e4d359c79adb88.jpg,0,0,1023,767,Car
+imgs_test/69ecee6f1d7fb180.jpg,130,15,800,684,Person
+imgs_test/6a0a92216c12ccba.jpg,220,11,793,1024,Mobile phone
+imgs_test/6a16dc4790bbade2.jpg,318,86,679,670,Mobile phone
+imgs_test/6a4f5c88e28fc837.jpg,266,476,655,608,Car
+imgs_test/6c16127d874ed0f8.jpg,293,120,542,524,Person
+imgs_test/6cc8a323102ce6b2.jpg,0,0,1023,293,Car
+imgs_test/6dcbc93cdf8302b4.jpg,77,247,561,682,Person
+imgs_test/6dcfcc2dfe959b15.jpg,396,17,603,316,Person
+imgs_test/6dcfcc2dfe959b15.jpg,184,625,575,856,Person
+imgs_test/6ebff5ceda8733bd.jpg,0,154,933,687,Car
+imgs_test/6f1a0c8d6e6be3b3.jpg,375,74,690,577,Mobile phone
+imgs_test/6f9b843178a7e875.jpg,480,253,637,555,Mobile phone
+imgs_test/6ff5607b2b85703d.jpg,265,113,310,219,Person
+imgs_test/6ff5607b2b85703d.jpg,516,899,569,970,Person
+imgs_test/6ffb71cd45995ca8.jpg,0,45,1023,675,Car
+imgs_test/706ba6a724066d60.jpg,0,35,1023,588,Car
+imgs_test/70b6aeaa5990e9c0.jpg,156,37,362,542,Person
+imgs_test/71d3e3c77d5a432c.jpg,348,85,574,323,Mobile phone
+imgs_test/71def2f800ab5054.jpg,110,132,828,604,Mobile phone
+imgs_test/72e054be66a1f89f.jpg,478,303,1017,715,Mobile phone
+imgs_test/7302a5f90373f8b1.jpg,0,218,21,261,Person
+imgs_test/7302a5f90373f8b1.jpg,41,189,94,323,Person
+imgs_test/7302a5f90373f8b1.jpg,69,216,96,293,Person
+imgs_test/7302a5f90373f8b1.jpg,113,181,457,696,Person
+imgs_test/7302a5f90373f8b1.jpg,248,241,295,288,Person
+imgs_test/7302a5f90373f8b1.jpg,292,244,325,345,Person
+imgs_test/7302a5f90373f8b1.jpg,377,261,407,298,Person
+imgs_test/7302a5f90373f8b1.jpg,389,9,605,455,Person
+imgs_test/7302a5f90373f8b1.jpg,570,279,622,362,Person
+imgs_test/7302a5f90373f8b1.jpg,679,170,890,485,Person
+imgs_test/7302a5f90373f8b1.jpg,984,309,1023,384,Person
+imgs_test/7303c91e6e63a98a.jpg,12,17,1019,704,Car
+imgs_test/7366e34f56f0afab.jpg,684,231,789,620,Person
+imgs_test/7366e34f56f0afab.jpg,65,216,1012,663,Person
+imgs_test/73a1fd52a4477a5a.jpg,344,195,961,667,Mobile phone
+imgs_test/74622c40b9b98d25.jpg,384,317,608,671,Mobile phone
+imgs_test/746838155a5dfe20.jpg,71,58,883,765,Car
+imgs_test/746838155a5dfe20.jpg,0,67,48,94,Car
+imgs_test/746838155a5dfe20.jpg,27,76,80,103,Car
+imgs_test/746838155a5dfe20.jpg,72,79,119,105,Car
+imgs_test/746838155a5dfe20.jpg,98,84,163,113,Car
+imgs_test/746838155a5dfe20.jpg,990,138,1023,172,Car
+imgs_test/756113baf87d58af.jpg,237,268,568,944,Person
+imgs_test/759bb801cf7eb44a.jpg,0,102,660,682,Person
+imgs_test/7628673cc91ce2a9.jpg,458,587,631,695,Car
+imgs_test/7628673cc91ce2a9.jpg,842,587,875,636,Car
+imgs_test/7699ec3b2e34c735.jpg,268,275,753,568,Car
+imgs_test/76e3770fe4d46372.jpg,236,578,314,640,Mobile phone
+imgs_test/76e3770fe4d46372.jpg,586,597,615,651,Mobile phone
+imgs_test/76e3770fe4d46372.jpg,903,84,949,172,Mobile phone
+imgs_test/776c338293ada792.jpg,54,435,686,976,Person
+imgs_test/776c338293ada792.jpg,56,638,230,983,Person
+imgs_test/7878172629e4f3c5.jpg,304,7,693,700,Mobile phone
+imgs_test/787d8e97545d2f25.jpg,240,78,852,664,Person
+imgs_test/78846eadd7895f93.jpg,44,56,529,684,Person
+imgs_test/78846eadd7895f93.jpg,656,319,834,634,Mobile phone
+imgs_test/78846eadd7895f93.jpg,350,73,932,683,Person
+imgs_test/78846eadd7895f93.jpg,677,419,705,505,Person
+imgs_test/78846eadd7895f93.jpg,735,391,812,525,Person
+imgs_test/7887190204c217eb.jpg,272,14,957,672,Person
+imgs_test/7887190204c217eb.jpg,256,346,344,485,Mobile phone
+imgs_test/793fc95bfdd6353b.jpg,376,98,1024,560,Mobile phone
+imgs_test/793fc95bfdd6353b.jpg,0,0,248,153,Mobile phone
+imgs_test/7958e7cb4d6c92f1.jpg,440,0,540,162,Person
+imgs_test/7958e7cb4d6c92f1.jpg,172,0,217,95,Person
+imgs_test/7958e7cb4d6c92f1.jpg,225,0,270,97,Person
+imgs_test/7958e7cb4d6c92f1.jpg,264,0,284,80,Person
+imgs_test/7958e7cb4d6c92f1.jpg,305,1,357,100,Person
+imgs_test/7958e7cb4d6c92f1.jpg,368,0,421,101,Person
+imgs_test/7958e7cb4d6c92f1.jpg,526,3,615,120,Person
+imgs_test/797f8e3e907ab7c5.jpg,398,504,572,766,Mobile phone
+imgs_test/79a48d240862ef41.jpg,74,264,421,528,Person
+imgs_test/79a48d240862ef41.jpg,455,267,540,486,Person
+imgs_test/79a48d240862ef41.jpg,562,252,664,478,Person
+imgs_test/79a48d240862ef41.jpg,702,236,798,472,Person
+imgs_test/7a30892d99ebaf5d.jpg,284,36,833,639,Mobile phone
+imgs_test/7a339ec56e60e164.jpg,102,228,412,521,Person
+imgs_test/7a339ec56e60e164.jpg,653,284,1023,629,Person
+imgs_test/7a54486886893999.jpg,598,106,878,529,Mobile phone
+imgs_test/7a54486886893999.jpg,712,0,1023,401,Person
+imgs_test/7a66ad571565a04c.jpg,0,417,75,548,Car
+imgs_test/7a805d657acad60b.jpg,65,157,215,426,Mobile phone
+imgs_test/7a805d657acad60b.jpg,0,306,300,680,Person
+imgs_test/7aa37c46a80621ec.jpg,185,94,924,622,Car
+imgs_test/7adcb1cfb618b6a1.jpg,140,80,835,682,Mobile phone
+imgs_test/7b04daf3dd169be6.jpg,0,173,529,679,Person
+imgs_test/7b04daf3dd169be6.jpg,528,464,630,615,Person
+imgs_test/7b04daf3dd169be6.jpg,563,350,855,679,Person
+imgs_test/7b04daf3dd169be6.jpg,624,270,1023,679,Person
+imgs_test/7bc67d68f2046beb.jpg,298,21,470,235,Mobile phone
+imgs_test/7bf1da589a9cec94.jpg,202,137,908,617,Car
+imgs_test/7bf1da589a9cec94.jpg,86,358,141,558,Person
+imgs_test/7bf1da589a9cec94.jpg,120,303,248,409,Person
+imgs_test/7bf1da589a9cec94.jpg,336,208,519,547,Person
+imgs_test/7bf1da589a9cec94.jpg,461,213,605,425,Person
+imgs_test/7ceca2578743018d.jpg,207,226,337,461,Mobile phone
+imgs_test/7ceca2578743018d.jpg,633,174,687,278,Mobile phone
+imgs_test/7ceca2578743018d.jpg,689,314,748,424,Mobile phone
+imgs_test/7ceca2578743018d.jpg,766,314,821,424,Mobile phone
+imgs_test/7ceca2578743018d.jpg,818,477,877,570,Mobile phone
+imgs_test/7cff31b1f616ee25.jpg,558,221,618,346,Person
+imgs_test/7cff31b1f616ee25.jpg,284,194,369,308,Person
+imgs_test/7cff31b1f616ee25.jpg,373,186,469,277,Person
+imgs_test/7cff31b1f616ee25.jpg,965,362,990,423,Person
+imgs_test/7cff31b1f616ee25.jpg,650,327,962,512,Car
+imgs_test/7d03d2c2ae766d8c.jpg,382,262,814,462,Car
+imgs_test/7d03d2c2ae766d8c.jpg,817,414,1004,488,Car
+imgs_test/7d450bc0d3b1688f.jpg,0,231,163,766,Person
+imgs_test/7d450bc0d3b1688f.jpg,358,341,890,766,Person
+imgs_test/7d450bc0d3b1688f.jpg,497,308,599,592,Person
+imgs_test/7d450bc0d3b1688f.jpg,776,343,917,543,Person
+imgs_test/7d450bc0d3b1688f.jpg,867,360,951,503,Person
+imgs_test/7d450bc0d3b1688f.jpg,920,375,1022,577,Person
+imgs_test/7d96fec610e5eee7.jpg,103,254,361,363,Car
+imgs_test/7d96fec610e5eee7.jpg,553,287,599,332,Car
+imgs_test/7d96fec610e5eee7.jpg,645,271,682,316,Car
+imgs_test/7d96fec610e5eee7.jpg,849,277,869,295,Car
+imgs_test/7e28c7f927f66db2.jpg,130,362,411,814,Person
+imgs_test/7e35fe7a29e2a21d.jpg,157,828,199,876,Person
+imgs_test/7e35fe7a29e2a21d.jpg,209,837,241,867,Person
+imgs_test/7e35fe7a29e2a21d.jpg,261,824,318,876,Person
+imgs_test/7e35fe7a29e2a21d.jpg,335,835,374,870,Person
+imgs_test/7e35fe7a29e2a21d.jpg,371,830,450,877,Person
+imgs_test/7e35fe7a29e2a21d.jpg,448,841,501,881,Person
+imgs_test/7e4944ab588c698a.jpg,167,401,462,488,Person
+imgs_test/7e4944ab588c698a.jpg,183,64,810,137,Person
+imgs_test/7e4944ab588c698a.jpg,344,641,362,680,Person
+imgs_test/7e4944ab588c698a.jpg,359,558,672,642,Person
+imgs_test/7e4944ab588c698a.jpg,707,545,1023,650,Person
+imgs_test/7e4944ab588c698a.jpg,866,304,970,340,Person
+imgs_test/7e4944ab588c698a.jpg,891,332,1023,432,Person
+imgs_test/7ea0dced873d1541.jpg,0,275,173,565,Person
+imgs_test/7ea0dced873d1541.jpg,102,247,360,429,Person
+imgs_test/7ea0dced873d1541.jpg,290,269,419,381,Person
+imgs_test/7ea0dced873d1541.jpg,384,261,570,350,Person
+imgs_test/7ea0dced873d1541.jpg,463,315,673,639,Person
+imgs_test/7ea0dced873d1541.jpg,464,226,538,314,Person
+imgs_test/7ea0dced873d1541.jpg,506,221,595,338,Person
+imgs_test/7ea0dced873d1541.jpg,563,204,600,249,Person
+imgs_test/7ea0dced873d1541.jpg,563,237,631,331,Person
+imgs_test/7ea0dced873d1541.jpg,576,289,845,431,Person
+imgs_test/7ea0dced873d1541.jpg,698,212,749,335,Person
+imgs_test/7ea0dced873d1541.jpg,783,226,828,293,Person
+imgs_test/7ea0dced873d1541.jpg,820,244,916,390,Person
+imgs_test/7ea0dced873d1541.jpg,828,229,861,295,Person
+imgs_test/7ea0dced873d1541.jpg,834,212,854,227,Person
+imgs_test/7ea0dced873d1541.jpg,857,230,872,242,Person
+imgs_test/7ea0dced873d1541.jpg,891,267,961,340,Person
+imgs_test/7ea0dced873d1541.jpg,928,243,965,289,Person
+imgs_test/7ea0dced873d1541.jpg,613,210,674,241,Car
+imgs_test/7ea0dced873d1541.jpg,667,207,708,238,Car
+imgs_test/7ea0dced873d1541.jpg,875,207,955,256,Car
+imgs_test/7ec9ca9cce2d7d6c.jpg,24,186,824,637,Person
+imgs_test/7f66cca32acc8e7e.jpg,94,587,250,637,Car
+imgs_test/7f66cca32acc8e7e.jpg,645,598,833,661,Car
+imgs_test/7f66cca32acc8e7e.jpg,716,605,929,681,Car
+imgs_test/80150ea94bc0c61e.jpg,151,229,979,556,Car
+imgs_test/805498c285a88a3c.jpg,494,442,675,782,Person
+imgs_test/805498c285a88a3c.jpg,339,524,498,659,Person
+imgs_test/808cb292fb6ce0c8.jpg,67,126,288,649,Person
+imgs_test/808cb292fb6ce0c8.jpg,516,114,1023,681,Person
+imgs_test/80f0438d1cf9eeba.jpg,26,2,977,683,Mobile phone
+imgs_test/80f523931b1939e1.jpg,919,31,1005,363,Person
+imgs_test/80f523931b1939e1.jpg,0,9,55,228,Person
+imgs_test/80f523931b1939e1.jpg,195,21,221,87,Person
+imgs_test/80f523931b1939e1.jpg,231,13,268,86,Person
+imgs_test/80f523931b1939e1.jpg,290,27,311,47,Person
+imgs_test/80f523931b1939e1.jpg,316,21,340,53,Person
+imgs_test/80f523931b1939e1.jpg,352,43,416,143,Person
+imgs_test/80f523931b1939e1.jpg,403,27,424,54,Person
+imgs_test/80f523931b1939e1.jpg,469,13,487,55,Person
+imgs_test/80f523931b1939e1.jpg,493,29,499,37,Person
+imgs_test/80f523931b1939e1.jpg,499,24,521,39,Person
+imgs_test/80f523931b1939e1.jpg,519,19,536,39,Person
+imgs_test/80f523931b1939e1.jpg,536,27,556,39,Person
+imgs_test/80f523931b1939e1.jpg,583,19,609,43,Person
+imgs_test/80f523931b1939e1.jpg,625,31,641,78,Person
+imgs_test/80f523931b1939e1.jpg,641,35,668,86,Person
+imgs_test/80f523931b1939e1.jpg,670,20,712,92,Person
+imgs_test/80f523931b1939e1.jpg,739,25,766,84,Person
+imgs_test/80f523931b1939e1.jpg,765,23,778,45,Person
+imgs_test/80f523931b1939e1.jpg,775,24,803,100,Person
+imgs_test/80f523931b1939e1.jpg,820,27,976,181,Person
+imgs_test/80f523931b1939e1.jpg,33,107,973,572,Car
+imgs_test/80f523931b1939e1.jpg,260,38,366,79,Car
+imgs_test/80f523931b1939e1.jpg,329,35,469,103,Car
+imgs_test/80f523931b1939e1.jpg,423,34,884,251,Car
+imgs_test/8109756669b88b6e.jpg,86,302,310,680,Person
+imgs_test/81a71b4943f81816.jpg,697,498,1023,682,Car
+imgs_test/81c806e55e02e549.jpg,23,17,1016,668,Person
+imgs_test/81daff50905fe0ac.jpg,0,10,13,33,Person
+imgs_test/81daff50905fe0ac.jpg,0,95,78,512,Person
+imgs_test/81daff50905fe0ac.jpg,7,103,87,426,Person
+imgs_test/81daff50905fe0ac.jpg,16,14,40,33,Person
+imgs_test/81daff50905fe0ac.jpg,31,11,42,31,Person
+imgs_test/81daff50905fe0ac.jpg,42,0,72,32,Person
+imgs_test/81daff50905fe0ac.jpg,277,8,293,32,Person
+imgs_test/81daff50905fe0ac.jpg,297,12,313,26,Person
+imgs_test/81daff50905fe0ac.jpg,321,0,337,21,Person
+imgs_test/81daff50905fe0ac.jpg,357,2,370,17,Person
+imgs_test/81daff50905fe0ac.jpg,388,1,399,10,Person
+imgs_test/81daff50905fe0ac.jpg,503,0,539,67,Person
+imgs_test/81daff50905fe0ac.jpg,560,0,577,7,Person
+imgs_test/81daff50905fe0ac.jpg,797,0,967,226,Person
+imgs_test/81daff50905fe0ac.jpg,0,0,1023,723,Car
+imgs_test/822d54c4e9d65c57.jpg,65,216,1022,574,Car
+imgs_test/82847d83ff6b9dbf.jpg,618,177,960,800,Person
+imgs_test/82847d83ff6b9dbf.jpg,475,229,685,628,Person
+imgs_test/82847d83ff6b9dbf.jpg,834,222,958,397,Person
+imgs_test/82847d83ff6b9dbf.jpg,291,323,535,530,Car
+imgs_test/82cb33e85ad4ade2.jpg,54,564,441,678,Car
+imgs_test/82cb33e85ad4ade2.jpg,288,535,390,588,Car
+imgs_test/82cb33e85ad4ade2.jpg,539,537,641,590,Car
+imgs_test/82cb33e85ad4ade2.jpg,716,340,883,446,Car
+imgs_test/83087c205b57f39e.jpg,46,467,153,570,Car
+imgs_test/83087c205b57f39e.jpg,746,370,783,390,Car
+imgs_test/83087c205b57f39e.jpg,769,345,813,378,Car
+imgs_test/83087c205b57f39e.jpg,814,347,876,378,Car
+imgs_test/83087c205b57f39e.jpg,888,322,937,355,Car
+imgs_test/83087c205b57f39e.jpg,998,419,1011,489,Car
+imgs_test/835545c99d605f65.jpg,659,244,716,423,Person
+imgs_test/835545c99d605f65.jpg,472,231,562,508,Person
+imgs_test/835545c99d605f65.jpg,523,313,556,377,Person
+imgs_test/835545c99d605f65.jpg,531,251,569,356,Person
+imgs_test/835545c99d605f65.jpg,573,341,666,436,Person
+imgs_test/838c5672e7a5e4ed.jpg,259,39,547,505,Mobile phone
+imgs_test/838c5672e7a5e4ed.jpg,540,46,771,510,Mobile phone
+imgs_test/8395b01b03fe62c5.jpg,273,258,541,374,Car
+imgs_test/83c201bc9113c755.jpg,36,30,663,1008,Mobile phone
+imgs_test/83dfbda0ea56bb70.jpg,597,113,817,440,Mobile phone
+imgs_test/83dfbda0ea56bb70.jpg,315,474,719,888,Mobile phone
+imgs_test/8440a0525669a9b4.jpg,300,79,747,678,Mobile phone
+imgs_test/84a88748c0401244.jpg,0,0,1023,767,Car
+imgs_test/853db300325929e0.jpg,364,576,446,629,Car
+imgs_test/853db300325929e0.jpg,429,576,512,639,Car
+imgs_test/853db300325929e0.jpg,887,566,1023,741,Car
+imgs_test/864af207eaa40609.jpg,0,198,148,281,Car
+imgs_test/864af207eaa40609.jpg,419,177,637,336,Car
+imgs_test/864af207eaa40609.jpg,582,177,686,226,Car
+imgs_test/864af207eaa40609.jpg,918,196,1023,337,Car
+imgs_test/864af207eaa40609.jpg,922,185,1021,286,Car
+imgs_test/86ea1e10e71ee4a1.jpg,0,294,130,506,Car
+imgs_test/8745b30c5a45486e.jpg,25,174,717,1023,Person
+imgs_test/8757963f53b7ad23.jpg,65,338,97,409,Person
+imgs_test/8757963f53b7ad23.jpg,145,340,174,404,Person
+imgs_test/8757963f53b7ad23.jpg,350,349,374,418,Person
+imgs_test/8757963f53b7ad23.jpg,585,349,599,395,Person
+imgs_test/8757963f53b7ad23.jpg,627,279,700,501,Person
+imgs_test/8757963f53b7ad23.jpg,629,219,673,332,Person
+imgs_test/8757963f53b7ad23.jpg,685,257,722,359,Person
+imgs_test/8757963f53b7ad23.jpg,769,336,837,469,Person
+imgs_test/8757963f53b7ad23.jpg,812,363,866,494,Person
+imgs_test/8757963f53b7ad23.jpg,842,279,892,469,Person
+imgs_test/8757963f53b7ad23.jpg,844,248,906,328,Person
+imgs_test/875da89279cb9f3b.jpg,0,350,69,539,Person
+imgs_test/875da89279cb9f3b.jpg,104,357,254,583,Person
+imgs_test/875da89279cb9f3b.jpg,284,245,428,561,Person
+imgs_test/875da89279cb9f3b.jpg,528,354,631,540,Person
+imgs_test/875da89279cb9f3b.jpg,749,323,879,551,Person
+imgs_test/8765f7a914b7e7ca.jpg,309,56,756,586,Person
+imgs_test/8765f7a914b7e7ca.jpg,0,312,316,682,Person
+imgs_test/88b13fdaccf25c81.jpg,174,127,828,502,Mobile phone
+imgs_test/88c51f3c9687ca11.jpg,17,138,593,984,Mobile phone
+imgs_test/89d3a6fefb80a4d5.jpg,122,173,803,479,Car
+imgs_test/89d3a6fefb80a4d5.jpg,933,229,1023,388,Car
+imgs_test/8aab406535c8851d.jpg,53,129,921,612,Mobile phone
+imgs_test/8af61572eb78369e.jpg,331,158,385,304,Person
+imgs_test/8af61572eb78369e.jpg,214,179,254,329,Person
+imgs_test/8b3aaa3cdc4245e2.jpg,264,390,339,483,Mobile phone
+imgs_test/8b3aaa3cdc4245e2.jpg,274,510,374,626,Mobile phone
+imgs_test/8b88f1d3049fe715.jpg,250,147,894,767,Person
+imgs_test/8bb79a218631c982.jpg,93,115,859,532,Mobile phone
+imgs_test/8c1902608e3e817c.jpg,82,67,565,769,Person
+imgs_test/8c8a96fa11fcd8c7.jpg,21,71,498,838,Mobile phone
+imgs_test/8cd17f5b81f3844b.jpg,0,499,515,1023,Person
+imgs_test/8cd17f5b81f3844b.jpg,50,456,69,503,Person
+imgs_test/8cd17f5b81f3844b.jpg,104,454,122,494,Person
+imgs_test/8cd17f5b81f3844b.jpg,156,456,170,478,Person
+imgs_test/8cd17f5b81f3844b.jpg,173,456,189,474,Person
+imgs_test/8cd17f5b81f3844b.jpg,193,791,251,912,Person
+imgs_test/8cd17f5b81f3844b.jpg,464,467,684,826,Person
+imgs_test/8d0a124a98935128.jpg,30,427,208,530,Car
+imgs_test/8d0a124a98935128.jpg,247,227,370,282,Car
+imgs_test/8d0a124a98935128.jpg,325,406,504,493,Car
+imgs_test/8d0a124a98935128.jpg,488,439,760,536,Car
+imgs_test/8d0a124a98935128.jpg,500,203,579,249,Car
+imgs_test/8d3afde28b20921a.jpg,138,348,236,585,Person
+imgs_test/8d3afde28b20921a.jpg,268,350,334,589,Person
+imgs_test/8d3afde28b20921a.jpg,306,397,368,527,Person
+imgs_test/8d3afde28b20921a.jpg,407,389,474,577,Person
+imgs_test/8d3afde28b20921a.jpg,439,401,490,498,Person
+imgs_test/8d3afde28b20921a.jpg,465,397,515,546,Person
+imgs_test/8d3afde28b20921a.jpg,533,358,620,572,Person
+imgs_test/8d3afde28b20921a.jpg,560,377,605,497,Person
+imgs_test/8d3afde28b20921a.jpg,607,373,646,518,Person
+imgs_test/8d3afde28b20921a.jpg,613,401,691,558,Person
+imgs_test/8d3afde28b20921a.jpg,616,402,661,542,Person
+imgs_test/8d3afde28b20921a.jpg,689,402,757,556,Person
+imgs_test/8d3afde28b20921a.jpg,701,384,759,477,Person
+imgs_test/8d3afde28b20921a.jpg,735,400,776,487,Person
+imgs_test/8d3afde28b20921a.jpg,898,413,946,536,Person
+imgs_test/8d3afde28b20921a.jpg,919,413,984,555,Person
+imgs_test/8d3afde28b20921a.jpg,981,405,1004,517,Person
+imgs_test/8d3afde28b20921a.jpg,986,401,1023,527,Person
+imgs_test/8d3afde28b20921a.jpg,0,0,1023,679,Car
+imgs_test/8d461c565376c895.jpg,32,20,918,826,Car
+imgs_test/8d461c565376c895.jpg,0,70,254,403,Car
+imgs_test/8d461c565376c895.jpg,716,0,1022,316,Car
+imgs_test/8dd29998e2e00094.jpg,0,680,260,681,Car
+imgs_test/8dd29998e2e00094.jpg,0,646,272,680,Car
+imgs_test/8dd29998e2e00094.jpg,751,562,921,657,Car
+imgs_test/8dd29998e2e00094.jpg,936,542,1022,602,Car
+imgs_test/8dd29998e2e00094.jpg,1002,538,1021,571,Car
+imgs_test/8dd6912439a4149c.jpg,225,282,487,1023,Person
+imgs_test/8dd6912439a4149c.jpg,458,211,682,764,Person
+imgs_test/8de6a16c5c6cf2bf.jpg,234,267,702,479,Car
+imgs_test/8f38277cafe11de7.jpg,156,210,520,616,Mobile phone
+imgs_test/8f88914d0b299f2e.jpg,594,462,981,754,Car
+imgs_test/8feb261b5d8fd6f8.jpg,53,186,945,659,Car
+imgs_test/8ffd6264026d4e80.jpg,591,229,682,548,Person
+imgs_test/8ffd6264026d4e80.jpg,270,225,665,561,Person
+imgs_test/90b4dab49213bb6c.jpg,17,583,316,760,Car
+imgs_test/91036457461b513c.jpg,28,29,1023,762,Mobile phone
+imgs_test/910a99126a57f210.jpg,0,0,1022,766,Car
+imgs_test/91261c0918d0f9cd.jpg,0,30,353,264,Car
+imgs_test/9137817ca747e7ae.jpg,247,1,836,683,Mobile phone
+imgs_test/9163a527dbd8dd86.jpg,0,63,59,156,Car
+imgs_test/9163a527dbd8dd86.jpg,32,0,1023,694,Car
+imgs_test/93137d856f22dece.jpg,32,311,695,668,Car
+imgs_test/93137d856f22dece.jpg,558,274,739,411,Car
+imgs_test/93137d856f22dece.jpg,708,268,757,325,Car
+imgs_test/93137d856f22dece.jpg,739,275,876,374,Car
+imgs_test/936648d021c3d25f.jpg,176,406,240,530,Mobile phone
+imgs_test/94174d85397ceeb9.jpg,16,11,534,1024,Mobile phone
+imgs_test/947e090e64510932.jpg,200,298,309,655,Person
+imgs_test/947e090e64510932.jpg,845,247,915,398,Person
+imgs_test/948ce12e36dacbbc.jpg,154,311,948,627,Person
+imgs_test/948ce12e36dacbbc.jpg,166,301,424,630,Person
+imgs_test/948ce12e36dacbbc.jpg,441,304,491,470,Person
+imgs_test/948ce12e36dacbbc.jpg,486,338,531,465,Person
+imgs_test/948ce12e36dacbbc.jpg,657,360,837,540,Person
+imgs_test/948ce12e36dacbbc.jpg,890,417,938,488,Person
+imgs_test/948ce12e36dacbbc.jpg,923,404,949,456,Person
+imgs_test/94e8fdb3ac67fe39.jpg,31,155,967,910,Car
+imgs_test/94e8fdb3ac67fe39.jpg,70,297,199,409,Car
+imgs_test/94e8fdb3ac67fe39.jpg,849,368,943,433,Car
+imgs_test/94e8fdb3ac67fe39.jpg,900,368,1022,483,Car
+imgs_test/951fa24638b56077.jpg,700,542,899,673,Car
+imgs_test/951fa24638b56077.jpg,848,505,1023,622,Car
+imgs_test/95d0fc2f57343a72.jpg,76,21,696,628,Mobile phone
+imgs_test/96055dca72e9ac36.jpg,257,307,869,667,Person
+imgs_test/96055dca72e9ac36.jpg,45,535,163,680,Person
+imgs_test/969ca97d77d950e3.jpg,141,0,280,99,Car
+imgs_test/969ca97d77d950e3.jpg,162,80,267,111,Car
+imgs_test/96df341e65ac4ddd.jpg,214,39,847,641,Car
+imgs_test/971199f7799d1601.jpg,280,167,746,481,Mobile phone
+imgs_test/9715c43e89cab165.jpg,0,409,1023,544,Person
+imgs_test/9715c43e89cab165.jpg,417,499,431,541,Person
+imgs_test/9715c43e89cab165.jpg,622,509,650,544,Person
+imgs_test/97e5ca776c204b19.jpg,143,439,220,632,Person
+imgs_test/97e5ca776c204b19.jpg,257,422,328,617,Person
+imgs_test/97e5ca776c204b19.jpg,368,429,404,549,Person
+imgs_test/97e5ca776c204b19.jpg,394,409,469,633,Person
+imgs_test/97e5ca776c204b19.jpg,458,431,496,560,Person
+imgs_test/97e5ca776c204b19.jpg,458,437,469,450,Person
+imgs_test/97e5ca776c204b19.jpg,483,434,502,447,Person
+imgs_test/97e5ca776c204b19.jpg,493,440,519,537,Person
+imgs_test/97e5ca776c204b19.jpg,510,429,551,552,Person
+imgs_test/97e5ca776c204b19.jpg,537,433,552,460,Person
+imgs_test/97e5ca776c204b19.jpg,561,424,597,552,Person
+imgs_test/97e5ca776c204b19.jpg,581,436,613,555,Person
+imgs_test/9817c2e84658945c.jpg,0,0,1023,767,Car
+imgs_test/98180f58aa617094.jpg,29,394,453,698,Mobile phone
+imgs_test/98cef62d78a22844.jpg,481,388,586,564,Mobile phone
+imgs_test/98cef62d78a22844.jpg,254,0,547,555,Mobile phone
+imgs_test/98df4288a1e1e1e9.jpg,0,284,111,767,Person
+imgs_test/98df4288a1e1e1e9.jpg,56,81,842,767,Person
+imgs_test/994506c59ba5b362.jpg,773,382,869,658,Person
+imgs_test/994506c59ba5b362.jpg,896,379,993,642,Person
+imgs_test/995ce83232bb1ade.jpg,58,357,477,551,Car
+imgs_test/99a23a17e6333b45.jpg,515,14,711,597,Person
+imgs_test/99a23a17e6333b45.jpg,109,30,360,581,Person
+imgs_test/99a23a17e6333b45.jpg,277,39,488,577,Person
+imgs_test/99d993f666c94c9c.jpg,33,88,981,489,Car
+imgs_test/9a0fb58aa01c0ed0.jpg,328,80,690,683,Mobile phone
+imgs_test/9a5a186f3de76df8.jpg,385,75,642,520,Person
+imgs_test/9ac173f3ca270882.jpg,0,211,427,416,Car
+imgs_test/9ac173f3ca270882.jpg,446,218,571,323,Car
+imgs_test/9b6bbc09e27a095c.jpg,0,12,1011,730,Mobile phone
+imgs_test/9bafd88e1bd1498d.jpg,0,245,1023,767,Car
+imgs_test/9bf7604e98da971c.jpg,299,84,547,621,Person
+imgs_test/9cd5bdd04d2daa26.jpg,588,223,811,409,Mobile phone
+imgs_test/9cd5bdd04d2daa26.jpg,44,0,967,638,Person
+imgs_test/9cd5bdd04d2daa26.jpg,295,464,364,517,Mobile phone
+imgs_test/9cedf786f05fc3a9.jpg,286,147,634,885,Mobile phone
+imgs_test/9cf58e8133bd3510.jpg,1,0,1004,737,Car
+imgs_test/9db1708f4b5604f8.jpg,840,357,895,382,Car
+imgs_test/9dd16f7abe939b2e.jpg,312,262,655,462,Car
+imgs_test/9e35734be16c76f4.jpg,0,92,452,682,Person
+imgs_test/9e35734be16c76f4.jpg,254,233,518,524,Person
+imgs_test/9e35734be16c76f4.jpg,426,177,773,567,Person
+imgs_test/9e35734be16c76f4.jpg,627,0,1023,682,Person
+imgs_test/9e35734be16c76f4.jpg,636,294,956,661,Person
+imgs_test/9e3590d536d617a1.jpg,277,224,323,334,Person
+imgs_test/9e3590d536d617a1.jpg,316,217,340,303,Person
+imgs_test/9e3590d536d617a1.jpg,335,211,378,332,Person
+imgs_test/9e3590d536d617a1.jpg,361,217,393,300,Person
+imgs_test/9e3590d536d617a1.jpg,391,250,415,286,Person
+imgs_test/9e3590d536d617a1.jpg,428,215,471,268,Person
+imgs_test/9e3590d536d617a1.jpg,505,219,536,311,Person
+imgs_test/9e3590d536d617a1.jpg,530,204,557,323,Person
+imgs_test/9e3590d536d617a1.jpg,551,254,579,317,Person
+imgs_test/9e74beedceb330b2.jpg,474,176,919,528,Mobile phone
+imgs_test/9f139bfa1881f08d.jpg,0,404,1023,627,Car
+imgs_test/a00f66d96ab42e8d.jpg,179,61,424,649,Person
+imgs_test/a00f66d96ab42e8d.jpg,0,209,1023,682,Person
+imgs_test/a01dc4a0e833cba4.jpg,22,55,964,565,Car
+imgs_test/a01dc4a0e833cba4.jpg,0,0,177,74,Person
+imgs_test/a01dc4a0e833cba4.jpg,526,0,570,68,Person
+imgs_test/a01dc4a0e833cba4.jpg,558,0,603,86,Person
+imgs_test/a01dc4a0e833cba4.jpg,648,0,689,81,Person
+imgs_test/a01dc4a0e833cba4.jpg,585,12,1023,297,Car
+imgs_test/a04aa9119e32eb25.jpg,602,256,982,823,Mobile phone
+imgs_test/a04aa9119e32eb25.jpg,33,512,562,925,Mobile phone
+imgs_test/a10c33075d77649f.jpg,35,147,138,406,Person
+imgs_test/a10c33075d77649f.jpg,0,170,51,463,Person
+imgs_test/a10c33075d77649f.jpg,93,177,163,377,Person
+imgs_test/a10c33075d77649f.jpg,163,189,258,359,Person
+imgs_test/a10c33075d77649f.jpg,241,186,291,260,Person
+imgs_test/a10c33075d77649f.jpg,438,188,504,383,Person
+imgs_test/a10c33075d77649f.jpg,807,147,878,231,Person
+imgs_test/a28e58709d54f7fe.jpg,197,746,416,862,Car
+imgs_test/a28e58709d54f7fe.jpg,0,920,100,1022,Car
+imgs_test/a28e58709d54f7fe.jpg,420,725,612,865,Car
+imgs_test/a28e58709d54f7fe.jpg,602,714,704,780,Car
+imgs_test/a370f0c2565bbc36.jpg,238,88,708,976,Mobile phone
+imgs_test/a3ac5593c70db625.jpg,0,0,991,643,Person
+imgs_test/a3ac5593c70db625.jpg,0,416,1022,682,Car
+imgs_test/a4930ccdec20ab18.jpg,266,46,929,660,Person
+imgs_test/a4ba6daee124e7a4.jpg,817,348,1017,517,Car
+imgs_test/a54fdaa154416f95.jpg,176,46,878,621,Mobile phone
+imgs_test/a60378a125f617a7.jpg,302,151,657,417,Car
+imgs_test/a6159fd3f8bcf4f8.jpg,792,372,990,825,Person
+imgs_test/a79584aa26d0c711.jpg,602,83,802,554,Mobile phone
+imgs_test/a79584aa26d0c711.jpg,67,154,226,578,Mobile phone
+imgs_test/a7dd7d4de7e76203.jpg,464,142,801,697,Person
+imgs_test/a804fbb55d82d710.jpg,607,369,813,518,Car
+imgs_test/a804fbb55d82d710.jpg,90,339,121,371,Car
+imgs_test/a804fbb55d82d710.jpg,227,346,309,371,Car
+imgs_test/a804fbb55d82d710.jpg,562,364,657,448,Car
+imgs_test/a804fbb55d82d710.jpg,755,350,1023,575,Car
+imgs_test/a884a28ba858f38e.jpg,346,270,581,574,Person
+imgs_test/a884a28ba858f38e.jpg,823,208,1023,599,Person
+imgs_test/a92fe4a713a21ed5.jpg,396,234,457,353,Person
+imgs_test/a92fe4a713a21ed5.jpg,175,326,259,613,Person
+imgs_test/a92fe4a713a21ed5.jpg,230,305,306,430,Person
+imgs_test/a92fe4a713a21ed5.jpg,258,290,330,400,Person
+imgs_test/a92fe4a713a21ed5.jpg,298,272,385,383,Person
+imgs_test/a92fe4a713a21ed5.jpg,597,120,1017,378,Person
+imgs_test/a92fe4a713a21ed5.jpg,734,241,1023,682,Person
+imgs_test/a98e39eb5adaf3e4.jpg,30,83,633,970,Mobile phone
+imgs_test/a992ed9a815c47da.jpg,172,18,284,379,Person
+imgs_test/a992ed9a815c47da.jpg,212,5,397,349,Person
+imgs_test/a9ce5d11d89d7351.jpg,17,414,579,921,Car
+imgs_test/a9ce5d11d89d7351.jpg,444,444,1022,982,Car
+imgs_test/aa7d8afda267cfb3.jpg,0,170,231,335,Car
+imgs_test/aa7d8afda267cfb3.jpg,34,231,976,549,Car
+imgs_test/aa7d8afda267cfb3.jpg,186,144,304,243,Car
+imgs_test/aa7d8afda267cfb3.jpg,430,168,597,224,Car
+imgs_test/aa7d8afda267cfb3.jpg,545,154,632,197,Car
+imgs_test/aa7d8afda267cfb3.jpg,612,168,768,245,Car
+imgs_test/aa7d8afda267cfb3.jpg,695,167,870,259,Car
+imgs_test/ab1b6f8f117e5d17.jpg,78,74,683,984,Mobile phone
+imgs_test/ab21d2962eb5b5c8.jpg,30,13,978,671,Car
+imgs_test/ab9f83a589c4bd77.jpg,560,106,832,548,Mobile phone
+imgs_test/ab9f83a589c4bd77.jpg,741,164,975,560,Mobile phone
+imgs_test/abe0fc5758318110.jpg,69,327,346,972,Person
+imgs_test/abe0fc5758318110.jpg,249,384,445,904,Person
+imgs_test/abe0fc5758318110.jpg,320,385,541,817,Person
+imgs_test/abe0fc5758318110.jpg,373,358,583,754,Person
+imgs_test/abe0fc5758318110.jpg,455,373,820,977,Person
+imgs_test/abe0fc5758318110.jpg,684,331,926,848,Person
+imgs_test/abe0fc5758318110.jpg,868,358,1022,849,Person
+imgs_test/ac9a64dc37648051.jpg,357,80,664,613,Mobile phone
+imgs_test/acb2ed76a45b2bcc.jpg,33,174,246,494,Person
+imgs_test/acb2ed76a45b2bcc.jpg,543,229,736,472,Person
+imgs_test/acc33591eb01bf58.jpg,110,115,128,132,Car
+imgs_test/acc33591eb01bf58.jpg,137,108,154,124,Car
+imgs_test/acc33591eb01bf58.jpg,188,108,208,117,Car
+imgs_test/acc33591eb01bf58.jpg,247,167,307,192,Car
+imgs_test/accf6a237b3db844.jpg,384,0,903,352,Person
+imgs_test/accf6a237b3db844.jpg,725,0,1023,355,Person
+imgs_test/ae2abb18931e8f97.jpg,92,8,758,638,Person
+imgs_test/aea98ee48c9dc672.jpg,403,445,574,516,Car
+imgs_test/aea98ee48c9dc672.jpg,579,449,681,505,Car
+imgs_test/aea98ee48c9dc672.jpg,657,450,735,492,Car
+imgs_test/aea98ee48c9dc672.jpg,768,435,849,474,Car
+imgs_test/aea98ee48c9dc672.jpg,872,445,912,497,Car
+imgs_test/aec658094f104de2.jpg,59,49,110,99,Car
+imgs_test/aec658094f104de2.jpg,107,64,117,92,Car
+imgs_test/aec658094f104de2.jpg,656,56,698,77,Car
+imgs_test/aec658094f104de2.jpg,836,60,888,89,Car
+imgs_test/aec658094f104de2.jpg,865,52,974,90,Car
+imgs_test/af056d070b1da63c.jpg,414,443,980,611,Mobile phone
+imgs_test/af2861465ebcee07.jpg,319,182,507,830,Person
+imgs_test/af88e52694192c19.jpg,0,312,350,516,Car
+imgs_test/afeff7bd3dabf9f8.jpg,41,63,566,1009,Mobile phone
+imgs_test/b0071a6847984193.jpg,189,147,885,593,Mobile phone
+imgs_test/b0f803f7dcd6a935.jpg,201,172,823,522,Car
+imgs_test/b12f58726b255476.jpg,126,15,925,728,Person
+imgs_test/b160d7343a73e5af.jpg,213,93,520,675,Mobile phone
+imgs_test/b1e13bfa54401b1f.jpg,0,163,410,524,Car
+imgs_test/b1e13bfa54401b1f.jpg,368,206,522,296,Car
+imgs_test/b25c2dcbcebc44bb.jpg,253,149,468,372,Mobile phone
+imgs_test/b25c2dcbcebc44bb.jpg,448,144,887,537,Mobile phone
+imgs_test/b2a9689e2d7d47c2.jpg,247,151,739,399,Mobile phone
+imgs_test/b3c4db497dbdfcca.jpg,276,426,727,679,Car
+imgs_test/b41e98b5e484b11c.jpg,0,433,764,680,Mobile phone
+imgs_test/b451743f1474e6c1.jpg,273,40,643,661,Person
+imgs_test/b585066bd724f9d2.jpg,215,343,369,429,Car
+imgs_test/b585066bd724f9d2.jpg,295,346,423,437,Car
+imgs_test/b585066bd724f9d2.jpg,549,354,658,449,Car
+imgs_test/b6fa44c9797615fd.jpg,605,519,705,599,Car
+imgs_test/b6fa44c9797615fd.jpg,451,461,962,680,Person
+imgs_test/b6fa44c9797615fd.jpg,420,516,551,600,Car
+imgs_test/b732bf04f270e39b.jpg,46,53,977,746,Car
+imgs_test/b78593b4c28903d7.jpg,26,0,1023,764,Person
+imgs_test/b78593b4c28903d7.jpg,337,387,566,482,Car
+imgs_test/b78593b4c28903d7.jpg,357,549,561,617,Car
+imgs_test/b7a3a3c9f44f2ee6.jpg,865,279,996,490,Mobile phone
+imgs_test/b9514ced7e463c9f.jpg,12,252,602,568,Mobile phone
+imgs_test/b9514ced7e463c9f.jpg,276,162,791,447,Mobile phone
+imgs_test/b9514ced7e463c9f.jpg,482,89,956,338,Mobile phone
+imgs_test/b964cd083b3291c4.jpg,472,266,767,511,Car
+imgs_test/b964cd083b3291c4.jpg,726,287,767,327,Car
+imgs_test/b9b9615ba1b29109.jpg,299,203,389,326,Person
+imgs_test/b9b9615ba1b29109.jpg,382,91,490,232,Person
+imgs_test/b9b9615ba1b29109.jpg,515,136,636,247,Person
+imgs_test/b9d365810ad94291.jpg,70,130,325,568,Mobile phone
+imgs_test/b9d365810ad94291.jpg,402,116,617,563,Mobile phone
+imgs_test/b9d365810ad94291.jpg,696,123,945,580,Mobile phone
+imgs_test/bab4801dc1dcdf40.jpg,235,99,874,761,Person
+imgs_test/bbf8b233f1fc024a.jpg,244,92,656,961,Person
+imgs_test/bbf8b233f1fc024a.jpg,0,14,299,910,Person
+imgs_test/bbf8b233f1fc024a.jpg,94,285,339,581,Mobile phone
+imgs_test/bbf8b233f1fc024a.jpg,248,772,407,1023,Mobile phone
+imgs_test/bbf8b233f1fc024a.jpg,341,380,546,684,Mobile phone
+imgs_test/bc642bb4ef5a9d8d.jpg,177,46,646,593,Person
+imgs_test/bc642bb4ef5a9d8d.jpg,808,52,829,115,Person
+imgs_test/bc642bb4ef5a9d8d.jpg,870,134,925,252,Person
+imgs_test/bc81c0b8758d9a66.jpg,0,0,1022,1022,Car
+imgs_test/bcd4394c8fc24ee3.jpg,47,279,71,379,Car
+imgs_test/bd4bc83e819460bb.jpg,120,14,924,709,Car
+imgs_test/bd4bc83e819460bb.jpg,284,0,436,63,Car
+imgs_test/bd4bc83e819460bb.jpg,777,0,1023,83,Car
+imgs_test/bdf3b435f0521357.jpg,0,140,878,1016,Mobile phone
+imgs_test/be25a39bd38e406a.jpg,734,333,999,427,Car
+imgs_test/be25a39bd38e406a.jpg,0,342,87,391,Car
+imgs_test/be25a39bd38e406a.jpg,78,358,110,412,Car
+imgs_test/be25a39bd38e406a.jpg,311,360,487,433,Car
+imgs_test/be25a39bd38e406a.jpg,508,338,686,417,Car
+imgs_test/be5d82f510332c8d.jpg,126,256,816,469,Car
+imgs_test/bef83d093b9ea9c5.jpg,462,544,591,617,Mobile phone
+imgs_test/bf0de9fa325a2792.jpg,53,14,922,918,Mobile phone
+imgs_test/bf62b993cafca4df.jpg,240,44,673,729,Mobile phone
+imgs_test/bfc4c33564889eb7.jpg,714,564,798,785,Person
+imgs_test/bfc4c33564889eb7.jpg,61,793,140,907,Person
+imgs_test/bfc4c33564889eb7.jpg,274,524,336,732,Person
+imgs_test/bfc4c33564889eb7.jpg,292,793,337,849,Person
+imgs_test/bfc4c33564889eb7.jpg,336,783,400,856,Person
+imgs_test/bfc4c33564889eb7.jpg,367,573,428,757,Person
+imgs_test/bfc4c33564889eb7.jpg,556,802,633,896,Person
+imgs_test/bfc4c33564889eb7.jpg,617,853,705,968,Person
+imgs_test/bfc4c33564889eb7.jpg,672,494,729,615,Person
+imgs_test/bfc4c33564889eb7.jpg,755,898,803,958,Person
+imgs_test/c04bb08fec8350b6.jpg,40,176,685,1024,Person
+imgs_test/c04bb08fec8350b6.jpg,654,896,686,981,Person
+imgs_test/c0680755f30004b5.jpg,197,227,540,440,Mobile phone
+imgs_test/c0969e30fa49150f.jpg,192,0,864,679,Person
+imgs_test/c0a4847b9022bcf5.jpg,38,547,73,654,Person
+imgs_test/c0a4847b9022bcf5.jpg,108,561,300,700,Car
+imgs_test/c0a4847b9022bcf5.jpg,136,560,197,593,Car
+imgs_test/c0a4847b9022bcf5.jpg,425,560,512,609,Car
+imgs_test/c13bff3071b630b6.jpg,279,49,417,270,Person
+imgs_test/c151676fc6219ecb.jpg,58,392,702,736,Car
+imgs_test/c17267c8a52285be.jpg,231,131,600,856,Mobile phone
+imgs_test/c1a2c2ce785ef74c.jpg,336,39,1023,599,Person
+imgs_test/c1b126cfd6227578.jpg,0,0,1023,767,Car
+imgs_test/c1d21d708f4e4ab1.jpg,540,288,794,581,Mobile phone
+imgs_test/c1f24e8f0249d197.jpg,693,378,982,641,Car
+imgs_test/c1f24e8f0249d197.jpg,310,342,389,501,Person
+imgs_test/c1f24e8f0249d197.jpg,482,200,541,261,Person
+imgs_test/c1f24e8f0249d197.jpg,678,368,776,592,Person
+imgs_test/c1f24e8f0249d197.jpg,43,359,268,501,Car
+imgs_test/c1f24e8f0249d197.jpg,747,420,857,525,Car
+imgs_test/c1f24e8f0249d197.jpg,750,362,829,441,Car
+imgs_test/c2012070711bfaae.jpg,228,6,800,1019,Mobile phone
+imgs_test/c21528d4223161d8.jpg,711,271,930,524,Mobile phone
+imgs_test/c2c2bed23eb1aa11.jpg,730,350,882,760,Person
+imgs_test/c2c2bed23eb1aa11.jpg,121,282,272,468,Person
+imgs_test/c2c2bed23eb1aa11.jpg,292,357,415,545,Person
+imgs_test/c2c2bed23eb1aa11.jpg,465,370,538,452,Person
+imgs_test/c2c2bed23eb1aa11.jpg,525,363,599,458,Person
+imgs_test/c3dd176024936e91.jpg,237,177,420,526,Person
+imgs_test/c4764940b9677146.jpg,231,250,394,660,Person
+imgs_test/c4e673a91b9bdf36.jpg,18,586,177,1024,Person
+imgs_test/c4e673a91b9bdf36.jpg,0,447,682,769,Person
+imgs_test/c6f4d12d0c579061.jpg,765,349,905,546,Mobile phone
+imgs_test/c6f4d12d0c579061.jpg,1,0,931,766,Person
+imgs_test/c6fdd857912e1d07.jpg,405,66,684,650,Mobile phone
+imgs_test/c77b4560ee6ea72b.jpg,90,53,897,652,Mobile phone
+imgs_test/c792acecd24e2925.jpg,774,226,1016,574,Car
+imgs_test/c7c1d05d17a6149e.jpg,42,553,397,838,Car
+imgs_test/c8836dee4791259c.jpg,273,232,894,623,Car
+imgs_test/c8836dee4791259c.jpg,5,219,42,252,Car
+imgs_test/c8836dee4791259c.jpg,37,220,165,307,Car
+imgs_test/c8836dee4791259c.jpg,581,214,736,302,Car
+imgs_test/c922bd99468be5a6.jpg,259,64,748,923,Mobile phone
+imgs_test/c98840e030d5c5a9.jpg,60,26,968,450,Car
+imgs_test/ca06f6afda1ab97f.jpg,92,64,800,997,Person
+imgs_test/ca1572f3cbaf3bd8.jpg,48,176,242,331,Mobile phone
+imgs_test/ca1572f3cbaf3bd8.jpg,246,215,362,373,Mobile phone
+imgs_test/ca1572f3cbaf3bd8.jpg,343,531,487,594,Mobile phone
+imgs_test/ca1572f3cbaf3bd8.jpg,463,245,556,394,Mobile phone
+imgs_test/ca1572f3cbaf3bd8.jpg,606,408,715,582,Mobile phone
+imgs_test/ca1572f3cbaf3bd8.jpg,651,230,792,373,Mobile phone
+imgs_test/ca1572f3cbaf3bd8.jpg,841,202,975,262,Mobile phone
+imgs_test/ca1572f3cbaf3bd8.jpg,868,256,987,315,Mobile phone
+imgs_test/ca52efa2d439345b.jpg,42,621,121,767,Person
+imgs_test/ca52efa2d439345b.jpg,120,645,210,767,Person
+imgs_test/ca52efa2d439345b.jpg,213,631,297,762,Person
+imgs_test/ca52efa2d439345b.jpg,308,662,391,767,Person
+imgs_test/ca52efa2d439345b.jpg,439,629,481,748,Person
+imgs_test/ca52efa2d439345b.jpg,519,627,549,735,Person
+imgs_test/ca52efa2d439345b.jpg,572,621,593,730,Person
+imgs_test/ca52efa2d439345b.jpg,675,618,709,764,Person
+imgs_test/ca52efa2d439345b.jpg,787,595,937,767,Person
+imgs_test/ca7175fd8fc08af6.jpg,0,250,91,554,Car
+imgs_test/ca7175fd8fc08af6.jpg,56,290,122,375,Car
+imgs_test/ca7175fd8fc08af6.jpg,58,308,107,450,Car
+imgs_test/ca7175fd8fc08af6.jpg,133,338,198,395,Car
+imgs_test/ca7175fd8fc08af6.jpg,275,299,589,573,Car
+imgs_test/ca9955980b9b6897.jpg,323,282,394,466,Person
+imgs_test/ca9955980b9b6897.jpg,359,308,375,332,Person
+imgs_test/ca9955980b9b6897.jpg,373,286,403,366,Person
+imgs_test/ca9955980b9b6897.jpg,410,325,447,465,Person
+imgs_test/ca9955980b9b6897.jpg,447,273,489,465,Person
+imgs_test/ca9955980b9b6897.jpg,480,357,505,466,Person
+imgs_test/cabe88ff2bb47045.jpg,108,5,538,758,Mobile phone
+imgs_test/cb4e2a9269920cde.jpg,501,838,570,928,Person
+imgs_test/cb4e2a9269920cde.jpg,578,828,627,914,Person
+imgs_test/cb7a16d5d5dc2e0e.jpg,433,274,542,423,Mobile phone
+imgs_test/cb7a16d5d5dc2e0e.jpg,305,163,355,208,Car
+imgs_test/cbb4021493395f69.jpg,0,116,529,1024,Mobile phone
+imgs_test/cbcfe685ddd25d78.jpg,216,1,1023,764,Person
+imgs_test/cc0360f9d3f066c4.jpg,1,171,273,406,Car
+imgs_test/cc0360f9d3f066c4.jpg,337,479,709,680,Car
+imgs_test/cc0360f9d3f066c4.jpg,360,186,647,403,Car
+imgs_test/cc0360f9d3f066c4.jpg,534,65,725,204,Car
+imgs_test/cc0360f9d3f066c4.jpg,967,78,1023,230,Car
+imgs_test/cc9df8564b460c0f.jpg,776,199,854,335,Person
+imgs_test/cc9df8564b460c0f.jpg,845,264,897,351,Person
+imgs_test/ccbdeeaf306c91d4.jpg,772,441,1023,658,Car
+imgs_test/ccd025f3c0bef0da.jpg,412,159,668,379,Car
+imgs_test/cd7b74669b77d54c.jpg,76,138,621,937,Person
+imgs_test/cdc1dc236c7e4e1d.jpg,215,5,794,624,Mobile phone
+imgs_test/cdca720082477610.jpg,488,493,799,615,Car
+imgs_test/cdca720082477610.jpg,0,570,44,642,Car
+imgs_test/cdca720082477610.jpg,47,559,150,632,Car
+imgs_test/cdd1c9770067b1b9.jpg,547,318,714,772,Person
+imgs_test/cdd1c9770067b1b9.jpg,110,336,295,751,Person
+imgs_test/cdd1c9770067b1b9.jpg,337,436,462,618,Person
+imgs_test/cdd1c9770067b1b9.jpg,705,349,901,683,Person
+imgs_test/ce756ac03fee92d0.jpg,549,311,666,382,Car
+imgs_test/ce756ac03fee92d0.jpg,652,299,810,385,Car
+imgs_test/ce756ac03fee92d0.jpg,741,321,824,389,Car
+imgs_test/ce756ac03fee92d0.jpg,762,318,876,397,Car
+imgs_test/ce94db485fc0ab37.jpg,0,239,343,353,Car
+imgs_test/cea6e0283e48a9ee.jpg,97,115,617,862,Mobile phone
+imgs_test/cede98220b50b430.jpg,527,350,934,715,Person
+imgs_test/cf42e14e6a78ab18.jpg,181,70,893,531,Mobile phone
+imgs_test/cf42e14e6a78ab18.jpg,248,95,348,398,Mobile phone
+imgs_test/cf42e14e6a78ab18.jpg,341,133,497,390,Mobile phone
+imgs_test/cf42e14e6a78ab18.jpg,498,116,645,386,Mobile phone
+imgs_test/cf42e14e6a78ab18.jpg,646,134,773,376,Mobile phone
+imgs_test/cf42e14e6a78ab18.jpg,775,143,813,371,Mobile phone
+imgs_test/cf50c55a346acda7.jpg,268,395,346,614,Person
+imgs_test/cf50c55a346acda7.jpg,0,321,212,682,Person
+imgs_test/cf50c55a346acda7.jpg,250,388,284,470,Person
+imgs_test/cf50c55a346acda7.jpg,362,375,689,585,Person
+imgs_test/cf50c55a346acda7.jpg,726,400,834,509,Person
+imgs_test/cf50c55a346acda7.jpg,853,456,1023,681,Person
+imgs_test/cfa2ad6ae0019625.jpg,230,291,352,449,Person
+imgs_test/cfa2ad6ae0019625.jpg,116,277,261,474,Person
+imgs_test/cfa2ad6ae0019625.jpg,361,315,390,362,Person
+imgs_test/cfa2ad6ae0019625.jpg,433,303,460,357,Person
+imgs_test/cfa2ad6ae0019625.jpg,464,305,493,357,Person
+imgs_test/cfa2ad6ae0019625.jpg,650,292,702,337,Person
+imgs_test/cfa2ad6ae0019625.jpg,767,311,803,370,Person
+imgs_test/cfa2ad6ae0019625.jpg,784,264,807,299,Person
+imgs_test/d0d82ead61d8e78a.jpg,71,64,920,564,Mobile phone
+imgs_test/d125155db86083af.jpg,270,528,590,680,Car
+imgs_test/d125155db86083af.jpg,583,521,1023,675,Car
+imgs_test/d171f526d4915482.jpg,227,293,343,498,Person
+imgs_test/d171f526d4915482.jpg,24,304,131,466,Person
+imgs_test/d171f526d4915482.jpg,37,152,138,306,Person
+imgs_test/d171f526d4915482.jpg,131,312,247,481,Person
+imgs_test/d171f526d4915482.jpg,138,153,244,311,Person
+imgs_test/d171f526d4915482.jpg,245,147,360,303,Person
+imgs_test/d171f526d4915482.jpg,359,312,453,486,Person
+imgs_test/d171f526d4915482.jpg,363,152,454,311,Person
+imgs_test/d171f526d4915482.jpg,453,153,572,307,Person
+imgs_test/d171f526d4915482.jpg,454,308,572,483,Person
+imgs_test/d171f526d4915482.jpg,585,160,660,271,Person
+imgs_test/d171f526d4915482.jpg,659,176,711,313,Person
+imgs_test/d171f526d4915482.jpg,660,320,705,484,Person
+imgs_test/d171f526d4915482.jpg,709,379,752,506,Person
+imgs_test/d171f526d4915482.jpg,710,250,752,381,Person
+imgs_test/d171f526d4915482.jpg,783,231,869,344,Person
+imgs_test/d171f526d4915482.jpg,784,342,863,471,Person
+imgs_test/d171f526d4915482.jpg,863,361,925,470,Person
+imgs_test/d171f526d4915482.jpg,870,228,935,327,Person
+imgs_test/d2402535b330a17f.jpg,518,391,1015,1015,Mobile phone
+imgs_test/d2402535b330a17f.jpg,0,562,547,1022,Mobile phone
+imgs_test/d26a3433ab2b1887.jpg,276,0,609,640,Person
+imgs_test/d2a1e7846a4e1ba1.jpg,0,424,181,668,Car
+imgs_test/d3c36630d95d5da0.jpg,544,265,642,405,Mobile phone
+imgs_test/d404069e26118cb6.jpg,18,296,81,488,Person
+imgs_test/d404069e26118cb6.jpg,88,288,145,438,Person
+imgs_test/d404069e26118cb6.jpg,92,288,156,456,Person
+imgs_test/d404069e26118cb6.jpg,126,291,169,475,Person
+imgs_test/d404069e26118cb6.jpg,142,233,174,284,Person
+imgs_test/d404069e26118cb6.jpg,145,241,193,300,Person
+imgs_test/d404069e26118cb6.jpg,149,279,209,492,Person
+imgs_test/d404069e26118cb6.jpg,246,268,296,436,Person
+imgs_test/d404069e26118cb6.jpg,254,244,281,309,Person
+imgs_test/d404069e26118cb6.jpg,282,240,318,371,Person
+imgs_test/d404069e26118cb6.jpg,307,243,350,382,Person
+imgs_test/d404069e26118cb6.jpg,337,258,354,282,Person
+imgs_test/d404069e26118cb6.jpg,339,258,384,405,Person
+imgs_test/d404069e26118cb6.jpg,344,211,385,258,Person
+imgs_test/d404069e26118cb6.jpg,370,246,415,367,Person
+imgs_test/d404069e26118cb6.jpg,386,257,439,391,Person
+imgs_test/d404069e26118cb6.jpg,405,232,420,261,Person
+imgs_test/d404069e26118cb6.jpg,412,252,446,377,Person
+imgs_test/d404069e26118cb6.jpg,447,250,471,316,Person
+imgs_test/d48b98317cadbd23.jpg,0,83,565,270,Person
+imgs_test/d48b98317cadbd23.jpg,579,87,652,273,Person
+imgs_test/d48b98317cadbd23.jpg,0,153,87,195,Car
+imgs_test/d48b98317cadbd23.jpg,0,130,295,441,Car
+imgs_test/d48b98317cadbd23.jpg,0,218,737,965,Car
+imgs_test/d48b98317cadbd23.jpg,173,131,273,195,Car
+imgs_test/d48b98317cadbd23.jpg,409,111,577,195,Car
+imgs_test/d48b98317cadbd23.jpg,641,114,767,216,Car
+imgs_test/d8770ec8ab7223ab.jpg,127,224,906,596,Car
+imgs_test/d8770ec8ab7223ab.jpg,0,176,42,215,Car
+imgs_test/d8770ec8ab7223ab.jpg,129,175,292,224,Car
+imgs_test/d8770ec8ab7223ab.jpg,467,209,1023,439,Car
+imgs_test/d8770ec8ab7223ab.jpg,888,216,1023,281,Car
+imgs_test/d891339d26c666ef.jpg,192,494,402,958,Person
+imgs_test/d891339d26c666ef.jpg,199,337,358,679,Person
+imgs_test/d891339d26c666ef.jpg,380,452,449,814,Person
+imgs_test/d918616d0b089ea3.jpg,112,224,966,674,Car
+imgs_test/d97001e693a45d65.jpg,0,430,518,503,Car
+imgs_test/d97001e693a45d65.jpg,509,448,569,488,Car
+imgs_test/d97001e693a45d65.jpg,568,444,631,492,Car
+imgs_test/d97001e693a45d65.jpg,624,448,696,494,Car
+imgs_test/d97001e693a45d65.jpg,900,448,1023,521,Car
+imgs_test/d9a69c68e695a518.jpg,56,361,822,590,Car
+imgs_test/d9cbf12827d03527.jpg,122,222,544,987,Person
+imgs_test/d9cbf12827d03527.jpg,335,387,405,509,Mobile phone
+imgs_test/d9d9fb7098bda4f0.jpg,90,69,876,589,Car
+imgs_test/d9f922cedfd4bb85.jpg,321,89,769,680,Person
+imgs_test/da244c9843b19ed5.jpg,344,45,695,613,Person
+imgs_test/da8b98660f18b365.jpg,0,0,742,677,Person
+imgs_test/daacd547e50e997f.jpg,0,55,680,1022,Mobile phone
+imgs_test/dab59c7005e3b1c5.jpg,85,24,344,415,Mobile phone
+imgs_test/dab9649cc661669b.jpg,220,67,728,683,Mobile phone
+imgs_test/dabf6f846c2e290f.jpg,530,214,642,432,Person
+imgs_test/dac88f0c32f2c493.jpg,465,232,601,475,Mobile phone
+imgs_test/db0593a1eb7725ea.jpg,52,356,406,552,Car
+imgs_test/db0593a1eb7725ea.jpg,486,331,928,595,Car
+imgs_test/db0593a1eb7725ea.jpg,924,440,1022,628,Car
+imgs_test/db1fd3eb3ea21512.jpg,98,118,1021,764,Mobile phone
+imgs_test/db93e1a33520df54.jpg,0,221,16,249,Car
+imgs_test/db93e1a33520df54.jpg,252,231,328,263,Car
+imgs_test/db93e1a33520df54.jpg,391,235,495,280,Car
+imgs_test/db93e1a33520df54.jpg,462,235,509,262,Car
+imgs_test/db93e1a33520df54.jpg,536,272,1022,647,Car
+imgs_test/db93e1a33520df54.jpg,780,220,966,264,Car
+imgs_test/db93e1a33520df54.jpg,844,229,860,239,Car
+imgs_test/db93e1a33520df54.jpg,856,227,896,244,Car
+imgs_test/db93e1a33520df54.jpg,889,226,951,259,Car
+imgs_test/db93e1a33520df54.jpg,960,220,1022,264,Car
+imgs_test/db98f374f5852fa3.jpg,200,238,1023,677,Car
+imgs_test/db98f374f5852fa3.jpg,268,229,654,371,Car
+imgs_test/db9e93ebd5446c4b.jpg,0,454,106,565,Car
+imgs_test/db9e93ebd5446c4b.jpg,834,503,1023,674,Car
+imgs_test/dbc1e08e17f7089e.jpg,42,261,124,399,Person
+imgs_test/dc6a4d92b8521c0e.jpg,127,494,426,631,Car
+imgs_test/dcc08bf9169a8527.jpg,459,69,506,149,Person
+imgs_test/dcc08bf9169a8527.jpg,188,119,365,567,Mobile phone
+imgs_test/dcdf76815a7bf807.jpg,122,91,280,202,Mobile phone
+imgs_test/dcdf76815a7bf807.jpg,0,0,934,575,Person
+imgs_test/dd2457f712367cd9.jpg,0,99,748,597,Person
+imgs_test/dd2457f712367cd9.jpg,42,571,252,682,Person
+imgs_test/dd2457f712367cd9.jpg,653,549,913,682,Person
+imgs_test/dd2ce51358b23525.jpg,206,0,561,852,Mobile phone
+imgs_test/dd2f9ae213db0415.jpg,499,44,934,767,Person
+imgs_test/dd2f9ae213db0415.jpg,934,602,1023,766,Person
+imgs_test/dd2f9ae213db0415.jpg,949,455,1023,647,Person
+imgs_test/dd411e9780b68405.jpg,161,169,208,222,Person
+imgs_test/dd411e9780b68405.jpg,199,586,248,703,Person
+imgs_test/de77ce48bfa3769d.jpg,128,123,799,597,Car
+imgs_test/de77ce48bfa3769d.jpg,0,104,144,174,Car
+imgs_test/de77ce48bfa3769d.jpg,1,116,422,376,Car
+imgs_test/de77ce48bfa3769d.jpg,196,79,375,129,Car
+imgs_test/de77ce48bfa3769d.jpg,327,82,516,164,Car
+imgs_test/de77ce48bfa3769d.jpg,613,73,650,131,Car
+imgs_test/de77ce48bfa3769d.jpg,672,71,705,98,Car
+imgs_test/de77ce48bfa3769d.jpg,692,94,722,129,Car
+imgs_test/de77ce48bfa3769d.jpg,787,90,882,190,Car
+imgs_test/de77ce48bfa3769d.jpg,923,210,1023,682,Car
+imgs_test/de77ce48bfa3769d.jpg,953,85,1023,220,Car
+imgs_test/de941121a8fe0ed9.jpg,227,220,373,541,Person
+imgs_test/de941121a8fe0ed9.jpg,322,216,482,657,Person
+imgs_test/de941121a8fe0ed9.jpg,595,303,876,767,Person
+imgs_test/dea6f6bd59cad265.jpg,99,361,139,425,Mobile phone
+imgs_test/dea6f6bd59cad265.jpg,103,316,139,358,Mobile phone
+imgs_test/dea6f6bd59cad265.jpg,131,419,176,489,Mobile phone
+imgs_test/dea6f6bd59cad265.jpg,139,360,184,415,Mobile phone
+imgs_test/dea6f6bd59cad265.jpg,150,312,187,361,Mobile phone
+imgs_test/dea6f6bd59cad265.jpg,177,417,224,491,Mobile phone
+imgs_test/dea6f6bd59cad265.jpg,185,315,219,358,Mobile phone
+imgs_test/dea6f6bd59cad265.jpg,187,356,231,415,Mobile phone
+imgs_test/dea6f6bd59cad265.jpg,216,304,256,350,Mobile phone
+imgs_test/dea6f6bd59cad265.jpg,225,412,273,487,Mobile phone
+imgs_test/dea6f6bd59cad265.jpg,231,343,289,411,Mobile phone
+imgs_test/dea6f6bd59cad265.jpg,254,296,299,347,Mobile phone
+imgs_test/dea6f6bd59cad265.jpg,263,412,313,481,Mobile phone
+imgs_test/dea6f6bd59cad265.jpg,281,345,331,406,Mobile phone
+imgs_test/dea6f6bd59cad265.jpg,292,296,336,348,Mobile phone
+imgs_test/dea6f6bd59cad265.jpg,307,406,358,475,Mobile phone
+imgs_test/dea6f6bd59cad265.jpg,323,345,374,398,Mobile phone
+imgs_test/dea6f6bd59cad265.jpg,331,296,356,335,Mobile phone
+imgs_test/dea6f6bd59cad265.jpg,350,398,406,467,Mobile phone
+imgs_test/dea6f6bd59cad265.jpg,358,342,404,390,Mobile phone
+imgs_test/dea6f6bd59cad265.jpg,384,385,440,451,Mobile phone
+imgs_test/e022adf24ac8343a.jpg,347,242,477,587,Person
+imgs_test/e022adf24ac8343a.jpg,223,267,304,552,Person
+imgs_test/e022adf24ac8343a.jpg,263,268,355,552,Person
+imgs_test/e02bcf195b5cfdf7.jpg,688,297,766,349,Mobile phone
+imgs_test/e214069b0a2700ce.jpg,65,56,958,403,Car
+imgs_test/e214069b0a2700ce.jpg,125,97,977,165,Car
+imgs_test/e3b2ad9f6f806ab8.jpg,0,99,160,421,Car
+imgs_test/e3b2ad9f6f806ab8.jpg,33,89,921,550,Car
+imgs_test/e3ef3d260751c3c9.jpg,359,0,795,560,Mobile phone
+imgs_test/e49dbd236fc101b6.jpg,206,276,810,766,Mobile phone
+imgs_test/e59f2bc9f4a10625.jpg,275,162,519,506,Person
+imgs_test/e59f2bc9f4a10625.jpg,593,115,916,588,Person
+imgs_test/e5eb2951db2571fe.jpg,541,342,951,491,Car
+imgs_test/e60c21e370379ea1.jpg,164,201,738,504,Car
+imgs_test/e6446f975ee439f6.jpg,0,0,313,224,Car
+imgs_test/e6446f975ee439f6.jpg,60,5,1022,495,Car
+imgs_test/e697475bac209e88.jpg,231,76,766,662,Person
+imgs_test/e770c3bd306f5316.jpg,188,115,586,512,Person
+imgs_test/e770c3bd306f5316.jpg,45,67,701,970,Mobile phone
+imgs_test/e8258f2ec87db63b.jpg,0,0,680,1021,Mobile phone
+imgs_test/e848d3505dfe3e8c.jpg,0,58,1021,634,Mobile phone
+imgs_test/e85bd20ac612f890.jpg,191,221,865,639,Car
+imgs_test/e85bd20ac612f890.jpg,539,223,966,445,Car
+imgs_test/e85bd20ac612f890.jpg,735,228,1023,399,Car
+imgs_test/e85bd20ac612f890.jpg,905,255,1007,296,Car
+imgs_test/e85bd20ac612f890.jpg,969,249,994,259,Car
+imgs_test/e85bd20ac612f890.jpg,982,259,1023,300,Car
+imgs_test/e85bd20ac612f890.jpg,1007,255,1023,280,Car
+imgs_test/e9bd5e4d4d322f9f.jpg,0,727,63,767,Car
+imgs_test/e9bd5e4d4d322f9f.jpg,72,567,530,767,Car
+imgs_test/e9bd5e4d4d322f9f.jpg,251,701,575,767,Car
+imgs_test/e9bd5e4d4d322f9f.jpg,489,478,866,739,Car
+imgs_test/ea04def650e5c131.jpg,305,87,844,604,Person
+imgs_test/ea08a7243fe9080d.jpg,1,0,147,567,Person
+imgs_test/ea08a7243fe9080d.jpg,181,58,721,767,Person
+imgs_test/ea08a7243fe9080d.jpg,575,0,767,89,Person
+imgs_test/ea08a7243fe9080d.jpg,855,0,1023,157,Person
+imgs_test/eac84cb3080fd32f.jpg,301,108,780,768,Person
+imgs_test/ead67862eb77fe7f.jpg,448,8,576,585,Mobile phone
+imgs_test/eb2d1c93bdc5903e.jpg,564,502,878,680,Mobile phone
+imgs_test/eb2d1c93bdc5903e.jpg,412,507,455,589,Person
+imgs_test/eb2d1c93bdc5903e.jpg,441,0,1023,639,Person
+imgs_test/eb2d1c93bdc5903e.jpg,69,418,352,590,Mobile phone
+imgs_test/eb2d1c93bdc5903e.jpg,326,447,608,625,Mobile phone
+imgs_test/eb2d1c93bdc5903e.jpg,678,3,722,249,Mobile phone
+imgs_test/eb71ffea584ca9f5.jpg,0,3,1020,729,Car
+imgs_test/ec0cbeec531ce122.jpg,249,351,562,819,Mobile phone
+imgs_test/ece06a84508fa3fd.jpg,50,177,278,683,Person
+imgs_test/ece06a84508fa3fd.jpg,0,133,109,500,Person
+imgs_test/ece06a84508fa3fd.jpg,184,191,251,307,Person
+imgs_test/ece06a84508fa3fd.jpg,288,111,477,573,Person
+imgs_test/ece06a84508fa3fd.jpg,326,44,1022,681,Person
+imgs_test/ece06a84508fa3fd.jpg,838,120,988,438,Person
+imgs_test/ece06a84508fa3fd.jpg,962,238,1019,347,Person
+imgs_test/ed5ab3d8345e52a6.jpg,236,38,417,504,Person
+imgs_test/ed5ab3d8345e52a6.jpg,524,109,650,358,Person
+imgs_test/ee18c1b96120c156.jpg,18,185,949,650,Car
+imgs_test/ee18c1b96120c156.jpg,946,350,1023,486,Car
+imgs_test/ef338e19f9ae5c77.jpg,278,195,602,552,Person
+imgs_test/ef82c550d3f64e45.jpg,209,62,622,768,Mobile phone
+imgs_test/f17ad714ef7bf5b1.jpg,126,196,901,558,Car
+imgs_test/f23db6007f3709f5.jpg,0,0,1022,766,Person
+imgs_test/f344d8ce382ac118.jpg,0,583,99,673,Car
+imgs_test/f405204f0c506f38.jpg,0,0,680,1021,Mobile phone
+imgs_test/f48973e830484137.jpg,406,235,748,764,Person
+imgs_test/f6454a7fd946f80f.jpg,0,394,741,1023,Person
+imgs_test/f6454a7fd946f80f.jpg,0,590,261,945,Mobile phone
+imgs_test/f6454a7fd946f80f.jpg,49,68,104,166,Mobile phone
+imgs_test/f6454a7fd946f80f.jpg,172,256,226,364,Mobile phone
+imgs_test/f6454a7fd946f80f.jpg,434,173,493,277,Mobile phone
+imgs_test/f6454a7fd946f80f.jpg,465,634,691,1009,Mobile phone
+imgs_test/f6454a7fd946f80f.jpg,674,133,731,238,Mobile phone
+imgs_test/f68ccc2169d1ae40.jpg,158,434,213,613,Person
+imgs_test/f68ccc2169d1ae40.jpg,186,494,305,607,Person
+imgs_test/f68ccc2169d1ae40.jpg,251,449,293,597,Person
+imgs_test/f68ccc2169d1ae40.jpg,353,464,406,585,Person
+imgs_test/f68ccc2169d1ae40.jpg,837,453,853,518,Person
+imgs_test/f68ccc2169d1ae40.jpg,846,458,869,520,Person
+imgs_test/f68ccc2169d1ae40.jpg,960,471,988,504,Person
+imgs_test/f68ccc2169d1ae40.jpg,983,450,1023,712,Person
+imgs_test/f68ccc2169d1ae40.jpg,992,462,1008,486,Person
+imgs_test/f68ccc2169d1ae40.jpg,53,462,158,506,Car
+imgs_test/f68ccc2169d1ae40.jpg,357,462,494,535,Car
+imgs_test/f68ccc2169d1ae40.jpg,451,463,753,576,Car
+imgs_test/f68ccc2169d1ae40.jpg,567,454,779,529,Car
+imgs_test/f6ba3a5873aaa7b1.jpg,88,134,914,642,Car
+imgs_test/f85a87209997c52a.jpg,307,313,391,507,Person
+imgs_test/f85a87209997c52a.jpg,407,311,496,496,Person
+imgs_test/f85a87209997c52a.jpg,538,300,629,512,Person
+imgs_test/f9639cd5172a2cc6.jpg,28,0,1023,682,Person
+imgs_test/f9639cd5172a2cc6.jpg,179,15,533,421,Mobile phone
+imgs_test/fb11489a97c947ab.jpg,483,397,705,511,Car
+imgs_test/fb11489a97c947ab.jpg,55,368,197,484,Car
+imgs_test/fb11489a97c947ab.jpg,261,398,366,475,Car
+imgs_test/fb11489a97c947ab.jpg,388,401,501,472,Car
+imgs_test/fb8ae59f1556432d.jpg,306,55,701,628,Person
+imgs_test/fb8ae59f1556432d.jpg,384,28,435,97,Person
+imgs_test/fb8ae59f1556432d.jpg,507,320,979,659,Person
+imgs_test/fb8ae59f1556432d.jpg,523,63,607,255,Person
+imgs_test/fc2ec0f13d9b3521.jpg,573,436,696,566,Mobile phone
+imgs_test/fcd1a1a5b8cc5208.jpg,0,0,682,929,Person
+imgs_test/fcfbff874a4ce64a.jpg,769,195,898,558,Person
+imgs_test/fcfbff874a4ce64a.jpg,163,218,271,533,Person
+imgs_test/fcfbff874a4ce64a.jpg,477,248,562,418,Person
+imgs_test/fd1570fda4ae104f.jpg,911,588,1016,687,Car
+imgs_test/fd2b0650fe7f83c6.jpg,318,246,723,456,Mobile phone
+imgs_test/fd69b044cc420b16.jpg,120,342,400,455,Car
+imgs_test/fd69b044cc420b16.jpg,0,346,62,610,Person
+imgs_test/fd69b044cc420b16.jpg,43,371,122,622,Person
+imgs_test/fd69b044cc420b16.jpg,63,356,162,570,Person
+imgs_test/fd69b044cc420b16.jpg,126,363,245,620,Person
+imgs_test/fd69b044cc420b16.jpg,367,421,524,684,Person
+imgs_test/fd69b044cc420b16.jpg,394,392,478,457,Person
+imgs_test/fd69b044cc420b16.jpg,423,299,683,419,Person
+imgs_test/fd69b044cc420b16.jpg,770,367,936,661,Person
+imgs_test/fd870fcc13862ac5.jpg,0,15,945,768,Mobile phone
+imgs_test/fdf8659bed53591c.jpg,0,465,183,756,Person
+imgs_test/fdf8659bed53591c.jpg,55,15,92,157,Person
+imgs_test/fdf8659bed53591c.jpg,96,34,144,159,Person
+imgs_test/fdf8659bed53591c.jpg,131,0,186,158,Person
+imgs_test/fdf8659bed53591c.jpg,163,7,206,120,Person
+imgs_test/fdf8659bed53591c.jpg,190,8,234,138,Person
+imgs_test/fdf8659bed53591c.jpg,295,69,387,164,Person
+imgs_test/fdf8659bed53591c.jpg,387,62,449,181,Person
+imgs_test/fdf8659bed53591c.jpg,430,388,577,516,Person
+imgs_test/fdf8659bed53591c.jpg,465,80,558,184,Person
+imgs_test/fdf8659bed53591c.jpg,481,70,526,179,Person
+imgs_test/fdf8659bed53591c.jpg,565,80,608,180,Person
+imgs_test/fdf8659bed53591c.jpg,574,73,670,202,Person
+imgs_test/fe2dcd7f1ab98f5b.jpg,177,107,389,663,Person
+imgs_test/fe850e9a104a10a1.jpg,471,76,876,590,Mobile phone
+imgs_test/feb7a988ce083f6b.jpg,267,30,1006,352,Car
+imgs_test/feb7a988ce083f6b.jpg,92,46,640,251,Car
+imgs_test/febde8a4928d0fdb.jpg,582,78,976,830,Mobile phone
+imgs_test/febde8a4928d0fdb.jpg,275,703,673,835,Mobile phone
+imgs_test/febde8a4928d0fdb.jpg,364,268,552,654,Mobile phone
+imgs_test/fee8bb809e4bd306.jpg,876,396,1021,529,Car
+imgs_test/fee8bb809e4bd306.jpg,0,374,138,481,Car
+imgs_test/fee8bb809e4bd306.jpg,0,522,225,680,Car
+imgs_test/fee8bb809e4bd306.jpg,384,373,455,423,Car
+imgs_test/fee8bb809e4bd306.jpg,552,373,622,428,Car
+imgs_test/fee8bb809e4bd306.jpg,728,377,867,454,Car
+imgs_test/fee8bb809e4bd306.jpg,810,545,1023,681,Car
