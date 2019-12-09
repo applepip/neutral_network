@@ -22,7 +22,7 @@ for epoch_num in range(num_epochs):
                         'RPN is not producing bounding boxes that overlap the ground truth boxes. Check RPN settings or keep training.')
 
             # Generate X (x_img) and label Y ([y_rpn_cls, y_rpn_regr])
-            X, Y, img_data, debug_img, debug_num_pos = next(data_gen_train)
+            X, Y, img_data, debug_img, debug_num_pos = next(data_gen_train)   # next() 返回迭代器的下一个项目, 用于while内
 
             # Train rpn model and get loss value [_, loss_rpn_cls, loss_rpn_regr]
             loss_rpn = model_rpn.train_on_batch(X, Y)
