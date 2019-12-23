@@ -32,6 +32,7 @@ for epoch_num in range(num_epochs):
 
             # R: bboxes (shape=(300,4))
             # Convert rpn layer to roi bboxes
+            # 2019年12月23日，因为transpose问题，修改P_rpn[0]为np.array(P_rpn[0])
             R = rpn_to_roi(np.array(P_rpn[0]), P_rpn[1], C, tf.keras.backend.image_data_format(), use_regr=True, overlap_thresh=0.7,
                            max_boxes=300)
 
