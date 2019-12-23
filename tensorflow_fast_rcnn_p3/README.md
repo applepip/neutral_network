@@ -9,4 +9,5 @@
 
 注：
 tensorflow_fast_rcnn_p2是cpu计算，tensorflow_fast_rcnn_p4是gpu计算。
+
 在训练时需要先下载基础模型vgg16_weights_tf_dim_ordering_tf_kernels.h5到model文件夹里。
