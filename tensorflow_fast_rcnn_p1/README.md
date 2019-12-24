@@ -1,7 +1,3 @@
-python3.6+tf_gpu2.0+cuda10.0+cudnn7.6.0
-
-程序在NVIDIA GeForce GTX 1050上运行,由于显存只有2G，会出现显存溢出问题
-
 1. 执行tensorflow_fast_rcnn_p1中data_img_download.py，下载图片数据到imgs文件夹
 2. 执行tensorflow_fast_rcnn_p1中data_frcnn_imgs_prepare.py，将图片分成imgs_test和imgs_train两个图片文件夹
 3. 执行tensorflow_fast_rcnn_p1中data_frcnn_prepare.py生成train.csv和test.csv，内容包括图片path、Ground Truth位置、类名，
