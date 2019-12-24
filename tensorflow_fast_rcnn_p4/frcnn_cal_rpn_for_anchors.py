@@ -199,7 +199,7 @@ def calc_rpn(C, img_data, width, height, resized_width, resized_height, img_leng
         val_locs = random.sample(range(len(neg_locs[0])), len(neg_locs[0]) - num_pos)
         y_is_box_valid[0, neg_locs[0][val_locs], neg_locs[1][val_locs], neg_locs[2][val_locs]] = 0
 
-    y_rpn_cls = np.concatenate([y_is_box_valid, y_rpn_overlap], axis=1)
+    y_rpn_cls = np.concatenate([y_is_box_valid, y_rpn_overlap], axis=1)   #横向拼接两个矩阵组成一个新的array
     y_rpn_regr = np.concatenate([np.repeat(y_rpn_overlap, 4, axis=1), y_rpn_regr], axis=1)
 
     return np.copy(y_rpn_cls), np.copy(y_rpn_regr), num_pos

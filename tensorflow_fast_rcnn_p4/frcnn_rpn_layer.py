@@ -6,7 +6,7 @@ rpn(region proposal networks)
 
 def rpn_layer(base_layers, num_anchors):
     '''
-    通过设计卷积神经网络来提取候选区域（RPN）
+    通过设计卷积神经网络来提取候选区域的特征并进行回归（RPN）
         Step1: Pass through the feature map from base layer to a 3x3 512 channels convolutional layer
                         Keep the padding 'same' to preserve the feature map's size
         Step2: Pass the step1 to two (1,1) convolutional layer to replace the fully connected layer

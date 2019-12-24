@@ -63,6 +63,7 @@ def get_data(input_path):
                     found_bg = True
                 class_mapping[class_name] = len(class_mapping)
 
+            #将图片内的GT样本保存到一个结构中
             if filename not in all_imgs:
                 all_imgs[filename] = {}
 

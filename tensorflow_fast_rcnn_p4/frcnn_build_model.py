@@ -1,4 +1,4 @@
-from frcnn_training_prepare import *
+# from frcnn_training_prepare import *
 
 input_shape_img = (None, None, 3)
 
