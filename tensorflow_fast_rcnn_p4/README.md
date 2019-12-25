@@ -17,6 +17,6 @@ tensorflow_fast_rcnn_p2是cpu计算，tensorflow_fast_rcnn_p4是gpu计算。
 
 在训练时需要先下载基础模型vgg16_weights_tf_dim_ordering_tf_kernels.h5到model文件夹里。
 
+a. 运行gt_anchors_cal_show.py文件输出Ground Truth，并通过RPN生成GT对应的anchors
 
-运行gt_anchors_cal_show.py文件输出Ground Truth，并通过RPN生成GT对应的anchors
-运行frcnn_start_training.py文件进行训练
+b. 运行frcnn_start_training.py文件进行训练
