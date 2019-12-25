@@ -2,7 +2,7 @@ from frcnn_imgs_pre_process import *
 from frcnn_cal_rpn_for_anchors import *
 
 def get_anchor_gt(all_img_data, C, img_length_calc_function, mode='train'):
-    """ Yield the ground-truth anchors as Y (labels)
+    """ Yield the ground-truth anchors as Y (labels) with rpn
 
     Args:
         all_img_data: list(filepath, width, height, list(bboxes))
