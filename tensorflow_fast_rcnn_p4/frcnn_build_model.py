@@ -18,6 +18,9 @@ rpn = rpn_layer(shared_layers, num_anchors)
 
 classifier = classifier_layer(shared_layers, roi_input, C.num_rois, nb_classes=len(classes_count))
 
+# model_rpn = tf.keras.Model(img_input, rpn[:2])
+print(rpn)
+print(rpn[:2])
 model_rpn = tf.keras.Model(img_input, rpn[:2])
 model_classifier = tf.keras.Model([img_input, roi_input], classifier)
 
