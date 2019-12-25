@@ -1,5 +1,17 @@
-from frcnn_training_setting import *
+from frcnn_model_setting import *
 from frcnn_rpn_to_roi import *
+from frcnn_training_config import *
+from frcnn_yield_ground_truth_anchors import *
+
+
+def get_img_output_length(width, height):
+    def get_output_length(input_length):
+        return input_length//16
+
+    return get_output_length(width), get_output_length(height)
+
+# Get train data generator which generate X, Y, image_data
+data_gen_train = get_anchor_gt(train_imgs, C, get_img_output_length, mode='train')
 
 
 start_time = time.time()
