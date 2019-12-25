@@ -1,4 +1,5 @@
-# from frcnn_training_prepare import *
+from frcnn_training_config import *
+from frcnn_vgg16_model import *
 
 input_shape_img = (None, None, 3)
 
