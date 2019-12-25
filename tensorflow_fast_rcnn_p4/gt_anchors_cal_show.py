@@ -9,7 +9,7 @@ def get_img_output_length(width, height):
 
 
 '''
-输出Ground Truth，并通过RPN生成anchors
+输出Ground Truth，并通过RPN生成GT对应的最优的anchors
 '''
 
 # # Shuffle the images with seed
