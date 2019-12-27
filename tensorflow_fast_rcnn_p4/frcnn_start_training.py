@@ -11,7 +11,7 @@ def get_img_output_length(width, height):
     return get_output_length(width), get_output_length(height)
 
 # Get train data generator which generate X, Y, image_data
-data_gen_train = get_anchor_gt(train_imgs, C, get_img_output_length, mode='train')
+data_gen_train = get_img(train_imgs)
 
 
 start_time = time.time()
@@ -33,8 +33,9 @@ for epoch_num in range(num_epochs):
                     print(
                         'RPN is not producing bounding boxes that overlap the ground truth boxes. Check RPN settings or keep training.')
 
+            img_org_path = next(data_gen_train)
             # Generate X (x_img) and label Y ([y_rpn_cls, y_rpn_regr])
-            X, Y, img_data, debug_img, debug_num_pos = next(data_gen_train)   # next() 返回迭代器的下一个项目, 用于while内
+            X, Y, img_data, debug_img, debug_num_pos = get_anchor_gt(img_org_path, C, get_img_output_length, mode='train')    # next() 返回迭代器的下一个项目, 用于while内
 
             # Train rpn model and get loss value [_, loss_rpn_cls, loss_rpn_regr]
             loss_rpn = model_rpn.train_on_batch(X, Y)
@@ -102,6 +103,11 @@ for epoch_num in range(num_epochs):
                     sel_samples = random.choice(neg_samples)
                 else:
                     sel_samples = random.choice(pos_samples)
+
+
+            # 清空之前model占用的内存
+            tf.keras.backend.clear_session()
+            tf.compat.v1.reset_default_graph()
 
             # training_data: [X, X2[:, sel_samples, :]]
             # labels: [Y1[:, sel_samples, :], Y2[:, sel_samples, :]]
@@ -172,6 +178,7 @@ for epoch_num in range(num_epochs):
                 record_df.to_csv(record_path, index=0)
 
                 break
+
 
         except Exception as e:
             print('Exception: {}'.format(e))
