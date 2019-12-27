@@ -6,6 +6,7 @@ from frcnn_cal_iou import *
 from frcnn_lab import *
 
 def calc_rpn(C, img_data, width, height, resized_width, resized_height, img_length_calc_function):
+
     """(Important part!) Calculate the rpn for all anchors
     	If feature map has shape 38x50=1900, there are 1900x9=17100 potential anchors
 
@@ -36,6 +37,14 @@ def calc_rpn(C, img_data, width, height, resized_width, resized_height, img_leng
     n_anchratios = len(anchor_ratios)  # 3
 
     # initialise empty output objectives
+
+    # y_is_box_valid represents if this anchor has an object.
+    # y_rpn_overlap represents if this anchor overlaps with the ground-truth bounding box.
+    #
+    # For ‘positive’ anchor, y_is_box_valid = 1, y_rpn_overlap = 1.
+    # For ‘neutral’ anchor, y_is_box_valid = 0, y_rpn_overlap = 0.
+    # For ‘negative’ anchor, y_is_box_valid = 1, y_rpn_overlap = 0.
+
     y_rpn_overlap = np.zeros((output_height, output_width, num_anchors))
     y_is_box_valid = np.zeros((output_height, output_width, num_anchors))
     y_rpn_regr = np.zeros((output_height, output_width, num_anchors * 4))
