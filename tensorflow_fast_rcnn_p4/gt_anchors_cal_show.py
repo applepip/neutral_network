@@ -19,9 +19,11 @@ random.shuffle(train_imgs)
 # print('Num train samples (images) {}'.format(len(train_imgs)))
 
 # Get train data generator which generate X, Y, image_data
-data_gen_train = get_anchor_gt(train_imgs, C, get_img_output_length, mode='train')
+data_gen_train = get_img(train_imgs)
 
-X, Y, image_data, debug_img, debug_num_pos = next(data_gen_train)
+img_org_path = next(data_gen_train)
+
+X, Y, image_data, debug_img, debug_num_pos = get_anchor_gt(img_org_path, C, get_img_output_length, mode='train')
 
 
 
