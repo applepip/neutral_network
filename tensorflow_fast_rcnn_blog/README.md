@@ -138,3 +138,23 @@ Anchor生成层在所有图片上生成不同尺寸和比例边界框（bounding
 
 推荐层（proposal layer）通过一个卷积层（代码中是rpn_net）和对应的RELU函数来处理“head”网络生成的特征图。rpn_net的输出通过2个（1，1）的卷积核处理后分别生成背景/前景种类得分（scores）和背景/前景种类概率，同时生成对应的边界框回归系数。“head”网使用的步幅（stride）长度和生成anchors的步幅（stride）长度一致，因此anchor boxes的生成数量和RPN网生成的信息一一对应（anchor boxes数量= class scores数量=边界框回归系数的数量=w/16*h/16*9）。
 
+### 推荐层（Proposal Layer）
+
+推荐层（proposal layer）使用Anchor生成层输出的anchor boxes，基于前景得分通过非最大抑制（non-maximum suppression）来修剪anchors的数量（有关详细信息，请参见附录）。同时该层通过使用RPN网络生成的回归系数应用于相应anchor boxes来生成变换后的边界框（bounding boxes）
+
+![img proposal layer](imgs/img_proposal_layer.png)
+
+
+### 目标层（Anchor Target Layer）
+
+该层的目标是选择推荐的anchors，运用这些anchors来训练RPN网络实现以下2点功能：
+
+1. 区分前景区域和背景区域
+2. 为每一个前景box（the foreground boxes）生成优良的边界回归系数
+
+在上面介绍的RPN损失计算过程中，以上2点功能非常有用。这将明确计算RPN损失所需的信息，从而使目标层（Anchor Target Layer）的操作变得容易。
+
+### 计算RPN损失（Calculating RPN Loss）
+
+RPN层的主要目标是生成优良的边界框。在一个anchor boxes集合中，为了达到这个目的，RPN层必须学习两个功能，其一是将一个anchor box分类成前景或者后景，其二是计算回归系数然后修改前景边界框的位置、宽和高，以生成“优良的”前景框（更加紧密的包围前景对象）。RPN损失函数通过激励网络来学习以上功能。
+
