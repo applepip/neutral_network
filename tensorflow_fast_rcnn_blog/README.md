@@ -77,4 +77,21 @@ R-CNNs首先使用前几层网络层作为预训练网络（ResNet 50）在一�
 
 让我们花一点时间来探讨在本文的其余部分中广泛使用的“边界框回归系数”（“bounding box regression coefficients”）和“边界框重叠”（“bounding box overlap”）的概念。
 
-* 边界框回归系数（bounding box regression coefficients）：R-CNN的目标之一，就是生成良好的边界框，该边界框能紧密趋近真实对象的边界框。R-CNN通过采用给定的边界框（由左上角的坐标，宽度和高度定义）并通过应用一组“回归系数”来调整其左上角，宽度和高度来生成回归边界框。计算系数可以查看该文章[计算系数](https://arxiv.org/pdf/1311.2524.pdf)。
+* 边界框回归系数（bounding box regression coefficients）：R-CNN的目标之一，就是生成良好的边界框，该边界框能紧密趋近真实对象的边界框。R-CNN通过采用给定的边界框（由左上角的坐标，宽度和高度定义）并通过应用一组“回归系数”来调整其左上角，宽度和高度来生成回归边界框。计算系数可以查看该文章[计算系数](https://arxiv.org/pdf/1311.2524.pdf)。让我们定义目标边界框左上角坐标为T_x，T_y;原始边界框左上角坐标为O_x,O_y;然后定义目标边界框的宽/高为T_w,T_h;原始边界框的宽/高为O_w,O_h。然后，回归目标（将原始边界框转换为目标框的函数的系数）为：
+
+   + t_x = (T_x - O_x)/O_w, t_y = (T_y-O_y)/O_h, t_w = log(T_w/O_w), t_h = log(T_h/O_h).这个函数是可逆的，即已知回归系数和原始边界框的左上角的坐标，宽度和高度，很容易计算出目标边界框的左上角的坐标，宽度和高度。注：针对一个未剪切的仿射变换，回归系数是不可变的，在算分类损失时这一点很重要，目标回归系数以原始比例计算，而分类网络输出的回归系数是通过在ROI pooling层以特征图（按1：1的比列）计算的。在我们讨论分类损失后，这些问题将更加清晰。
+
+   ![img regression](imgs/img_regression.png)
+
+   + 交并比重叠（Intersection over Union (IoU) Overlap）：我们需要某种方法来衡量给定的边界框与另一个边界框的距离，该边界框与用来测量边界框尺寸的单位（像素等）无关。这种测量方法应直观（两个重合的边界框值为1，而两个不重叠的框值为0），并且快速且易于计算。常用的计算方法是交并比交并比重叠（Intersection over Union (IoU) Overlap），计算方式如下图所示。
+
+   ![img IOU](imgs/img_iou.png)
+
+有了这些初步的准备，我们开始深入了解训练R-CNN的实施细节。在软件实现中，R-CNN执行分为以下几层。每一层封装了一系列逻辑步骤，这些步骤可能涉及通过一种神经网络运行数据或者执行其他过程，例如比较边界框之间的重叠，执行非最大值抑制（non-maxima suppression）等。
+
+![img R-CNN](imgs/img_rcnn.png)
+
+
+* Anchor生成层（Anchor Generation Layer）：该层预先生成9个不同大小和不同比例的 “anchors” (bounding boxes)，然后按照均匀间隔在网格点划分的图片上平移anchors来复制所有的anchors。
+
+* 推荐层（）
