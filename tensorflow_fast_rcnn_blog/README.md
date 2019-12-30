@@ -125,4 +125,16 @@ Anchor生成层在所有图片上生成不同尺寸和比例边界框（bounding
 
 ### 推荐层（Region Proposal Layer）
 
-目标检测方法
+目标检测方法需要“区域推荐系统”作为输入，该系统会生成一组稀疏特征（例如，[选择性搜索](https://doi.org/10.1109/TPAMI.2009.167)）或密集特征（例如，[例如用于可变形零件模型的特征集](https://doi.org/10.1109/TPAMI.2009.167)）。在最早版本的R-CNN系统中，使用选择性搜索方法（selective search method）生成推荐区域。在“Faster R-CNN”版本中，基于Anchor生成层中提到的“滑动窗口”，该“滑动窗口”用于生成一组密集的候选区域，然后使用神经网络驱动的RPN网络根据包含前景对象的区域的概率对推荐区域进行排名。推荐层（Region Proposal Layer）有两个目标：
+
+* 在anchors中，标识背景anchors和前景anchors
+* 通过“回归系数”集修改anchors的坐标，宽和高，达到优化anchors的目的（比如，使他们更接近对象边界）
+
+推荐层包含RPN网络和一个三层结构（推荐层（Proposal Layer），目标层（Anchor Target Layer）和推荐目标层（Proposal Target Layer））。这个三层结构在后面的小节中将详细介绍给大家。
+
+### PRN网络（Region Proposal Network）
+
+![img RPN](imgs/img_rpn_layer.png)
+
+推荐层（proposal layer）通过一个卷积层（代码中是rpn_net）和对应的RELU函数来处理“head”网络生成的特征图。rpn_net的输出通过2个（1，1）的卷积核处理后分别生成背景/前景种类得分（scores）和背景/前景种类概率，同时生成对应的边界框回归系数。“head”网使用的步幅（stride）长度和生成anchors的步幅（stride）长度一致，因此anchor boxes的生成数量和RPN网生成的信息一一对应（anchor boxes数量= class scores数量=边界框回归系数的数量=w/16*h/16*9）。
+
