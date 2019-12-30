@@ -72,7 +72,6 @@ R-CNNs首先使用前几层网络层作为预训练网络（ResNet 50）在一�
 
 + COCO (Common Objects in Context): COCO数据库更大，包含90个对象分类和多于200,000个标注的图片。
 
-
 我使用PASCAL VOC 2007数据集用于该项目的训练。 R-CNN网络能够在同一步骤中训练RPN网络和classification网络。
 
 让我们花一点时间来探讨在本文的其余部分中广泛使用的“边界框回归系数”（“bounding box regression coefficients”）和“边界框重叠”（“bounding box overlap”）的概念。
@@ -94,4 +93,4 @@ R-CNNs首先使用前几层网络层作为预训练网络（ResNet 50）在一�
 
 * Anchor生成层（Anchor Generation Layer）：该层预先生成9个不同大小和不同比例的 “anchors” (bounding boxes)，然后按照均匀间隔在网格点划分的图片上平移anchors来复制所有的anchors。
 
-* 推荐层（）
+* 推荐层（Proposal Layer）：根据边界框回归系数（bounding box regression coefficients）生成变化后的anchors。然后通过对anchor为前景区域的概率计算以非最大抑制方法（请参阅附录）来修剪anchors的数量。
