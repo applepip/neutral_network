@@ -59,4 +59,22 @@ R-CNNs首先使用前几层网络层作为预训练网络（ResNet 50）在一�
 
 ## 训练模型的具体实现
 
+在这一小节我们将详细描述训练一个R-CNN网络所涉及的过程，一旦你理解了训练过程，那么理解推理过程就是一件很容易的事情，因为推理过程使用的的训练过程中的一部分。训练过程的目标是优化RPN网络和Classification网络的权重，同时微调“head”网络中的权重（这一系列的权重都在预训练网络-e.g:ResNet网络中被初始化）。回想一下，RPN网络的工作是生成推荐的兴趣区域ROIs，Classification网络的工作是给每一个前面推荐的兴趣区域ROI打分。因此为了训练这些网络，我们需要对应的*Ground Truth*,即一张图片中对象(Objects)的*bounding boxes*坐标和对象的种类(Class)。*Ground Truth*来自于一些免费的图片数据库，这些图片数据库里的每一张图片都有一个标注文件。这些标注文件包含了图片中对象(Objects)的*bounding boxes*坐标，和这些对象对应的分类标签（class label）（这些对象的分类信息来自预先定义的对象分类表中）。这些图像数据库已用于支持各种对象分类和目标检测应用。两种常用的数据库是：
 
++ PASCAL VOC: VOC 2007数据库有9963张图片，其中包含20个对象分类的24,640个标注。
+   + Person: person
+   + Animal: bird, cat, cow, dog, horse, sheep
+   + Vehicle: aeroplane, bicycle, boat, bus, car, motorbike, train
+   + Indoor: bottle, chair, dining table, potted plant, sofa, tv/monitor
+
+图片类容如图：
+![VOC 2007](imgs/img_person_voc.jpg)
+
++ COCO (Common Objects in Context): COCO数据库更大，包含90个对象分类和多于200,000个标注的图片。
+
+
+我使用PASCAL VOC 2007数据集用于该项目的训练。 R-CNN网络能够在同一步骤中训练RPN网络和classification网络。
+
+让我们花一点时间来探讨在本文的其余部分中广泛使用的“边界框回归系数”（“bounding box regression coefficients”）和“边界框重叠”（“bounding box overlap”）的概念。
+
+* 边界框回归系数（bounding box regression coefficients）：R-CNN的目标之一，就是生成良好的边界框，该边界框能紧密趋近真实对象的边界框。R-CNN通过采用给定的边界框（由左上角的坐标，宽度和高度定义）并通过应用一组“回归系数”来调整其左上角，宽度和高度来生成回归边界框。计算系数可以查看该文章[计算系数](https://arxiv.org/pdf/1311.2524.pdf)。
