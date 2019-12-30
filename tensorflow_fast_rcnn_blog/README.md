@@ -93,6 +93,36 @@ R-CNNs首先使用前几层网络层作为预训练网络（ResNet 50）在一�
 
 * Anchor生成层（Anchor Generation Layer）：该层预先生成9个不同大小和不同比例的 “anchors” (bounding boxes)，然后按照均匀间隔在网格点划分的图片上平移anchors来复制所有的anchors。
 
-* 推荐层（Proposal Layer）：根据边界框回归系数（bounding box regression coefficients）生成变化后的anchors。然后通过对anchor为前景区域的概率计算以非最大抑制方法（请参阅附录）来修剪anchors的数量。
+* 推荐层（Region Proposal Layer）：根据边界框回归系数（bounding box regression coefficients）生成变化后的anchors。然后通过对anchor为前景区域的概率计算以非最大抑制方法（请参阅附录）来修剪anchors的数量。
 
 * Anchor目标层（Anchor Target Layer）：该层的目标是为训练RPN网络生成“优良的”anchors集、对应的前景/背景标签和目标回归系数。这些生成的数据集将仅仅用于RPN层，不会用在classification层。已知一个anchors集（该anchors集是“Anchor生成层”的输出，通过“Anchor目标层”标识他们的前景和背景anchors。前景anchors是那些与某个Ground Truth框重叠的区域高于阈值的anchors。背景anchors是那些与任何Ground Truth框重叠的区域的重叠度低于阈值的框。);"Anchor目标层"还输出一组边界框回归量，即离每个目标anchor距最近的边界框有多远。这些回归变量仅对前景框有意义，因为背景框没有“最近边界框”的概念。
+
+* RPN损失（RPN Loss）：RPN损失函数是在训练RPN网络优化过程中最小化的指标。损失函数是以下各项的组合：
+    * 由RPN产生并正确分类为前景/背景的bounding boxes的比例
+    * 预测回归系数与目标回归系数之间的一些测量差
+
+* 推荐目标层（Proposal Target Layer）：这一层的目标是裁剪推荐层（Region Proposal Layer）生成的anchors数据，同时生成特定类的目标回归边界框数据，将这些数据用于训练classification层（classification layer），然后生成优良的的类标签和回归目标。
+
+* ROI池化层（ROI Pooling Layer）: 实现空间变换网络，该空间转换网络将会在给定的推荐目标层（Proposal Target Layer）所生成的推荐区域边界坐标内，对输入特征图进行采样。这些坐标通常不会位于整数边界上，因此需要基于插值的采样。
+
+* Classification层（Classification Layer）：该层获取由ROI池化层处理输出的特征图，并将其传递给一系列卷积层。最后卷积层的输出将传递给两个全连接层。其中一个全连接层生成每一个推荐区域的种类的概率分布，另一个全连接生成特定种类的回归边界框数据集（bounding box regressors）。
+
+* 分类损失（Classification Loss）：和RPN损失相似，分类损失时对训练Classification层优化过程中最小化的指标。在反向传播过程中，误差梯度也会流到RPN网络，因此训练classification层也会修改RPN网络的权重。我们将在后面更多的对此进程讨论。分类损失是以下各项的组合：
+   * 由RPN产生并正确分类bounding boxes比例（正确的对象类）
+   * 预测值和目标回归系数的一些测量差
+
+现在我们深入每一层然后进行梳理。
+
+### Anchor生成层（Anchor Generation Layer）
+
+Anchor生成层在所有图片上生成不同尺寸和比例边界框（bounding boxes）集合（被叫做“anchor boxes”），这些bounding boxes对所有图片都是一样的，即它们与图像的内容无关。其中一些bounding boxes会包围前景对象，而大多数bounding boxes则不会。RPN网络的目标是学会标识哪些边界框是优良的bounding boxes，即可能包含前景对象，并生成目标回归系数，这些目标回归系数使anchor box优化成更好地bounding box（更紧密的包围前景对象）。
+
+下图演示了anchor boxes是怎样产生的。
+
+ anchor boxes
+
+![img Anchor Boxes](imgs/img_anchor_boxes.png)
+
+### 推荐层（Region Proposal Layer）
+
+目标检测方法
