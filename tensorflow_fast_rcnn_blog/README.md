@@ -219,3 +219,27 @@ cross_entropy(predicted _class, actual_class)
 * 目标回归系数
 
 其它层，推荐目标层（proposal target layer），ROI卷积层（ROI Pooling layer）和分类层（classification layer）旨在生成计算classification loss所需要的信息。和目标层（Anchor Target Layer）一样，接下来我们将介绍需要什么数据来计算classification loss，以及怎样计算。
+
+### 计算分类网络损失（Classification Layer Loss）
+
+和RPN网络损失相似，分类网络损失由分类损失（ classification loss）和边界框回归损失（bounding box regression loss）两部分组成。
+
+Classification Layer Loss = Classification Loss + Bounding Box Regression Loss
+
+RPN网络和分类网络主要的不同是，RPN网络主要处理前景和背景两个种类，分类网络是将所有对象类（包括背景）在网络学习后进行分类。
+
+分类损失（classification loss）是真实分类和预测分类的交叉熵损失，计算过程如下图所示：
+
+![img classification loss](imgs/img_classification_loss.png)
+
+边界框回归损失的计算除回归系数相关的是具体种类，其他和RPN网络相似。该网络会对每一种对象分类计算回归系数。目标回归系数只对正确分类有用，该正确分类表示ground truth bounding box与anchor box最大重叠区域内的对象分类。当计算损失时，使用一个mask array标记每一个anchor box中正确的对象分类。不正确的对象分类的回归系数被忽略。该mask array将损失计算作矩阵乘法，而不是逐条循环。
+
+因此，需要以下内容来计算分类层的损失：
+
+1. 预测分类标注和边界框回归系数（这些都是分类网络的输出）
+2. 每一个anchor box的分类标注
+3. 目标边界框回归系数
+
+现在让我们看一下以上内容在推荐目标网络（Proposal Target Layer）和分类网络（classification layers）中如何被计算。
+
+### 推荐目标网络（Proposal Target Layer）
