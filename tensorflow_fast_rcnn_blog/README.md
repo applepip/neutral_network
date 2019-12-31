@@ -158,7 +158,7 @@ Anchor生成层在所有图片上生成不同尺寸和比例边界框（bounding
 
 RPN层的主要目标是生成优良的边界框。在一个anchor boxes集合中，为了达到这个目的，RPN层必须学习两个功能，其一是将一个anchor box分类成前景或者后景，其二是计算回归系数然后修改前景边界框的位置、宽和高，以生成“优良的”前景框（更加紧密的包围前景对象）。RPN损失函数通过激励网络来学习以上功能。
 
-RPN_loss = Classification_loss + Bounding_Box_Regression_loss。Classification损失使用交叉熵损失对错误的分类框进行惩罚，回归损失使用真实回归系数（使用离Ground Truth框最近的前景框计算）与网络得预测框回归系数（请参阅RPN网络架构图中的rpn_bbx_pred_net）的来计算函数差。
+RPN_loss = Classification_loss + Bounding_Box_Regression_loss。Classification损失使用交叉熵损失对错误的分类框进行惩罚，回归损失使用真实回归系数（使用离Ground Truth框最近的前景框计算）与网络的预测框回归系数（请参阅RPN网络架构图中的rpn_bbx_pred_net）的来计算函数差。
 
 #### Classification Loss函数:
 
@@ -172,7 +172,7 @@ cross_entropy(predicted _class, actual_class)
 
 ![img bbrl1](imgs/img_bbrl2.png)
 
-上面公式显示了已知前景的回归损失时怎样计算的。我们计算预测值（RPN网络）和目标回归系数（
+上面公式显示了已知前景的回归损失是怎样计算的。我们计算预测值（RPN网络）和目标回归系数（
 使用最接近ground truth box的anchor box计算）的差。这里包含四个部分分别是边界框的左上角坐标，宽和高。smooth L1函数定义如下：
 
 ![img bbrl3](imgs/img_bbrl3.png)
