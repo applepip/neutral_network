@@ -191,3 +191,31 @@ cross_entropy(predicted _class, actual_class)
 如下图所示：
 
 ![img bbrl4](imgs/img_bbrl4.png)
+
+注：仅当anchor boxes与某些ground truth box的重叠部分超过阈值的时，这些anchor boxes才被选择为前景框。这样做是为了避免向RPN网络提供“无希望的学习任务”，即不用去学习那些离ground truth box太远的boxes的回归系数。同样的，boxes重叠部分小于一个负阀值时，被标注为背景框。不是所有非前景框的boxes就会标注为背景框。既不是前景框也不是背景框的boxes将被标注为“don’t care”，这些boxes将不会用于RPN损失的计算。
+
+针对前景和后景框的总数，还有两个附加的阀值对其进行控制，这个总数的分数设为前景。如果通过测试的前景框数量超过了阀值，我们会随机将多余的前景框标记为“无关”。类似的逻辑也应用于背景框。
+
+接着我们按照最大重叠原则计算前景框和对应ground truth box的bounding box回归系数。这很容易，只需遵循以下公式即可计算回归系数。
+
+至此，我们对目标层（Anchor Target Layer）的讨论已经结束。回顾一下，让我们列出目标层的参数、输入和输出：
+
+#### 参数
+
+* TRAIN.RPN_POSITIVE_OVERLAP（阀值：默认0.7）: 判断一个anchor box是否是优良前景框的阀值。
+* TRAIN.RPN_NEGATIVE_OVERLAP（阀值：默认0.3）: 如果anchor与ground truth box的最大重叠部分小于该阀值，这个anchor被标注为背景；如果重叠部分大于RPN_NEGATIVE_OVERLAP但小于RPN_POSITIVE_OVERLAP，该anchor被标注为“don’t care”。
+* TRAIN.RPN_BATCHSIZE: 前景和背景anchors的总数。（默认：256）
+* TRAIN.RPN_FG_FRACTION: 前景anchors的batch size分数(默认：0.5)。如果被找到的前景anchors数量大于TRAIN.RPN_BATCHSIZE*TRAIN.RPN_FG_FRACTION，超出的部分（包括随机选择的部分）被标注为“don’t care”。
+
+#### 输入
+
+* RPN Network Outputs（被预测的前景/背景类标签，回归系数）
+* Anchor boxes（目标层（Anchor Target Layer）生成）
+* Ground truth boxes
+
+#### 输出
+
+* 优良的前景/背景框，和前景对应的类标注
+* 目标回归系数
+
+其它层，推荐目标层（proposal target layer），ROI卷积层（ROI Pooling layer）和分类层（classification layer）旨在生成计算classification loss所需要的信息。和目标层（Anchor Target Layer）一样，接下来我们将介绍需要什么数据来计算classification loss，以及怎样计算。
