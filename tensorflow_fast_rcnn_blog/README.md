@@ -300,3 +300,19 @@ bbox_inside_weight数组可以看做一个标记，它只有1个正确的分类�
 
 ![img crop pooling](imgs/img_crop_pooling.png)
 
+
+### 分类网络（Classification Layer）：
+
+裁剪池（Crop Pooling）使用推荐目标网络（Proposal Target Layer）输出的ROI boxes和“head”网络输出的卷积特征图，然后输出方形的特征图。然后将这些特征图穿过ResNet的第4层，然后沿着空间维度进行平均池化。结果（代码中称为“fc7”）是一个一维的特征矩阵包含每一个ROI。过程如下图所示：
+
+![img classification layer](imgs/img_classification_layer.png)
+
+然后，特征向量通过bbox_pred_net和cls_score_net两个完全连接层传递。cls_score_net层为每一个边界框生成一个分类得分（可以通过softmax转化为一个概率值）。bbox_pred_net层生成分类的特征边界框回归系数，该系数与推荐目标层（proposal target layer）生成的原始边界框坐标相结合，生成最终的边界框。过程如下图所示：
+
+![img classification layer1](imgs/img_classification_layer1.png)
+
+现在让我们回忆一下两组边界框回归系数的差异，第一组由RPN网路生成，第二组由分类网络生成。第一组用来训练RPN网络以生成优良的前景边界框（它更紧密地匹配对象边界）。目标回归系数，即将ROI框与anchor target layer生成的与其最匹配的ground truth边界框对齐。很难准确地确定这种学习是如何进行的，但是我想RPN卷积和全连接的层将学习如何将神经网络生成的各种图像特征解释为良好的对象边界框。在下一节描述推理时，我们将看到如何使用这些回归系数。
+
+第二组边界框系数由分类层（classification layer）产生。这些系数是特征分类的,即每个对象类别为每个ROI框生成一组系数。这些系数的目标回归系数由推荐目标网络（Proposal Target Layer）生成。注：该分类网络在方形特征图上运行，该方形特征图是应用于“head”网络输出的仿射变换（如上所述）的结果。但是，由于回归系数对于没有剪切的仿射变换是不变的，因此可以将推荐目标层（proposal target layer）计算的目标回归系数与分类网络产生的目标回归系数进行比较，并作为有效的学习信号。在事后看来，这一点似乎很明显，但是我花了很多时间来理解。
+
+有趣的是，在训练分类层时，误差梯度也会传播到RPN网络。这是因为在裁剪池（Crop Pooling）期间使用的ROI框坐标本身就是网络输出，正如它们是将RPN网络生成的回归系数应用于anchor框生成回归系数的结果。在反向传播过程中，误差梯度会通过裁剪池层回传到RPN网络。计算和应用这些梯度很难实现，但是值得庆幸的是，PyTorch提供了crop pooling API作为内置模块，并且内部处理了梯度计算的详细信息。这一点在论文[《Faster RCNN》](https://arxiv.org/abs/1504.08083)的3.2章节中被讨论。
