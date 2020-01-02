@@ -255,3 +255,20 @@ RPN网络和分类网络主要的不同是，RPN网络主要处理前景和背�
 然后，通过在每一个ROI和最接近匹配ground truth box（包括背景ROIs，因为ground truth box的重叠部分也存在于这些背景ROIs中）间进行计算来得到目标边界框回归目标。如下图所示，这些回归目标针对所有类别进行了扩展。
 
 ![img regression targets](imgs/img_regression_targets.png)
+
+bbox_inside_weight数组可以看做一个标记，它只有1个正确的分类在每一个前景ROI中，同样的在背景ROIs中没有正确分类。因此，在计算分类网络损失的边界框回归分量时，仅考虑前景区域的回归系数。背景ROIs包括背景分类不属于分类损失计算的内容。
+
+#### 输入：
+* 推荐层（proposal layer）生成的ROIs
+* ground truth信息
+
+#### 输出：
+* 满足重叠条件的被选定的前景ROI和背景ROI
+* ROIs的特定目标分类回归系数
+
+#### 参数：
+* TRAIN.FG_THRESH:（默认：0.5）用来选择前景ROIs。与ground truth box最大重叠部分超过FG_THRESH了的ROI被标注为前景
+* TRAIN.BG_THRESH_HI: (默认：0.5)
+* TRAIN.BG_THRESH_LO: (默认：0.1)通过两个阀值可以确定背景ROIs。与ground truth box最大重叠部分介于BG_THRESH_HI和BG_THRESH_LO之间的部分被标记为背景。
+* TRAIN.BATCH_SIZE: (默认：128)所选择的前景和背景框的最大总数。
+* TRAIN.FG_FRACTION: (默认：0.25)前景框的总数不能超过BATCH_SIZE*FG_FRACTION
