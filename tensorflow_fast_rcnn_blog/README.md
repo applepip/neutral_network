@@ -244,7 +244,7 @@ RPN网络和分类网络主要的不同是，RPN网络主要处理前景和背�
 
 ### 推荐目标网络（Proposal Target Layer）
 
-推荐目标网络将从推荐网络（proposal layer）的输出ROIs中选择推荐的ROIs。“head”层生成的特征图将会按照这些推荐ROIs部分进行裁剪池化（crop pooling），然后将结果传递给剩下的网络（重头到尾）来计算预测的分类得分和框回归系数。
+推荐目标网络将从推荐网络（proposal layer）的输出ROIs中选择推荐的ROIs。“head”层生成的特征图将会按照这些推荐ROIs部分进行裁剪池化（crop pooling），然后将结果传递给剩下的网络（从头到尾）来计算预测的分类得分和框回归系数。
 
 和目标层（Anchor Target Layer）一样，但重要的是选择优良的推荐内容（即与Ground Truth框有明显重叠的部分）传递给分类网络（classification layer）。否则，我们将要求分类网络（classification layer）学习一项“无希望的学习任务”。
 
