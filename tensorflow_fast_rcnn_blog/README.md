@@ -272,3 +272,23 @@ bbox_inside_weight数组可以看做一个标记，它只有1个正确的分类�
 * TRAIN.BG_THRESH_LO: (默认：0.1)通过两个阀值可以确定背景ROIs。与ground truth box最大重叠部分介于BG_THRESH_HI和BG_THRESH_LO之间的部分被标记为背景。
 * TRAIN.BATCH_SIZE: (默认：128)所选择的前景和背景框的最大总数。
 * TRAIN.FG_FRACTION: (默认：0.25)前景框的总数不能超过BATCH_SIZE*FG_FRACTION
+
+### 裁剪池（Crop Pooling）：
+
+推荐目标网络（Proposal Target Layer）生成推荐的ROIs，在训练期间使用的相关类别标签和回归系数帮助我们进行分类。下一步是从“head”网络生成的卷积特征图中提取这些ROIs对应的区域。被提取出来的特征图将在剩下的网络（“tail”在下图中显示）中被使用，然后生成对象分类的概率分布和每一个ROI的回归系数。裁剪池（Crop Pooling）的工作是从卷积特征图中提取出区域。
+
+裁剪池（Crop Pooling）的主要思想在论文[“Spatial Transformation Networks”](https://arxiv.org/pdf/1506.02025.pdf)中，进行了详细描述。目标是使用一个变形函数（被描述为2×3的仿射变换矩阵）将输入的特征图转化为输出的变形特征图。这个过程如下图所示：
+
+![img warping function](imgs/img_warping_function.png)
+
+在裁剪池（Crop Pooling）有两个步骤：
+
+1. 在一个目标坐标集中，使用已知的的仿射变换矩阵生成一个坐标资源网格。
+![img source coordinates](imgs/img_source_coordinates.png)
+这里![img source coordinates1](imgs/img_source_coordinates1.png)是高/宽归一化后的坐标（类似于图形中使用的纹理坐标），所以![img source coordinates2](imgs/img_source_coordinates2.png)。
+2. 在这第二步中，在（源）坐标处对输入（源）图进行采样以生成输出（目标）图。在这一步中，每一个坐标![img source coordinates3](imgs/img_source_coordinates3.png)定义输入中应用采样核（例如双线性采样核）以获取输出特征图中特定像素处的值的空间位置。
+
+空间变换中描述的采样方法提供了一种可微分的采样机制，允许损失梯度返回到输入要素图和采样网格坐标。幸运的是，在PyTorch中实现了裁剪池（Crop Pooling），API包含两个与这两个步骤相似的功能。torch.nn.functional.affine_grid采用了一个仿射变换矩阵生成一个采样坐标集，torch.nn.functional.grid_sample在采样坐标集中进行采样。pyTorch自动实现了反向过程中的反向传播梯度。
+
+使用裁剪池（Crop Pooling），我们需要按照下面步骤：
+
