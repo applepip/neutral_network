@@ -243,3 +243,15 @@ RPN网络和分类网络主要的不同是，RPN网络主要处理前景和背�
 现在让我们看一下以上内容在推荐目标网络（Proposal Target Layer）和分类网络（classification layers）中如何被计算。
 
 ### 推荐目标网络（Proposal Target Layer）
+
+推荐目标网络将从推荐网络（proposal layer）的输出ROIs中选择推荐的ROIs。“head”层生成的特征图将会按照这些推荐ROIs部分进行裁剪池化（crop pooling），然后将结果传递给剩下的网络（重头到尾）来计算预测的分类得分和框回归系数。
+
+和目标层（Anchor Target Layer）一样，但重要的是选择优良的推荐内容（即与Ground Truth框有明显重叠的部分）传递给分类网络（classification layer）。否则，我们将要求分类网络（classification layer）学习一项“无希望的学习任务”。
+
+推荐目标网络（Proposal Target Layer）基于推荐网络（proposal layer）所计算的ROIs。使用每一个ROI与ground truth boxes的最大重叠部分分类为背景和前景的ROIs。前景ROIs是那些最大重叠部分超过阀值的（TRAIN.FG_THRESH, 默认: 0.5）。背景ROIs是那些最大重叠部分介于TRAIN.BG_THRESH_LO和TRAIN.BG_THRESH_HI之间的（对应的默认值是0.1, 0.5）。这是“hard negative mining”的一个示例，用于列举困难背景分类示例。
+
+还有一些其他逻辑试图确保前景和背景区域的总数是恒定的。如果发现背景区域太少，它会尝试通过随机重复一些背景索引填充batch来弥补该不足。
+
+然后，通过在每一个ROI和最接近匹配ground truth box（包括背景ROIs，因为ground truth box的重叠部分也存在于这些背景ROIs中）间进行计算来得到目标边界框回归目标。如下图所示，这些回归目标针对所有类别进行了扩展。
+
+![img regression targets](imgs/img_regression_targets.png)
