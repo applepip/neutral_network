@@ -316,3 +316,49 @@ bbox_inside_weight数组可以看做一个标记，它只有1个正确的分类�
 第二组边界框系数由分类层（classification layer）产生。这些系数是特征分类的,即每个对象类别为每个ROI框生成一组系数。这些系数的目标回归系数由推荐目标网络（Proposal Target Layer）生成。注：该分类网络在方形特征图上运行，该方形特征图是应用于“head”网络输出的仿射变换（如上所述）的结果。但是，由于回归系数对于没有剪切的仿射变换是不变的，因此可以将推荐目标层（proposal target layer）计算的目标回归系数与分类网络产生的目标回归系数进行比较，并作为有效的学习信号。在事后看来，这一点似乎很明显，但是我花了很多时间来理解。
 
 有趣的是，在训练分类层时，误差梯度也会传播到RPN网络。这是因为在裁剪池（Crop Pooling）期间使用的ROI框坐标本身就是网络输出，正如它们是将RPN网络生成的回归系数应用于anchor框生成回归系数的结果。在反向传播过程中，误差梯度会通过裁剪池层回传到RPN网络。计算和应用这些梯度很难实现，但是值得庆幸的是，PyTorch提供了crop pooling API作为内置模块，并且内部处理了梯度计算的详细信息。这一点在论文[《Faster RCNN》](https://arxiv.org/abs/1504.08083)的3.2章节中被讨论。
+
+## 推理的具体实现
+
+推理的过程如下图所示：
+
+![img inference](imgs/img_inference.png)
+
+Anchor目标层（Anchor Target Layer）和推荐目标层（proposal target layers）在推理过程中不会被使用。RPN网络主要是学习怎样将anchor boxes分类为前景框和背景框，并生成优良的边界框系数。推荐层（ proposal layer）仅使用边界框系数用于排序最高的anchor boxes,并使用NMS（非最大抑制函数）消除大部分重叠区。为了更清楚起见，这些步骤的输出如下所示。结果框输出到分类网络（classification layer）最终生成分类得分和特征分类框回归系数。
+
+![img inference1](imgs/img_inference1.png)
+
+上图中红色框表示得分排名最高的6个anchors。绿色框表示使用回归参数通过RPN网络计算后的anchors，绿色框明显和分类对象结合得更紧密。注意在使用回归参数后，矩形框仍然是矩形框，即没有被裁剪过。还要注意矩形框之间的明显重叠。通过应用非最大值抑制函数来解决此冗余问题。
+
+![img inference2](imgs/img_inference2.png)
+
+红色框表示在应用非最大值抑制函数前，排名最高的5个bounding boxes，绿色框显示在应用非最大值抑制函数后，排名最高的5个bounding boxes。通过抑制重叠的框，其他框（得分较低的框）有机会向上移动
+
+![img inference3](imgs/img_inference3.png)
+
+在最终的分类得分数组中（维度[n,21]）,我们选择与某个前景对象（例如car）相对应的列，然后我们选择此数组中最高得分的行。该行对应可能是car的推荐区域。该行的索引是car_score_max_idx，现在让最终的边界框坐标（在使用回归系数后）变成box（维度[n,21*4]）。通过这个数组，我们选择行对应的car_score_max_idx。我们希望与“car”列相对应的边界框应比其他边界框（对应于错误的对象分类）更好地适合car在测试图像中的位置。上图中，红色box对应原始的推荐区域，蓝色box是通过计算白色box对应的（不正确的）前景框和car分类的边界框得出的结果。可以看出蓝色box比其他boxes更好的匹配了当前的car。
+
+为了显示最终的分类效果，我们使用NMS（非极大值抑制），并且将目标检测阀值在分类得分中使用。然后，我们绘制所有与满足检测阈值的ROI相对应的变换边界框。结果如下所示。
+
+### 附录
+#### ResNet 50网络框架
+
+![img resnet 50 1](imgs/img_resnet_50_1.png)
+![img resnet 50 2](imgs/img_resnet_50_2.png)
+
+### 非极大值抑制（Non-Maximum Suppression）
+
+非最大抑制是一种用于通过消除重叠量大于阈值的框来减少候选框数量的技术。boxes首先按照某些条件进行排序（通常是右下角的y坐标）。然后，我们遍历boxes的列表，并删除其IoU与正在考虑的box重叠的框超过阈值。通过y坐标对框进行排序会保留一组重叠框中的最低框。这可能并非总是理想的结果。非最大抑制（NMS）在R-CNN中通过前景得分对boxes排序。结果是一组重叠框中得分最高的框被保留。下图显示了两种方法的不同。每个box的黑色数字代表前景框的得分，右图显示了将NMS应用于左图的结果。第一个图使用标准的非极大值抑制（NMS）（方框按右下角的y坐标排序），结果中得分低的box被保留。第二个图使用了改进的非极大值抑制（NMS）（方框按前景得分排序），结果中得分高的box被保留，这是我们期望的。在这两种情况下，均假定框之间的重叠度高于NMS重叠阈值。
+
+![img nms_1](imgs/img_nms_1.png)
+![img nms_2](imgs/img_nms_2.png)
+
+## 引用
+
+Anon. 2014. . October 23. https://arxiv.org/pdf/1311.2524.pdf.
+Anon. 2016. . February 5. https://arxiv.org/pdf/1506.02025.pdf.
+Anon. . http://link.springer.com/article/10.1007/s11263-013-0620-5.
+Anon. Object Detection with Discriminatively Trained Part-Based Models - IEEE Journals & Magazine. https://doi.org/10.1109/TPAMI.2009.167.
+Girshick, Ross. 2015. Fast R-CNN. arXiv.org. April 30. https://arxiv.org/abs/1504.08083.
+Girshick, Ross, Jeff Donahue, Trevor Darrell, and Jitendra Malik. 2013. Rich feature hierarchies for accurate object detection and semantic segmentation. arXiv.org. November 11. https://arxiv.org/abs/1311.2524.
+Ren, Shaoqing, Kaiming He, Ross Girshick, and Jian Sun. 2015. Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks. arXiv.org. June 4. https://arxiv.org/abs/1506.01497.
+Yosinski, Jason, Jeff Clune, Yoshua Bengio, and Hod Lipson. 2014. How transferable are features in deep neural networks? arXiv.org. November 6. https://arxiv.org/abs/1411.1792.
