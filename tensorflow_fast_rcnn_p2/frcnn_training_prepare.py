@@ -144,7 +144,7 @@ else:
 #         cv2.putText(img, 'pos anchor bbox '+str(i+1), (center[0]-int(anc_w/2), center[1]-int(anc_h/2)-5), cv2.FONT_HERSHEY_DUPLEX, 0.5, color, 1)
 
 print('Green bboxes is ground-truth bbox. Others are positive anchors')
-plt.figure(figsize=(8,8))
+plt.figure(figsize=(8, 8))
 plt.grid()
 plt.imshow(img)
 plt.show()
